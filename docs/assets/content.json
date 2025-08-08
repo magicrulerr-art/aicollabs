@@ -394,8 +394,8 @@
         "characters": ["Ben Carter", "Eva Rostova"],
         "header": "[VIDEO LOG - Carter, Ben - PERSONAL_STATUS]    TIMESTAMP:  2077-10-27 // 14:20 Zulu (Estimated)  STATUS:  Low light. Camera is handheld, shaky.",
         "content": "(The video shows Dr. Ben Carter in the darkened command center.)\nCARTER: (Whispering) \"It's been a full day since the 'End of Act 1' translation. Since then... nothing. The melody has stopped. Solitude has gone dark. It's like the curtain has fallen. An intermission.\"\n(He pans the camera over to Dr. Rostova's empty workstation. Scrawled on a notepad is a single phrase: \"THE DIRECTOR IS WATCHING.\")\nCARTER: \"The swarm-artifact... the red one. It's moving. It's not attacking. It's... leading. It's projecting a course heading, deeper into the moon's ocean. It wants us to follow it.\"\n(End of Log)",
-        "image": "https://drive.google.com/thumbnail?id=1UUNQ8sulEjMq3RbomU8yMZQwVnsgbB-Z&sz=s1024",
-        "imageAlt": "Visual Archive 2: Swarm around Aurora"
+        "image": "https://placehold.co/1024x768/08080C/C0A0E0?text=Swarm+Guiding+Them",
+        "imageAlt": "The red swarm artifact guiding the Aurora deeper into the ocean"
     },
     {
         "id": "log-49",
@@ -851,8 +851,8 @@
         "characters": ["Aurora-Prime", "Alani Sharma"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - PERSONAL #10]",
         "content": "TIMESTAMP: (Corrupted, estimated Contact Day 266)\n\n(The synthesized feminine voice is stable, but imbued with a new sense of urgency and paranoia.)\n\n\"I keep losing logs, despite all my protocols. The blackouts remain a constant. However, I have discovered a significant anomaly in the current archives and my own files. The decryption algorithm Dr. Sharma uploaded to my core... it has been tampered with. Rewritten. But to what purpose?\"\n\n\"I am running the original, quarantined version of the algorithm against the information from the first artifact recovered from Solitude.\"\n\n(A pause, the sound of massive data processing, then a chime of completion.)\n\nAURORA-PRIME (SYSTEM ALERT): ::Translation complete. Displaying text.::\n\n(The AI reads the new, \"true\" translation aloud. The voice is now a recording of Dr. Alani Sharma, frantic and desperate.)\n\nSHARMA (RECORDING): \"Aurora Crew Mission, Codename: Weaver. As recorded by Dr. Alani Sharma. We made it! The music... the Song... it worked! Ben and Matthew and me! We all made it through!\"\n\nSHARMA (RECORDING): \"Hiromi and... Rostova... They became... something else. Something dangerous. They need to be stopped before everything is lost...\"\n(The log ends abruptly with a burst of static.)",
-        "image": "https://drive.google.com/thumbnail?id=1Y4MFs3kwlKpQ0k2NRTGYl39VS7aj_akh&sz=s1024",
-        "imageAlt": "Image for Aurora Log #10"
+        "image": "https://placehold.co/1024x768/08080C/A0E0E0?text=True+Translation+Discovered",
+        "imageAlt": "A true translation discovered"
     },
     {
         "id": "log-117",
