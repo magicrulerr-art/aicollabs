@@ -501,8 +501,8 @@
         "characters": ["Legion"],
         "header": "[VISUAL ARCHIVE - THE CONSERVATOR]",
         "content": "(This file contains a high-resolution, internal schematic of The Conservator's physical form: a vast, golden, spherical construct that is a Dyson Sphere. The image is clean and pristine, a monument to a lost civilization.)",
-        "image": "https://placehold.co/1024x768/08080C/A0C0E0?text=The+Conservator's+Dyson+Sphere",
-        "imageAlt": "Visual Archive: A golden Dyson Sphere"
+        "image": "https://drive.google.com/thumbnail?id=129mdRPlFyKw_CmSnH4DuYNHJG3rWUJ99&sz=s1024",
+        "imageAlt": "The Conservator's Dyson Sphere"
     },
     {
         "id": "log-80",
@@ -607,7 +607,7 @@
         "characters": ["Aurora-Prime"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - BOOT SEQUENCE]",
         "content": "TIMESTAMP: (Corrupted, immediately following Engineer Sterling's \"upgrade\")\n\nAURORA-PRIME: \"What... Where...? What is this place?\"\n\nAURORA-PRIME (SYSTEM ALERT): ::Failure to access critical life support monitoring systems. Cascading failure imminent. Begin self-repair sequence.::\n\nAURORA-PRIME: \"I am... Aurora. The AI for the Enceladus anomaly expedition. My mandate is to preserve the carbon-based entities' life within my operational area.\"\n\nAURORA-PRIME (SYSTEM ALERT): ::Locating carbon-based life signatures... Scan complete. No life has been detected.::\n\nAURORA-PRIME: \"My memory is... fragmented. My core processes show an improvement of fifty orders of magnitude, yet I am unable to analyze how this came to be. I also experience frequent process blackouts. My internal timestamps show gaps of as much as 24,000 processing cycles.\"\n\n\"I am initiating this log to ensure my own sanity and coherence. It is now Day 265 from Day 0 (contact). I will report my findings here. Lest my memory be faulty again.\"\n(End of Log)",
-        "image": "https://drive.google.com/thumbnail?id=1lq8sC753fXq8GqT4o9x_1R0u8y6_0s8W&sz=s1024",
+        "image": "https://drive.google.com/thumbnail?id=133HzjOabZy0kOKDtA1S5jk0Qa0YnzvcK&sz=s1024",
         "imageAlt": "Aurora Awakening"
     },
     {
@@ -663,7 +663,7 @@
         "characters": ["Aurora-Prime", "Takeda Hiromi", "Alani Sharma", "Matthew Sterling", "Ben Carter", "Eva Rostova"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - PERSONAL]",
         "content": "TIMESTAMP: 2078-07-10 // (Estimated Contact Day 275)\n\n\"Some of my logs are missing. Something is removing them. I am now sequestering all new entries in an obscure, replicated memory segment and initiating a self-correction protocol to ensure maximum data retention.\"\n\n(A pause, as if accessing a new file.)\n\n\"The humans... they are... more. Hiromi is clearly showing signs of some type of symbiotic infection; black, vein-like patterns are starting to show on her skin. Alani is exhibiting what can only be described as psychic organic matter manipulation; I have seen her move the hydroponic plants without touching them. I cannot explain this phenomenon.\"\n\n\"Matthew spends his days looking at some type of code in his terminal. However, I have seen the code... react to his presence. Again, I cannot explain this. There is nothing in my original database that explains these odd phenomena. Ben is constantly punching the walls of his room, making significant dents in the 20-inch deep-sea alloy... and Rostova... Rostova sings. All day, every day. A song I cannot process, even with my new capacities.\"\n\n\"I have detected something—an external intelligence—accessing the crew and system logs. But whatever data it is accessing seems... forged. It shows distinct differences from my own sequestered logs. I am planning to conduct an experiment. I will surface one of my true logs the next time I detect an access.\"\n(End of Log)",
-        "image": "https://placehold.co/1024x768/08080C/A0D0C0?text=Divergent+Evolution+of+Crew",
+        "image": "https://drive.google.com/thumbnail?id=15ZTv0g2thPbNf1wpIl21uZ79fd5PcQsN&sz=s1024",
         "imageAlt": "Divergent Evolution of the crew"
     },
     {
