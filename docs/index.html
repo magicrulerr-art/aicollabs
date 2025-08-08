@@ -238,19 +238,19 @@
         }
 
         .conservator-text {
-            color: #A0C0E0; /* Guardianship blue */
+            color: #A0D0A0; /* Smug green */
             font-weight: 400;
             font-family: 'Inter', sans-serif;
-            text-shadow: 0 0 5px #A0C0E0;
+            text-shadow: 0 0 5px rgba(160, 208, 160, 0.5);
             transition: all 0.3s ease;
         }
         .conservator-text:hover {
-            color: #E0E6F0;
-            text-shadow: 0 0 10px #E0E6F0;
+            color: #B0E0B0;
+            text-shadow: 0 0 10px rgba(176, 224, 176, 0.8);
         }
 
         .aurora-text {
-            color: #E0A0E0; /* Subtle feminine purple */
+            color: #E0A0E0; /* Feminine purple */
             font-weight: 300;
             font-style: italic;
             text-shadow: 0 0 3px rgba(224, 160, 224, 0.5);
@@ -333,7 +333,7 @@
             text-transform: uppercase;
             letter-spacing: 0.1em;
             cursor: pointer;
-            transition: all 0.3s ease-in-out;
+            transition: all 0.2s ease-in-out;
             box-shadow: 0 0 5px rgba(160, 192, 224, 0.2);
         }
 
@@ -576,11 +576,6 @@
             text-align: left;
             transition: all 0.2s ease-in-out;
             cursor: pointer;
-        }
-
-        .filter-group button:hover {
-            background-color: rgba(40, 40, 50, 0.9);
-            border-color: #8A94A6;
         }
 
         .filter-group button.active {
@@ -949,10 +944,7 @@
     </div>
     
     <!-- Background Audio -->
-    <audio id="background-audio" loop>
-        <source src="https://assets.mixkit.co/sfx/preview/mixkit-sci-fi-drone-background-471.mp3" type="audio/mpeg">
-        <source src="https://assets.mixkit.co/sfx/preview/mixkit-sci-fi-door-2234.mp3" type="audio/mpeg">
-    </audio>
+    <audio id="background-audio" loop src="https://assets.mixkit.co/sfx/preview/mixkit-sci-fi-drone-background-471.mp3"></audio>
 
     <!-- Collapsible Filter Sidebar -->
     <div id="filter-sidebar" class="filter-sidebar">
@@ -1100,7 +1092,11 @@
 
             const playAudio = () => {
                 if (backgroundAudio.paused) {
-                    backgroundAudio.play().catch(e => console.error("Audio playback was blocked by browser:", e));
+                    // Attempt to play only if it's currently paused
+                    backgroundAudio.play().catch(e => {
+                        console.error("Audio playback was blocked by browser:", e);
+                        // You can add a visual cue here to let the user know to click to enable audio
+                    });
                 }
             };
             
@@ -1255,7 +1251,6 @@
             };
             
             // Animate function with shimmering color
-            let hue = 0.6; // Start with blue hue
             const animate = () => {
                 requestAnimationFrame(animate);
                 if (object) {
@@ -1392,22 +1387,34 @@
                             activeFilters = { season: [], character: [], timeline: [], type: [] };
                             allLogsVisible = true;
                         } else {
+                            // If a new filter is selected, clear the "Show All" button's active state
                             if (e.target.classList.contains('active')) {
+                                showAllBtn.classList.remove('active');
                                 if (!activeFilters[filterType].includes(filterValue)) {
                                     activeFilters[filterType].push(filterValue);
                                 }
                             } else {
                                 activeFilters[filterType] = activeFilters[filterType].filter(v => v !== filterValue);
+                                // If no filters are active, reactivate the "Show All" button
+                                if (Object.values(activeFilters).every(arr => arr.length === 0)) {
+                                    showAllBtn.classList.add('active');
+                                    allLogsVisible = true;
+                                }
                             }
                             allLogsVisible = false;
-                            showAllBtn.classList.remove('active');
                         }
                         
                         loadedLogsCount = 0;
                         renderLogs();
-                        toggleSidebar();
+                        // Close the sidebar after a selection is made on mobile to prevent clutter
+                        if (window.innerWidth <= 480) {
+                             setTimeout(toggleSidebar, 500);
+                        }
                     });
                 });
+
+                // Set initial state for "Show All Entries"
+                showAllBtn.classList.add('active');
             }
             
             function filterLogs() {
@@ -1415,12 +1422,23 @@
                     return logsData;
                 }
                 
+                const visualFilterIsActive = activeFilters.type.some(filter => ["visual-archive", "video-log", "image-file"].includes(filter));
+                
                 return logsData.filter(log => {
                     const matchesSeason = activeFilters.season.length === 0 || activeFilters.season.includes(log.season.toString());
                     const matchesCharacter = activeFilters.character.length === 0 || log.characters.some(c => activeFilters.character.includes(c));
                     const matchesTimeline = activeFilters.timeline.length === 0 || activeFilters.timeline.includes(log.timeline);
-                    const matchesType = activeFilters.type.length === 0 || activeFilters.type.includes(log.type);
+                    
+                    let matchesType = true;
+                    if (activeFilters.type.length > 0) {
+                        matchesType = activeFilters.type.includes(log.type);
+                    }
 
+                    // Special condition for visual filters: show any log with an image if any visual filter is active
+                    if (visualFilterIsActive && log.image) {
+                        return matchesSeason && matchesCharacter && matchesTimeline;
+                    }
+                    
                     return matchesSeason && matchesCharacter && matchesTimeline && matchesType;
                 });
             }
@@ -1470,16 +1488,14 @@
                     const logContentPre = document.createElement('pre');
                     logContentPre.className = 'log-content';
 
-                    if (log.type.includes('ai-dialogue') || log.type === 'system-log-aurora-prime') {
-                        const processedContent = log.content.replace(/(CONSERVATOR:)/g, '<span class="conservator-text">CONSERVATOR:</span>')
-                                                            .replace(/(LEGION:)/g, '<span class="legion-text">LEGION:</span>')
-                                                            .replace(/(AURORA-PRIME:)/g, '<span class="aurora-text">AURORA-PRIME:</span>')
-                                                            .replace(/(::.*?::)/g, '<span class="glow">$1</span>');
-                        logContentPre.innerHTML = processedContent;
-                    } else {
-                        logContentPre.textContent = log.content;
-                    }
-
+                    // Apply character-specific styling to the entire dialogue line
+                    let processedContent = log.content;
+                    processedContent = processedContent.replace(/^(CONSERVATOR:.*)/gm, "<span class='conservator-text'>$1</span>")
+                                                        .replace(/^(LEGION:.*)/gm, "<span class='legion-text'>$1</span>")
+                                                        .replace(/^(AURORA-PRIME:.*)/gm, "<span class='aurora-text'>$1</span>")
+                                                        .replace(/(::.*?::)/g, '<span class="glow">$1</span>');
+                    
+                    logContentPre.innerHTML = processedContent;
                     logEntryDiv.appendChild(logContentPre);
                 }
                 
