@@ -590,6 +590,13 @@
             transition: all 0.2s ease-in-out;
             cursor: pointer;
         }
+        
+        .filter-group button.active {
+            background-color: #A0C0E0;
+            color: #08080C;
+            font-weight: 700;
+            box-shadow: 0 0 15px rgba(160, 192, 224, 0.5);
+        }
 
         .filter-group button:hover {
             background-color: rgba(40, 40, 50, 0.9);
@@ -964,7 +971,6 @@
     <!-- Background Audio -->
     <audio id="background-audio" loop>
         <source src="https://assets.mixkit.co/sfx/preview/mixkit-sci-fi-drone-background-471.mp3" type="audio/mpeg">
-        <!-- Add a fallback source here if needed -->
     </audio>
 
     <!-- Collapsible Filter Sidebar -->
@@ -1113,11 +1119,7 @@
 
             const playAudio = () => {
                 if (backgroundAudio.paused) {
-                    // Attempt to play only if it's currently paused
-                    backgroundAudio.play().catch(e => {
-                        console.error("Audio playback was blocked by browser:", e);
-                        // You can add a visual cue here to let the user know to click to enable audio
-                    });
+                    backgroundAudio.play().catch(e => console.error("Audio playback was blocked by browser:", e));
                 }
             };
             
@@ -1133,7 +1135,7 @@
             
             // --- UI Event Listeners ---
             hamburgerMenu.addEventListener('click', toggleSidebar);
-            document.body.addEventListener('click', playAudio, { once: true }); // Play audio on first user interaction
+            document.body.addEventListener('click', playAudio, { once: true });
             audioControl.addEventListener('click', toggleAudio);
             backToTopBtn.addEventListener('click', smoothScrollToTop);
             
@@ -1214,6 +1216,56 @@
                     videoPlayer.classList.remove('has-glitch');
                 }, 10000); // Glitch for 10 seconds, then stops
             };
+            
+            // --- Dynamic Image Generation Function ---
+            const generateImage = async (container, prompt) => {
+                container.innerHTML = `<p class="loading-image-text">DECRYPTING...</p>`;
+                container.classList.add('gibberish');
+
+                try {
+                    const payload = {
+                        instances: {
+                            prompt: prompt
+                        },
+                        parameters: {
+                            "sampleCount": 1
+                        }
+                    };
+                    const apiKey = "";
+                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key=${apiKey}`;
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+                    const result = await response.json();
+
+                    if (result.predictions && result.predictions.length > 0 && result.predictions[0].bytesBase64Encoded) {
+                        const base64Data = result.predictions[0].bytesBase64Encoded;
+                        const imageUrl = `data:image/png;base64,${base64Data}`;
+                        
+                        const imgElement = new Image();
+                        imgElement.src = imageUrl;
+                        imgElement.alt = prompt; // Use the prompt as alt text
+
+                        imgElement.onload = () => {
+                            container.innerHTML = '';
+                            container.appendChild(imgElement);
+                            container.classList.remove('gibberish');
+                            container.classList.add('is-visible');
+                        };
+                        imgElement.onerror = () => {
+                            container.innerHTML = `<p class="loading-image-text">ERROR: Could not load image.</p>`;
+                        };
+                    } else {
+                        container.innerHTML = `<p class="loading-image-text">ERROR: No image data returned.</p>`;
+                    }
+                } catch (error) {
+                    console.error('Image generation failed:', error);
+                    container.innerHTML = `<p class="loading-image-text">ERROR: Image generation failed.</p>`;
+                }
+            };
+
 
             const fetchLogs = async () => {
                 const publicUrl = 'https://raw.githubusercontent.com/magicrulerr-art/aicollabs/refs/heads/main/docs/assets/content.json';
@@ -1455,8 +1507,8 @@
                         matchesType = activeFilters.type.includes(log.type);
                     }
 
-                    // Special condition for visual filters: show any log with an image if any visual filter is active
-                    if (visualFilterIsActive && log.image) {
+                    // Special condition for visual filters: show any log with an image or imagePrompt if any visual filter is active
+                    if (visualFilterIsActive && (log.image || log.imagePrompt)) {
                         return matchesSeason && matchesCharacter && matchesTimeline;
                     }
                     
@@ -1479,14 +1531,22 @@
                     logEntriesContainer.appendChild(logEntryDiv);
                     observer.observe(logEntryDiv);
                     
-                    if (log.image) {
+                    // Check for image or imagePrompt
+                    if (log.image || log.imagePrompt) {
                         const imageContainerDiv = document.createElement('div');
                         imageContainerDiv.className = 'image-container gibberish';
                         imageContainerDiv.id = `image-${log.id}`;
-                        const imgElement = document.createElement('img');
-                        imgElement.src = log.image;
-                        imgElement.alt = log.imageAlt;
-                        imageContainerDiv.appendChild(imgElement);
+                        
+                        if (log.imagePrompt) {
+                            // Call the dynamic image generation function
+                            generateImage(imageContainerDiv, log.imagePrompt);
+                        } else {
+                            const imgElement = document.createElement('img');
+                            imgElement.src = log.image;
+                            imgElement.alt = log.imageAlt;
+                            imageContainerDiv.appendChild(imgElement);
+                        }
+                        
                         logEntriesContainer.appendChild(imageContainerDiv);
                         observer.observe(imageContainerDiv);
                     }
@@ -1555,14 +1615,22 @@
                     logEntriesContainer.appendChild(logElement);
                     observer.observe(logElement);
                     
-                    if (log.image) {
+                    // Check for image or imagePrompt
+                    if (log.image || log.imagePrompt) {
                         const imageContainerDiv = document.createElement('div');
                         imageContainerDiv.className = 'image-container gibberish';
                         imageContainerDiv.id = `image-${log.id}`;
-                        const imgElement = document.createElement('img');
-                        imgElement.src = log.image;
-                        imgElement.alt = log.imageAlt;
-                        imageContainerDiv.appendChild(imgElement);
+                        
+                        if (log.imagePrompt) {
+                            // Call the dynamic image generation function
+                            generateImage(imageContainerDiv, log.imagePrompt);
+                        } else {
+                            const imgElement = document.createElement('img');
+                            imgElement.src = log.image;
+                            imgElement.alt = log.imageAlt;
+                            imageContainerDiv.appendChild(imgElement);
+                        }
+                        
                         logEntriesContainer.appendChild(imageContainerDiv);
                         observer.observe(imageContainerDiv);
                     }
