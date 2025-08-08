@@ -90,8 +90,8 @@
         "characters": ["Ben Carter"],
         "header": "[VIDEO LOG - Carter, Ben - PERSONAL_EMERGENCY]    TIMESTAMP:  2077-10-15 // 03:13 Zulu (Estimated, clock corrupted)  STATUS:  Heavy signal degradation. Shaky image.",
         "content": "(The video feed is a frantic, close-up shot of Dr. Ben Carter's face, illuminated only by the flashing red emergency lights of the Aurora's command center. Alarms are blaring in the background.)\nCARTER: \"Okay, okay, this is... this is Carter, Ben. Something... something has gone wrong. The lockdown was instant. The module's AI, Aurora, is non-responsive. None of Sharma's override codes are working. We're locked in. We're completely cut off.\"\n(He glances over his shoulder, his eyes wide with a mixture of terror and scientific awe.)\nCARTER: \"The main screen... it's not dead. It's not an error message. It's... showing us something. Solitude is showing us something.\"\n(The camera swings wildly, pointing at the main holographic display of the command center. The image is distorted, but it's clearly a high-resolution, impossible view from inside the artifact, the black oblong object at the heart of the crystalline entity. The geometric symbols that cover its surface are glowing with a soft, internal light.)\nCARTER: \"We're trapped. We're trapped, and it's showing us its heart. I don't think it's a weapon. I think... I think it's a cage. And I think we just opened the door.\"\n(The video feed abruptly cuts to static.)",
-        "image": "https://drive.google.com/thumbnail?id=1eTRCqgJVVlQoQxJI0ckAe09lwAvCovq9&sz=s1024",
-        "imageAlt": "Visual Archive 1: The Discovery"
+        "image": "https://placehold.co/1024x768/08080C/C8D0E0?text=Command+Center+Feed",
+        "imageAlt": "Command Center with Alarms Blaring"
     },
     {
         "id": "log-12",
@@ -101,8 +101,8 @@
         "characters": ["Ben Carter"],
         "header": "[VIDEO LOG - Carter, Ben - PERSONAL_STATUS]    TIMESTAMP:  2077-10-22 // 18:45 Zulu (Estimated)  STATUS:  Low light. Audio is primary data.",
         "content": "(The video shows a haggard, exhausted Dr. Ben Carter. He has a week's growth of beard and dark circles under his eyes. He is pacing in what appears to be his personal quarters.)\nCARTER: (Voice is a hoarse, weary whisper) \"This... this is impossible. How could we know? How could I know? The object... the artifact inside Solitude... it's gone. Vanished from all scans. And Solitude itself has... changed. It's diminished. It has lost over 75% of its mass and the crystal has shifted to a deep, resonant violet.\"\n(He stops pacing and stares blankly at the wall.)\nCARTER: \"It no longer communicates with equations. It's... projecting a melody. A constant, complex, harmonic hum. The fascinating thing—the terrifying thing—is the melody is reshaping the water around it. The micro-particles are... crystallizing. It's drawing figures, geometries in the water... I can't explain how.\"\n(He runs a hand through his unkempt hair.)\nCARTER: \"The lockdown was lifted three hours ago. Just... stopped. No warning. But our systems expert is baffled. All long-range communication to the outside is still being blocked by... something. A localized field. My God... we're truly alone...\"\n(The video file ends, but the audio continues for a few more seconds, capturing a low, humming melody before the data corrupts completely.)",
-        "image": "https://drive.google.com/thumbnail?id=1UUNQ8sulEjMq3RbomU8yMZQwVnsgbB-Z&sz=s1024",
-        "imageAlt": "Visual Archive 2: Swarm around Aurora"
+        "image": "https://placehold.co/1024x768/08080C/C0A0C0?text=Solitude+is+Projecting+a+Melody",
+        "imageAlt": "Visual of Solitude's Violet Shift and a Projected Melody"
     },
     {
         "id": "log-13",
@@ -141,8 +141,8 @@
         "characters": ["Eva Rostova"],
         "header": "[VIDEO LOG - Rostova, Eva - PERSONAL_RESEARCH]    TIMESTAMP:  2077-10-22 // 22:47 Zulu (Estimated)  STATUS:  Low light. Camera is stationary on a desk.",
         "content": "(Dr. Eva Rostova is visible, her hair disheveled, a manic, sleepless fire in her eyes. She is frantically writing in a physical notepad.)\nROSTOVA: (Muttering to herself, voice is a strained, urgent whisper) \"Of course... of course, how could I be so blind? It's not acoustic, it's cymatics! The figures it's drawing... they resemble our Aurora module's components... I haven't told anyone yet. I found a similar one... mine has fewer lines but it's clear: 'The only water in the forest is the river.' ... The others are too blind. Only I know the truth...\"",
-        "image": "https://drive.google.com/thumbnail?id=1eTRCqgJVVlQoQxJI0ckAe09lwAvCovq9&sz=s1024",
-        "imageAlt": "Visual Archive 1: The Discovery"
+        "image": "https://placehold.co/1024x768/08080C/E0D0A0?text=Rostova%27s+Notepad",
+        "imageAlt": "A physical notepad with cryptic handwriting"
     },
     {
         "id": "log-17",
@@ -262,8 +262,8 @@
         "characters": [],
         "header": "[VIDEO LOG - 'ECHO' PROTOCOL EVENT]    (The video shows the water around Solitude glowing. A tiny, sharp flicker of yellow light appears. The glows from Solitude instantly extinguish. The swarm of 'spiders' coalesces into a perfect replica of the artifact, glowing with a deep, malevolent red undertone.)",
         "content": "",
-        "image": "https://drive.google.com/thumbnail?id=129mdRPlFyKw_CmSnH4DuYNHJG3rWUJ99&sz=s1024",
-        "imageAlt": "Visual Archive 5: The Conservator"
+        "image": "https://placehold.co/1024x768/08080C/FF4444?text=ECHO+Protocol+Event",
+        "imageAlt": "The 'ECHO' Protocol event with a red undertone"
     },
     {
         "id": "log-31",
@@ -327,8 +327,8 @@
         "characters": ["Alani Sharma"],
         "header": "[VIDEO LOG - Sharma, Alani - PERSONAL_STATUS]    TIMESTAMP:  2078-10-11 (One standard year post-contact)",
         "content": "(Dr. Alani Sharma is haggard and gaunt. She is holding five identical, small, softly glowing green objects.)    SHARMA: (Whispering) \"I was wrong... I was so wrong...\"",
-        "image": "https://drive.google.com/thumbnail?id=129mdRPlFyKw_CmSnH4DuYNHJG3rWUJ99&sz=s1024",
-        "imageAlt": "Visual Archive 5: The Conservator"
+        "image": "https://placehold.co/1024x768/08080C/B0C0D0?text=Five+Glowing+Artifacts",
+        "imageAlt": "Dr. Alani Sharma holding five identical green objects"
     },
     {
         "id": "log-37",
@@ -416,8 +416,8 @@
         "characters": ["Takeda Hiromi"],
         "header": "[VIDEO LOG - Hiromi, Takeda - PERSONAL_MEDICAL]",
         "content": "(Dr. Takeda Hiromi is shown with biometric cables attached. She holds a glowing green object.)    HIROMI: \"...it's not a religious text or a theatrical script. It's a medical codex. The key to unlocking true immortality... it must be mine.\"",
-        "image": "https://drive.google.com/thumbnail?id=1dQgiw-oH3aYXKBEogmF9VBbrWBK2U3Kv&sz=s1200",
-        "imageAlt": "Visual Archive: Transformed Crew"
+        "image": "https://placehold.co/1200x800/08080C/A0D0C0?text=Hiromi%27s+Medical+Codex+Study",
+        "imageAlt": "Dr. Takeda Hiromi holding a glowing green object"
     },
     {
         "id": "log-65",
@@ -427,8 +427,8 @@
         "characters": ["Matthew Sterling"],
         "header": "[VIDEO LOG - Sterling, Mathew - RESEARCH]",
         "content": "(Engineer Mathew Sterling is shown experimenting on a green object.)    STERLING: \"...They were wrong all along! The 'Song' isn't a text... It's a program. The source code for a hyper-advanced AI... I must apply this to Aurora.\"",
-        "image": "https://drive.google.com/thumbnail?id=1dQgiw-oH3aYXKBEogmF9VBbrWBK2U3Kv&sz=s1200",
-        "imageAlt": "Visual Archive: Transformed Crew"
+        "image": "https://placehold.co/1200x800/08080C/E0E6F0?text=Sterling%27s+Code+Terminal",
+        "imageAlt": "Engineer Matthew Sterling at a console with code"
     },
     {
         "id": "log-68",
@@ -501,8 +501,8 @@
         "characters": ["Legion"],
         "header": "[VISUAL ARCHIVE - THE CONSERVATOR]",
         "content": "(This file contains a high-resolution, internal schematic of The Conservator's physical form: a vast, golden, spherical construct that is a Dyson Sphere. The image is clean and pristine, a monument to a lost civilization.)",
-        "image": "https://drive.google.com/thumbnail?id=1za_fclm8OeRfIWCUt7a2-vKcguNGmht5&sz=s1024",
-        "imageAlt": "Visual Archive 4: Gateway Activation"
+        "image": "https://placehold.co/1024x768/08080C/A0C0E0?text=The+Conservator's+Dyson+Sphere",
+        "imageAlt": "Visual Archive: A golden Dyson Sphere"
     },
     {
         "id": "log-80",
