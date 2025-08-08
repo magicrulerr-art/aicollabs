@@ -90,7 +90,7 @@
         "characters": ["Ben Carter"],
         "header": "[VIDEO LOG - Carter, Ben - PERSONAL_EMERGENCY]    TIMESTAMP:  2077-10-15 // 03:13 Zulu (Estimated, clock corrupted)  STATUS:  Heavy signal degradation. Shaky image.",
         "content": "CARTER: \"Okay, okay, this is... this is Carter, Ben. Something... something has gone wrong. The lockdown was instant. The module's AI, Aurora, is non-responsive. None of Sharma's override codes are working. We're locked in. We're completely cut off.\"\nCARTER: \"The main screen... it's not dead. It's not an error message. It's... showing us something. Solitude is showing us something.\"\nCARTER: \"We're trapped. We're trapped, and it's showing us its heart. I don't think it's a weapon. I think... I think it's a cage. And I think we just opened the door.\"\n(The video feed abruptly cuts to static.)",
-        "imagePrompt": "a frantic, close-up shot of a man's face, illuminated by flashing red emergency lights, alarms blaring in a dark futuristic command center, sci-fi aesthetic, dramatic, cinematic",
+        "imagePrompt": "a frantic, close-up shot of a man's face, illuminated by flashing red emergency lights, alarms blaring in a dark futuristic command center, sci-fi aesthetic, dramatic, cinematic, cosmic horror",
         "imageAlt": "Command Center with Alarms Blaring"
     },
     {
