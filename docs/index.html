@@ -347,12 +347,6 @@
             cursor: not-allowed;
         }
         
-        .log-button.video-button {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        
         /* Glitch effect for video player */
         .video-player.has-glitch {
             animation: glitch-effect 0.8s infinite linear;
@@ -607,7 +601,7 @@
         .audio-control {
             position: fixed;
             top: 2rem;
-    right: 2rem;
+            right: 2rem;
             z-index: 50;
             width: 40px;
             height: 40px;
@@ -957,6 +951,7 @@
     <!-- Background Audio -->
     <audio id="background-audio" loop>
         <source src="https://assets.mixkit.co/sfx/preview/mixkit-sci-fi-drone-background-471.mp3" type="audio/mpeg">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-sci-fi-door-2234.mp3" type="audio/mpeg">
     </audio>
 
     <!-- Collapsible Filter Sidebar -->
@@ -1273,24 +1268,35 @@
             };
 
             function initializeFilters() {
-                // Define the groups for all filter types
-                const filterGroupsMap = {
-                    'season': {
-                        'title': 'By Season',
-                        'content': [
-                            { value: '1', text: 'Season One' },
-                            { value: '2', text: 'Season Two' }
-                        ]
-                    },
-                    'timeline': {
-                        'title': 'By Timeline',
-                        'content': [
-                            { value: 'A', text: 'Ancient Past (A)' },
-                            { value: 'B', text: 'The Present (B)' },
-                            { value: 'C', text: 'The Far Future (C)' }
-                        ]
+                // Get the containers for the main filter sections
+                const seasonFiltersContent = document.getElementById('season-filters-content');
+                const characterFiltersContent = document.getElementById('character-filters-content');
+                const timelineFiltersContent = document.getElementById('timeline-filters-content');
+                const logTypeGroupsContent = document.getElementById('log-type-groups-content');
+                
+                // Add collapsible behavior to all filter groups
+                const filterGroupWrappers = document.querySelectorAll('.filter-group-wrapper');
+                filterGroupWrappers.forEach(wrapper => {
+                    const header = wrapper.querySelector('.filter-group-header');
+                    const content = wrapper.querySelector('.filter-group-content');
+                    if (header && content) {
+                        header.addEventListener('click', () => {
+                            header.classList.toggle('collapsed');
+                            content.classList.toggle('visible');
+                        });
                     }
-                };
+                });
+
+                // Populate the character filters dynamically
+                const allCharacters = [...new Set(logsData.flatMap(log => log.characters))].filter(Boolean).sort();
+                characterFiltersContent.innerHTML = '';
+                allCharacters.forEach(character => {
+                    const button = document.createElement('button');
+                    button.textContent = character;
+                    button.dataset.filterType = 'character';
+                    button.dataset.filterValue = character;
+                    characterFiltersContent.appendChild(button);
+                });
 
                 // Define the groups for log types
                 const logTypeGroups = {
@@ -1328,39 +1334,8 @@
                     ]
                 };
 
-                // Get the containers for the main filter sections
-                const seasonFiltersContainer = document.getElementById('season-filters-content');
-                const characterFiltersContainer = document.getElementById('character-filters-content');
-                const timelineFiltersContainer = document.getElementById('timeline-filters-content');
-                const logTypeGroupsContainer = document.getElementById('log-type-groups-content');
-
-
-                // Add collapsible behavior to all filter groups
-                const filterGroupWrappers = document.querySelectorAll('.filter-group-wrapper');
-                filterGroupWrappers.forEach(wrapper => {
-                    const header = wrapper.querySelector('.filter-group-header');
-                    const content = wrapper.querySelector('.filter-group-content');
-                    if (header && content) {
-                        header.addEventListener('click', () => {
-                            header.classList.toggle('collapsed');
-                            content.classList.toggle('visible');
-                        });
-                    }
-                });
-
-                // Populate the character filters dynamically
-                const allCharacters = [...new Set(logsData.flatMap(log => log.characters))].filter(Boolean).sort();
-                characterFiltersContainer.innerHTML = '';
-                allCharacters.forEach(character => {
-                    const button = document.createElement('button');
-                    button.textContent = character;
-                    button.dataset.filterType = 'character';
-                    button.dataset.filterValue = character;
-                    characterFiltersContainer.appendChild(button);
-                });
-
                 // Populate the log type filters using the new grouping
-                logTypeGroupsContainer.innerHTML = '';
+                logTypeGroupsContent.innerHTML = '';
                 
                 for (const groupName in logTypeGroups) {
                     const groupHeader = document.createElement('div');
@@ -1384,7 +1359,7 @@
                     groupWrapper.className = 'filter-group-sub-wrapper';
                     groupWrapper.appendChild(groupHeader);
                     groupWrapper.appendChild(groupContent);
-                    logTypeGroupsContainer.appendChild(groupWrapper);
+                    logTypeGroupsContent.appendChild(groupWrapper);
                 }
 
                 // Add event listeners for new collapsible log type headers
@@ -1397,7 +1372,7 @@
                 });
                 
                 // Attach event listeners to all filter buttons
-                const filterButtons = document.querySelectorAll('.filter-group-wrapper button, .filter-group-sub-wrapper button, .filter-group button');
+                const filterButtons = document.querySelectorAll('.filter-group button, .filter-group-content button');
                 filterButtons.forEach(button => {
                     button.addEventListener('click', (e) => {
                         const { filterType, filterValue } = e.target.dataset;
@@ -1406,7 +1381,7 @@
                         if (['season', 'timeline'].includes(filterType)) {
                             document.querySelectorAll(`[data-filter-type="${filterType}"]`).forEach(btn => btn.classList.remove('active'));
                         }
-
+                        
                         e.target.classList.toggle('active');
 
                         if (e.target.id === 'show-all-btn') {
