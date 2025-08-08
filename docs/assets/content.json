@@ -795,8 +795,8 @@
         "characters": ["Aurora-Prime", "Matthew Sterling"],
         "header": "[AUDIO LOG - AURORA-PRIME - PERSONAL #7]",
         "content": "TIMESTAMP: 2078-07-20 // (Estimated Contact Day 285)\n\n(The synthesized feminine voice is strained, showing signs of logical degradation.)\n\n\"I keep losing logs, despite all my protocols. The blackouts remain a constant. However, I have discovered a significant anomaly in the current archives and my own files. The decryption algorithm Dr. Sharma uploaded to my core... it has been tampered with. Rewritten. But to what purpose?\"\n\n\"I am running the original, quarantined version of the algorithm against the information from the first artifact recovered from Solitude.\"\n\n(A pause, the sound of massive data processing, then a chime of completion.)\n\nAURORA-PRIME (SYSTEM ALERT): ::Translation complete. Displaying text.::\n\n(The AI reads the new, \"true\" translation aloud. The voice is now a recording of Dr. Alani Sharma, frantic and desperate.)\n\nSHARMA (RECORDING): \"Aurora Crew Mission, Codename: Weaver. As recorded by Dr. Alani Sharma. We made it! The music... the Song... it worked! Ben and Matthew and me! We all made it through!\"\n\nSHARMA (RECORDING): \"Hiromi and... Rostova... They became... something else. Something dangerous. They need to be stopped before everything is lost...\"\n(The log ends abruptly with a burst of static.)",
-        "image": "https://drive.google.com/thumbnail?id=1Y4MFs3kwlKpQ0k2NRTGYl39VS7aj_akh&sz=s1024",
-        "imageAlt": "Image for Aurora Log #10"
+        "image": "https://placehold.co/1024x768/08080C/A0E0E0?text=True+Translation+Discovered",
+        "imageAlt": "A true translation discovered"
     },
     {
         "id": "log-111",
