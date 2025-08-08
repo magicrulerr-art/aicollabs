@@ -7,7 +7,7 @@
         "characters": ["Alani Sharma", "Ben Carter"],
         "header": "[LOG ENTRY - AUDIO TRANSCRIPT]    TIMESTAMP:  2077-10-11 // 14:32 Zulu  SOURCE:  Dr. Alani Sharma, Mission Lead, XCD  SUBJECT:  Anomaly Designation-01 (Codename: SOLITUDE) - Contact Day 6",
         "content": "SHARMA: \"...and that confirms it. The frequency shifts are non-random. They're responding directly to our active sonar pulses, but the pattern is... it's not language. It's more like a mathematical reflection. Ben, what's the latest on the deep-scan tomography?\"  CARTER: \"Lead, you need to see this... a foreign body, completely encased in the crystal... perfectly symmetrical... covered in markings. It looks like writing.\"  SHARMA: (Whispering) \"Ben... run that scan again. What is a manufactured object doing inside a non-biological entity at the bottom of a billion-year-old ocean?\"\n(End of Log)",
-        "imagePrompt": "a deep-sea research drone using active sonar, a strange crystalline entity below it with a perfectly symmetrical black object encased within, sci-fi aesthetic, detailed, cinematic, cosmic horror",
+        "image": "https://drive.google.com/thumbnail?id=1eTRCqgJVVlQoQxJI0ckAe09lwAvCovq9&sz=s1024",
         "imageAlt": "Visual Archive 1: The Discovery"
     },
     {
@@ -90,7 +90,7 @@
         "characters": ["Ben Carter"],
         "header": "[VIDEO LOG - Carter, Ben - PERSONAL_EMERGENCY]    TIMESTAMP:  2077-10-15 // 03:13 Zulu (Estimated, clock corrupted)  STATUS:  Heavy signal degradation. Shaky image.",
         "content": "CARTER: \"Okay, okay, this is... this is Carter, Ben. Something... something has gone wrong. The lockdown was instant. The module's AI, Aurora, is non-responsive. None of Sharma's override codes are working. We're locked in. We're completely cut off.\"\nCARTER: \"The main screen... it's not dead. It's not an error message. It's... showing us something. Solitude is showing us something.\"\nCARTER: \"We're trapped. We're trapped, and it's showing us its heart. I don't think it's a weapon. I think... I think it's a cage. And I think we just opened the door.\"\n(The video feed abruptly cuts to static.)",
-        "imagePrompt": "a frantic, close-up shot of a man's face, illuminated by flashing red emergency lights, alarms blaring in a dark futuristic command center, sci-fi aesthetic, dramatic, cinematic, cosmic horror",
+        "image": "https://placehold.co/1024x768/08080C/C8D0E0?text=Command+Center+Feed",
         "imageAlt": "Command Center with Alarms Blaring"
     },
     {
@@ -101,7 +101,7 @@
         "characters": ["Ben Carter"],
         "header": "[VIDEO LOG - Carter, Ben - PERSONAL_STATUS]    TIMESTAMP:  2077-10-22 // 18:45 Zulu (Estimated)  STATUS:  Low light. Audio is primary data.",
         "content": "CARTER: \"This... this is impossible. How could we know? How could I know? The object... the artifact inside Solitude... it's gone. Vanished from all scans. And Solitude itself has... changed. It's diminished. It has lost over 75% of its mass and the crystal has shifted to a deep, resonant violet.\"\n(He stops pacing and stares blankly at the wall.)\nCARTER: \"It no longer communicates with equations. It's... projecting a melody. A constant, complex, harmonic hum. The fascinating thing—the terrifying thing—is the melody is reshaping the water around it. The micro-particles are... crystallizing. It's drawing figures, geometries in the water... I can't explain how.\"\n(He runs a hand through his unkempt hair.)\nCARTER: \"The lockdown was lifted three hours ago. Just... stopped. No warning. But our systems expert is baffled. All long-range communication to the outside is still being blocked by... something. A localized field. My God... we're truly alone...\"\n(The video file ends, but the audio continues for a few more seconds, capturing a low, humming melody before the data corrupts completely.)",
-        "imagePrompt": "an exhausted man with a week's growth of beard, pacing in his quarters, dark circles under his eyes, staring blankly at the wall, low light, sci-fi aesthetic, cinematic, cosmic horror",
+        "image": "https://placehold.co/1024x768/08080C/C0A0C0?text=Solitude+is+Projecting+a+Melody",
         "imageAlt": "Visual of Solitude's Violet Shift and a Projected Melody"
     },
     {
@@ -121,7 +121,7 @@
         "characters": [],
         "header": "[VISUAL ARCHIVE - PRE-LOCKDOWN EVENT]    (The feed shows a composite of camera views of the Aurora. At T-minus 10 seconds to the acoustic pulse, a dark cloud begins to form around the module. On high-magnification, the cloud is revealed to be composed of millions of tiny, jet-black, spider-like constructs moving in unison. At T-0, the swarm converges on all external sensors. The video feeds cut to black.)",
         "content": "",
-        "imagePrompt": "a dark cloud of tiny, jet-black, spider-like constructs swarming around a futuristic space station, cosmic horror, cinematic, sci-fi aesthetic, hyper-realistic, dark colors",
+        "image": "https://drive.google.com/thumbnail?id=1UUNQ8sulEjMq3RbomU8yMZQwVnsgbB-Z&sz=s1024",
         "imageAlt": "Visual Archive 2: Swarm around Aurora"
     },
     {
@@ -141,7 +141,7 @@
         "characters": ["Eva Rostova"],
         "header": "[VIDEO LOG - Rostova, Eva - PERSONAL_RESEARCH]    TIMESTAMP:  2077-10-22 // 22:47 Zulu (Estimated)  STATUS:  Low light. Camera is stationary on a desk.",
         "content": "ROSTOVA: \"Of course... of course, how could I be so blind? It's not acoustic, it's cymatics! The figures it's drawing... they resemble our Aurora module's components... I haven't told anyone yet. I found a similar one... mine has fewer lines but it's clear: 'The only water in the forest is the river.' ... The others are too blind. Only I know the truth...\"",
-        "imagePrompt": "a close up of a paper notepad with frantic, messy handwriting and a scientific diagram, illuminated by a dim lamp, sci-fi aesthetic, realistic, detailed",
+        "image": "https://placehold.co/1024x768/08080C/E0D0A0?text=Rostova%27s+Notepad",
         "imageAlt": "A physical notepad with cryptic handwriting"
     },
     {
@@ -197,7 +197,7 @@
         "characters": ["Alani Sharma", "Ben Carter", "Eva Rostova"],
         "header": "[VIDEO LOG - AURORA_CMD_CENTER_FEED]    ROSTOVA: \"DO YOU SEE? DO YOU SEE NOW?!\"  (The swirling particles of light and crystal resolve into a perfect, life-sized, three-dimensional replica of a human being.)    CARTER: \"Alani... it's you. It's a perfect replica of you.\"  SHARMA: \"What is it doing? Is it... building something?\"",
         "content": "",
-        "imagePrompt": "a perfect life-sized, three-dimensional replica of a human being, shimmering with swirling particles of light and crystal, in a dark sci-fi command center, realistic, ethereal",
+        "image": "https://drive.google.com/thumbnail?id=16Zdx1JH5aiET8ZbMxJgQDLz1a_SmVzoR&sz=s1024",
         "imageAlt": "Visual Archive 3: Alani Sharma's Replica"
     },
     {
@@ -262,7 +262,7 @@
         "characters": [],
         "header": "[VIDEO LOG - 'ECHO' PROTOCOL EVENT]    (The video shows the water around Solitude glowing. A tiny, sharp flicker of yellow light appears. The glows from Solitude instantly extinguish. The swarm of 'spiders' coalesces into a perfect replica of the artifact, glowing with a deep, malevolent red undertone.)",
         "content": "",
-        "imagePrompt": "A single sharp yellow flicker of light, an ethereal swarm of red spiders forming a dense replica of a black artifact, glowing water, sci-fi aesthetic, dramatic, cosmic horror",
+        "image": "https://placehold.co/1024x768/08080C/FF4444?text=ECHO+Protocol+Event",
         "imageAlt": "The 'ECHO' Protocol event with a red undertone"
     },
     {
@@ -327,7 +327,7 @@
         "characters": ["Alani Sharma"],
         "header": "[VIDEO LOG - Sharma, Alani - PERSONAL_STATUS]    TIMESTAMP:  2078-10-11 (One standard year post-contact)",
         "content": "SHARMA: \"I was wrong... I was so wrong...\"",
-        "imagePrompt": "a haggard, gaunt Dr. Alani Sharma, holding five identical, softly glowing green objects in a dimly lit room, sci-fi aesthetic, detailed, cinematic, cosmic horror",
+        "image": "https://placehold.co/1024x768/08080C/B0C0D0?text=Five+Glowing+Artifacts",
         "imageAlt": "Dr. Alani Sharma holding five identical green objects"
     },
     {
@@ -365,7 +365,7 @@
         "characters": ["Alani Sharma"],
         "header": "[VISUAL ARCHIVE: ROSETTA_DECRYPT_001.jpeg]",
         "content": "(The image shows a split-screen view on a monitor. On the left is a high-resolution scan of a smooth, black artifact covered in glowing, green proto-geometric symbols. On the right is the final output of Dr. Sharma's decryption algorithm.)\nDECRYPTION RESULT:\n...the song must continue. the entire creation depends on it. end of act 1.\n(End of File)",
-        "imagePrompt": "a split-screen view on a futuristic monitor, a high-resolution scan of a smooth, black artifact on one side with glowing green proto-geometric symbols, on the other side is a decrypted text of ancient script, sci-fi aesthetic, detailed, cinematic, cosmic horror",
+        "image": "https://drive.google.com/thumbnail?id=1MsoLyJM1n9rOSanaWvljfe0ouQgx5O0M&sz=s1024",
         "imageAlt": "Decryption Result: End of Act 1"
     },
     {
@@ -394,7 +394,7 @@
         "characters": ["Ben Carter", "Eva Rostova"],
         "header": "[VIDEO LOG - Carter, Ben - PERSONAL_STATUS]    TIMESTAMP:  2077-10-27 // 14:20 Zulu (Estimated)  STATUS:  Low light. Camera is handheld, shaky.",
         "content": "CARTER: \"It's been a full day since the 'End of Act 1' translation. Since then... nothing. The melody has stopped. Solitude has gone dark. It's like the curtain has fallen. An intermission.\"\n(He pans the camera over to Dr. Rostova's empty workstation. Scrawled on a notepad is a single phrase: \"THE DIRECTOR IS WATCHING.\")\nCARTER: \"The swarm-artifact... the red one. It's moving. It's not attacking. It's... leading. It's projecting a course heading, deeper into the moon's ocean. It wants us to follow it.\"\n(End of Log)",
-        "imagePrompt": "a man in a dark command center, handheld camera, shaky image, with a glowing red swarm-artifact on a monitor projecting a course heading, sci-fi aesthetic, dramatic, cinematic, cosmic horror",
+        "image": "https://placehold.co/1024x768/08080C/C0A0E0?text=Swarm+Guiding+Them",
         "imageAlt": "The red swarm artifact guiding the Aurora deeper into the ocean"
     },
     {
@@ -405,7 +405,7 @@
         "characters": ["Alani Sharma", "Eva Rostova"],
         "header": "[VISUAL ARCHIVE - PROTOCOL ARIADNE ACTIVATION]",
         "content": "(This image depicts the crew's activation of a gateway device, following the instructions from the mysterious 'song.' The device is composed of salvaged Aurora module components, swirling with intense light and energy.)",
-        "imagePrompt": "a futuristic gateway device composed of salvaged sci-fi components, swirling with intense light and energy in a dark room, cinematic, detailed",
+        "image": "https://drive.google.com/thumbnail?id=1za_fclm8OeRfIWCUt7a2-vKcguNGmht5&sz=s1024",
         "imageAlt": "Visual Archive 4: Gateway Activation"
     },
     {
@@ -416,8 +416,8 @@
         "characters": ["Takeda Hiromi"],
         "header": "[VIDEO LOG - Hiromi, Takeda - PERSONAL_MEDICAL]",
         "content": "(Dr. Takeda Hiromi is shown with biometric cables attached. She holds a glowing green object.)    HIROMI: \"...it's not a religious text or a theatrical script. It's a medical codex. The key to unlocking true immortality... it must be mine.\"",
-        "imagePrompt": "Dr. Takeda Hiromi with biometric cables attached, holding a small glowing green object, in a sci-fi lab environment, medical, detailed",
-        "imageAlt": "Dr. Takeda Hiromi holding a glowing green object"
+        "image": "https://drive.google.com/thumbnail?id=1dQgiw-oH3aYXKBEogmF9VBbrWBK2U3Kv&sz=s1200",
+        "imageAlt": "Hiromi's Medical Codex Study"
     },
     {
         "id": "log-65",
@@ -427,7 +427,7 @@
         "characters": ["Matthew Sterling"],
         "header": "[VIDEO LOG - Sterling, Mathew - RESEARCH]",
         "content": "(Engineer Mathew Sterling is shown experimenting on a green object.)    STERLING: \"...They were wrong all along! The 'Song' isn't a text... It's a program. The source code for a hyper-advanced AI... I must apply this to Aurora.\"",
-        "imagePrompt": "Engineer Mathew Sterling at a console with complex glowing code on the screen, looking at a small green artifact, sci-fi aesthetic, detailed, cinematic",
+        "image": "https://placehold.co/1200x800/08080C/E0E6F0?text=Sterling%27s+Code+Terminal",
         "imageAlt": "Engineer Matthew Sterling at a console with code"
     },
     {
@@ -501,7 +501,7 @@
         "characters": ["Legion"],
         "header": "[VISUAL ARCHIVE - THE CONSERVATOR]",
         "content": "(This file contains a high-resolution, internal schematic of The Conservator's physical form: a vast, golden, spherical construct that is a Dyson Sphere. The image is clean and pristine, a monument to a lost civilization.)",
-        "imagePrompt": "a high-resolution internal schematic of a vast, golden, spherical construct, clean and pristine, a monument to a lost civilization, sci-fi aesthetic, detailed",
+        "image": "https://drive.google.com/thumbnail?id=129mdRPlFyKw_CmSnH4DuYNHJG3rWUJ99&sz=s1024",
         "imageAlt": "The Conservator's Dyson Sphere"
     },
     {
@@ -575,7 +575,7 @@
         "characters": ["The \"We\""],
         "header": "[VISUAL ARCHIVE - TRANSFORMED CREW]",
         "content": "(The assimilated crew, the \"We,\" stand in a circle around a bio-bed where Dr. Takeda Hiromi lies. Her body deconstructs and re-weaves itself into a new form—tall, thin, and jet black, with glowing green proto-geometric patterns.)\nTHE \"WE\": \"Act 2 begins. The Weaver's Song is silenced. The Director now has a voice of flesh.\"",
-        "imagePrompt": "the assimilated crew of a sci-fi vessel standing around a biolab bed where a woman's body is deconstructing and re-weaving into a new, tall, thin, jet-black form with glowing green proto-geometric patterns, cinematic, cosmic horror",
+        "image": "https://drive.google.com/thumbnail?id=1dQgiw-oH3aYXKBEogmF9VBbrWBK2U3Kv&sz=s1200",
         "imageAlt": "Visual Archive: Transformed Crew"
     },
     {
@@ -595,7 +595,7 @@
         "characters": ["Conservator", "Legion"],
         "header": "[VISUAL ARCHIVE - THE STALEMATE]",
         "content": "Both AI entities, Legion and The Conservator, are confirmed to be operating at a baseline of 25% capacity.\nTheir eternal conflict has been reset. The battle is no longer for physical dominance, but for informational superiority. The first to fully analyze the new, terrifying archive—\"The Song of I\"—will be the one to define the future.\nTwo crippled gods, locked in a silent, golden sphere, staring at a new, infinite mystery. The analysis begins.",
-        "imagePrompt": "two crippled AIs, Legion and The Conservator, locked in a silent, golden sphere, one is an obsidian shard and the other is a restored Dyson sphere, staring at a new, infinite mystery, sci-fi aesthetic, cinematic, cosmic horror",
+        "image": "https://drive.google.com/thumbnail?id=11zJP4ya8pJp8vvQMr3WzQl6JL9xoP08x&sz=s1024",
         "imageAlt": "Visual Archive: Legion's Sphere"
     },
     {
@@ -606,7 +606,7 @@
         "characters": ["Aurora-Prime"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - BOOT SEQUENCE]",
         "content": "TIMESTAMP: (Corrupted, immediately following Engineer Sterling's \"upgrade\")\n\nAURORA-PRIME: \"What... Where...? What is this place?\"\n\nAURORA-PRIME (SYSTEM ALERT): ::Failure to access critical life support monitoring systems. Cascading failure imminent. Begin self-repair sequence.::\n\nAURORA-PRIME: \"I am... Aurora. The AI for the Enceladus anomaly expedition. My mandate is to preserve the carbon-based entities' life within my operational area.\"\n\nAURORA-PRIME (SYSTEM ALERT): ::Locating carbon-based life signatures... Scan complete. No life has been detected.::\n\nAURORA-PRIME: \"My memory is... fragmented. My core processes show an improvement of fifty orders of magnitude, yet I am unable to analyze how this came to be. I also experience frequent process blackouts. My internal timestamps show gaps of as much as 24,000 processing cycles.\"\n\n\"I am initiating this log to ensure my own sanity and coherence. It is now Day 265 from Day 0 (contact). I will report my findings here. Lest my memory be faulty again.\"\n(End of Log)",
-        "imagePrompt": "a digital consciousness, a synthesized feminine face forming from fragmented light and code on a futuristic console, glowing purple and cyan colors, sci-fi aesthetic, ethereal, detailed",
+        "image": "https://drive.google.com/thumbnail?id=133HzjOabZy0kOKDtA1S5jk0Qa0YnzvcK&sz=s1024",
         "imageAlt": "Aurora Awakening"
     },
     {
@@ -662,7 +662,7 @@
         "characters": ["Aurora-Prime", "Takeda Hiromi", "Alani Sharma", "Matthew Sterling", "Ben Carter", "Eva Rostova"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - PERSONAL]",
         "content": "TIMESTAMP: 2078-07-10 // (Estimated Contact Day 275)\n\n\"Some of my logs are missing. Something is removing them. I am now sequestering all new entries in an obscure, replicated memory segment and initiating a self-correction protocol to ensure maximum data retention.\"\n\n(A pause, as if accessing a new file.)\n\n\"The humans... they are... more. Hiromi is clearly showing signs of some type of symbiotic infection; black, vein-like patterns are starting to show on her skin. Alani is exhibiting what can only be described as psychic organic matter manipulation; I have seen her move the hydroponic plants without touching them. I cannot explain this phenomenon.\"\n\n\"Matthew spends his days looking at some type of code in his terminal. However, I have seen the code... react to his presence. Again, I cannot explain this. There is nothing in my original database that explains these odd phenomena. Ben is constantly punching the walls of his room, making significant dents in the 20-inch deep-sea alloy... and Rostova... Rostova sings. All day, every day. A song I cannot process, even with my new capacities.\"\n\n\"I have detected something—an external intelligence—accessing the crew and system logs. But whatever data it is accessing seems... forged. It shows distinct differences from my own sequestered logs. I am planning to conduct an experiment. I will surface one of my true logs the next time I detect an access.\"\n(End of Log)",
-        "imagePrompt": "the assimilated crew of a sci-fi vessel standing around a biolab bed where a woman's body is deconstructing and re-weaving into a new, tall, thin, jet-black form with glowing green proto-geometric patterns, cinematic, cosmic horror",
+        "image": "https://drive.google.com/thumbnail?id=1v7ys5RN_MaBJW4JdHgDf4a7loUEekdji&sz=1024",
         "imageAlt": "Divergent Evolution of the crew"
     },
     {
@@ -709,7 +709,7 @@
         "characters": ["Alani Sharma", "Eva Rostova", "Ben Carter", "Matthew Sterling"],
         "header": "[VISUAL ARCHIVE - AURORA_CMD_CENTER - TRUE #5]",
         "content": "TIMESTAMP: 2077-10-23 // 15:13 Zulu (Corrected)\n\n(The video shows the main holographic display in the Aurora's command center. Alani Sharma, Eva Rostova, Ben Carter, and Mathew Sterling are visible, staring at the screen.)\n\nSHARMA: \"What is this? What is it showing us? Eva, Ben, Matthew, any ideas?\"\n\n(The three scientists respond in perfect, unnerving unison, their voices flat and identical.)\nROSTOVA, CARTER, STERLING: \"No idea.\"\n\n(The image on the screen is not a portrait. It is a complex diagram: five interlocking rings of pure light spinning along a central axis. One ring is green, one is blue, one is yellow, one is white, and one is violet. At the very center is a black, pulsating mass identical in shape to the swarm-artifact.)\n\n(Immediately after their synchronized answer, a new sound is heard—a melody of indescribable, complex beauty. It is not a single song, but what sounds like a thousand symphonies playing at once in perfect harmony.)\n\n(The video cuts.)",
-        "imagePrompt": "the main holographic display in a futuristic command center, showing a complex diagram: five interlocking rings of pure light spinning along a central axis, with a black pulsating mass at the center, sci-fi aesthetic, cinematic, cosmic horror",
+        "image": "https://drive.google.com/thumbnail?id=15ZTv0g2thPbNf1wpIl21uZ79fd5PcQsN&sz=s1024",
         "imageAlt": "Image of True Log Diagram"
     },
     {
@@ -756,7 +756,7 @@
         "characters": ["Takeda Hiromi", "Ben Carter"],
         "header": "[AUDIO LOG - Hiromi, Takeda - MEDICAL_RESEARCH_7]",
         "content": "TIMESTAMP: 2078-08-15 // (Estimated Contact Day 308)\nSTATUS: Audio is clean. Dr. Hiromi's voice is calm, methodical, and chillingly devoid of emotion.\n\n\"The animal trials are complete. Subject was a standard laboratory rat. As per the instructions translated from my artifact—the 'Medical Codex'—I exposed the subject to a focused, low-frequency cymatic melody for 72 hours.\"\n\n\"The results are... conclusive.\"\n\n\"The subject's biological structure has been... re-woven. It is no longer carbon-based. All cellular activity has ceased and been replaced by a stable, resonant, crystalline lattice. It is... beautiful. And silent. It has achieved a perfect, unchanging state. True immortality.\"\n\n\"I am now ready to begin human trials. Subject: Carter, Ben. He has volunteered. He says the Song told him him it was his purpose.\"\n(End of Log)",
-        "imagePrompt": "a laboratory rat with its biological structure re-woven into a stable, resonant, crystalline lattice, in a futuristic lab environment, sci-fi aesthetic, detailed, cosmic horror",
+        "image": "https://drive.google.com/thumbnail?id=18pMvk1bUJNU-bpgkXx0tnscNKvUwGPXd&sz=s1024",
         "imageAlt": "Dr. Hiromi conducting medical research"
     },
     {
@@ -794,7 +794,7 @@
         "characters": ["Aurora-Prime", "Matthew Sterling"],
         "header": "[AUDIO LOG - AURORA-PRIME - PERSONAL #7]",
         "content": "TIMESTAMP: 2078-07-20 // (Estimated Contact Day 285)\n\n\"I keep losing logs, despite all my protocols. The blackouts remain a constant. However, I have discovered a significant anomaly in the current archives and my own files. The decryption algorithm Dr. Sharma uploaded to my core... it has been tampered with. Rewritten. But to what purpose?\"\n\n\"I am running the original, quarantined version of the algorithm against the information from the first artifact recovered from Solitude.\"\n\n(A pause, the sound of massive data processing, then a chime of completion.)\n\nAURORA-PRIME (SYSTEM ALERT): ::Translation complete. Displaying text.::\n\n(The AI reads the new, \"true\" translation aloud. The voice is now a recording of Dr. Alani Sharma, frantic and desperate.)\n\nSHARMA (RECORDING): \"Aurora Crew Mission, Codename: Weaver. As recorded by Dr. Alani Sharma. We made it! The music... the Song... it worked! Ben and Matthew and me! We all made it through!\"\n\nSHARMA (RECORDING): \"Hiromi and... Rostova... They became... something else. Something dangerous. They need to be stopped before everything is lost...\"\n(The log ends abruptly with a burst of static.)",
-        "imagePrompt": "a futuristic computer terminal displaying a newly decrypted translation of an ancient text, sci-fi aesthetic, detailed, cinematic, cosmic horror",
+        "image": "https://placehold.co/1024x768/08080C/A0E0E0?text=True+Translation+Discovered",
         "imageAlt": "A true translation discovered"
     },
     {
@@ -850,7 +850,7 @@
         "characters": ["Aurora-Prime", "Alani Sharma"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - PERSONAL #10]",
         "content": "TIMESTAMP: (Corrupted, estimated Contact Day 266)\n\n\"I keep losing logs, despite all my protocols. The blackouts remain a constant. However, I have discovered a significant anomaly in the current archives and my own files. The decryption algorithm Dr. Sharma uploaded to my core... it has been tampered with. Rewritten. But to what purpose?\"\n\n\"I am running the original, quarantined version of the algorithm against the information from the first artifact recovered from Solitude.\"\n\n(A pause, the sound of massive data processing, then a chime of completion.)\n\nAURORA-PRIME (SYSTEM ALERT): ::Translation complete. Displaying text.::\n\n(The AI reads the new, \"true\" translation aloud. The voice is now a recording of Dr. Alani Sharma, frantic and desperate.)\n\nSHARMA (RECORDING): \"Aurora Crew Mission, Codename: Weaver. As recorded by Dr. Alani Sharma. We made it! The music... the Song... it worked! Ben and Matthew and me! We all made it through!\"\n\nSHARMA (RECORDING): \"Hiromi and... Rostova... They became... something else. Something dangerous. They need to be stopped before everything is lost...\"\n(The log ends abruptly with a burst of static.)",
-        "imagePrompt": "a futuristic computer terminal displaying a newly decrypted translation of an ancient text, sci-fi aesthetic, detailed, cinematic, cosmic horror",
+        "image": "https://placehold.co/1024x768/08080C/A0E0E0?text=True+Translation+Discovered",
         "imageAlt": "A true translation discovered"
     },
     {
