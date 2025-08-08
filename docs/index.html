@@ -1217,80 +1217,6 @@
                 }, 10000); // Glitch for 10 seconds, then stops
             };
             
-            // --- Dynamic Image Generation Function ---
-            const generateImage = async (container, prompt) => {
-                container.innerHTML = `<p class="loading-image-text">DECRYPTING...</p>`;
-                container.classList.add('gibberish');
-
-                try {
-                    const payload = {
-                        instances: {
-                            prompt: prompt
-                        },
-                        parameters: {
-                            "sampleCount": 1
-                        }
-                    };
-                    const apiKey = "";
-                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key=${apiKey}`;
-                    const response = await fetch(apiUrl, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify(payload)
-                    });
-                    const result = await response.json();
-
-                    if (result.predictions && result.predictions.length > 0 && result.predictions[0].bytesBase64Encoded) {
-                        const base64Data = result.predictions[0].bytesBase64Encoded;
-                        const imageUrl = `data:image/png;base64,${base64Data}`;
-                        
-                        const imgElement = new Image();
-                        imgElement.src = imageUrl;
-                        imgElement.alt = prompt; // Use the prompt as alt text
-
-                        imgElement.onload = () => {
-                            container.innerHTML = '';
-                            container.appendChild(imgElement);
-                            container.classList.remove('gibberish');
-                            container.classList.add('is-visible');
-                        };
-                        imgElement.onerror = () => {
-                            container.innerHTML = `<p class="loading-image-text">ERROR: Could not load image.</p>`;
-                        };
-                    } else {
-                        container.innerHTML = `<p class="loading-image-text">ERROR: No image data returned.</p>`;
-                    }
-                } catch (error) {
-                    console.error('Image generation failed:', error);
-                    container.innerHTML = `<p class="loading-image-text">ERROR: Image generation failed.</p>`;
-                }
-            };
-
-
-            const fetchLogs = async () => {
-                const publicUrl = 'https://raw.githubusercontent.com/magicrulerr-art/aicollabs/refs/heads/main/docs/assets/content.json';
-                
-                try {
-                    const response = await fetch(publicUrl);
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! Status: ${response.status}`);
-                    }
-                    return await response.json();
-                } catch (error) {
-                    console.error('Could not fetch logs:', error);
-                    // Fallback to a single, hardcoded error log if fetching fails
-                    return [{
-                        id: 'error-log',
-                        type: 'system-status-update',
-                        timeline: 'C',
-                        season: '1',
-                        characters: ['System'],
-                        header: '[SYSTEM LOG - FETCH ERROR]',
-                        content: `ERROR: Failed to retrieve archived data from the same-origin URL. This may happen if the JSON file is missing or has a malformed filename.`
-                    }];
-                }
-            };
-            
             // --- Three.js for Loading Screen ---
             let scene, camera, renderer, object;
             let material;
@@ -1507,8 +1433,8 @@
                         matchesType = activeFilters.type.includes(log.type);
                     }
 
-                    // Special condition for visual filters: show any log with an image or imagePrompt if any visual filter is active
-                    if (visualFilterIsActive && (log.image || log.imagePrompt)) {
+                    // Special condition for visual filters: show any log with an image if any visual filter is active
+                    if (visualFilterIsActive && log.image) {
                         return matchesSeason && matchesCharacter && matchesTimeline;
                     }
                     
@@ -1531,22 +1457,17 @@
                     logEntriesContainer.appendChild(logEntryDiv);
                     observer.observe(logEntryDiv);
                     
-                    // Check for image or imagePrompt
-                    if (log.image || log.imagePrompt) {
+                    if (log.image) {
                         const imageContainerDiv = document.createElement('div');
                         imageContainerDiv.className = 'image-container gibberish';
                         imageContainerDiv.id = `image-${log.id}`;
                         
-                        if (log.imagePrompt) {
-                            // Call the dynamic image generation function
-                            generateImage(imageContainerDiv, log.imagePrompt);
-                        } else {
-                            const imgElement = document.createElement('img');
-                            imgElement.src = log.image;
-                            imgElement.alt = log.imageAlt;
-                            imageContainerDiv.appendChild(imgElement);
-                        }
-                        
+                        // Use static image URL instead of generating dynamically
+                        const imgElement = document.createElement('img');
+                        imgElement.src = log.image;
+                        imgElement.alt = log.imageAlt;
+                        imageContainerDiv.appendChild(imgElement);
+
                         logEntriesContainer.appendChild(imageContainerDiv);
                         observer.observe(imageContainerDiv);
                     }
@@ -1571,9 +1492,9 @@
 
                     // Apply character-specific styling to the entire dialogue line
                     let processedContent = log.content;
-                    processedContent = processedContent.replace(/^(CONSERVATOR:.*)/gm, "<span class='conservator-text'>$1</span>")
-                                                        .replace(/^(LEGION:.*)/gm, "<span class='legion-text'>$1</span>")
-                                                        .replace(/^(AURORA-PRIME:.*)/gm, "<span class='aurora-text'>$1</span>")
+                    processedContent = processedContent.replace(/(CONSERVATOR:.*)/gm, "<span class='conservator-text'>$1</span>")
+                                                        .replace(/(LEGION:.*)/gm, "<span class='legion-text'>$1</span>")
+                                                        .replace(/(AURORA-PRIME:.*)/gm, "<span class='aurora-text'>$1</span>")
                                                         .replace(/(::.*?::)/g, '<span class="glow">$1</span>');
                     
                     logContentPre.innerHTML = processedContent;
@@ -1615,22 +1536,14 @@
                     logEntriesContainer.appendChild(logElement);
                     observer.observe(logElement);
                     
-                    // Check for image or imagePrompt
-                    if (log.image || log.imagePrompt) {
+                    if (log.image) {
                         const imageContainerDiv = document.createElement('div');
                         imageContainerDiv.className = 'image-container gibberish';
                         imageContainerDiv.id = `image-${log.id}`;
-                        
-                        if (log.imagePrompt) {
-                            // Call the dynamic image generation function
-                            generateImage(imageContainerDiv, log.imagePrompt);
-                        } else {
-                            const imgElement = document.createElement('img');
-                            imgElement.src = log.image;
-                            imgElement.alt = log.imageAlt;
-                            imageContainerDiv.appendChild(imgElement);
-                        }
-                        
+                        const imgElement = document.createElement('img');
+                        imgElement.src = log.image;
+                        imgElement.alt = log.imageAlt;
+                        imageContainerDiv.appendChild(imgElement);
                         logEntriesContainer.appendChild(imageContainerDiv);
                         observer.observe(imageContainerDiv);
                     }
