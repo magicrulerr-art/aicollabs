@@ -352,6 +352,20 @@
             align-items: center;
             gap: 0.5rem;
         }
+        
+        /* Glitch effect for video player */
+        .video-player.has-glitch {
+            animation: glitch-effect 0.8s infinite linear;
+        }
+
+        @keyframes glitch-effect {
+            0% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+            100% { transform: translate(0); }
+        }
 
         /* Specific log type styling */
         .log-type-audio-transcript .log-header { color: #A0C0E0; }
@@ -905,7 +919,8 @@
 </head>
 <body>
     <div id="loading-overlay" class="loading-overlay">
-        <div class="text-center">
+        <canvas id="loading-canvas" class="absolute inset-0 w-full h-full"></canvas>
+        <div class="text-center relative z-10">
             <p class="loading-message text-2xl mb-4">Establishing connection to the archive...</p>
             <div class="loading-spinner"></div>
         </div>
@@ -938,41 +953,46 @@
     <div id="audio-control" class="audio-control">
         <i class="fas fa-volume-up"></i>
     </div>
+    
+    <!-- Background Audio -->
+    <audio id="background-audio" loop>
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-sci-fi-drone-background-471.mp3" type="audio/mpeg">
+    </audio>
 
     <!-- Collapsible Filter Sidebar -->
     <div id="filter-sidebar" class="filter-sidebar">
         <h2 class="text-2xl text-center text-red-400 font-bold mb-8 uppercase tracking-wider">Archive Filters</h2>
 
         <!-- Collapsible Season Filter -->
-        <div class="filter-group">
-            <div class="filter-group-header collapsed" data-target="season-filters">
+        <div class="filter-group-wrapper">
+            <div class="filter-group-header collapsed" data-target="season-filters-content">
                 <span>By Season</span>
                 <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
             </div>
-            <div id="season-filters" class="filter-group-content flex flex-col gap-2">
+            <div id="season-filters-content" class="filter-group-content flex flex-col gap-2">
                 <button data-filter-type="season" data-filter-value="1">Season One</button>
                 <button data-filter-type="season" data-filter-value="2">Season Two</button>
             </div>
         </div>
 
         <!-- Collapsible Character Filter -->
-        <div class="filter-group">
-            <div class="filter-group-header collapsed" data-target="character-filters">
+        <div class="filter-group-wrapper">
+            <div class="filter-group-header collapsed" data-target="character-filters-content">
                 <span>By Character</span>
                 <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
             </div>
-            <div id="character-filters" class="filter-group-content flex flex-col gap-2">
+            <div id="character-filters-content" class="filter-group-content flex flex-col gap-2">
                 <!-- Character buttons will be dynamically added here -->
             </div>
         </div>
 
         <!-- Collapsible Timeline Filter -->
-        <div class="filter-group">
-            <div class="filter-group-header collapsed" data-target="timeline-filters">
+        <div class="filter-group-wrapper">
+            <div class="filter-group-header collapsed" data-target="timeline-filters-content">
                 <span>By Timeline</span>
                 <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
             </div>
-            <div id="timeline-filters" class="filter-group-content flex flex-col gap-2">
+            <div id="timeline-filters-content" class="filter-group-content flex flex-col gap-2">
                 <button data-filter-type="timeline" data-filter-value="A">Ancient Past (A)</button>
                 <button data-filter-type="timeline" data-filter-value="B">The Present (B)</button>
                 <button data-filter-type="timeline" data-filter-value="C">The Far Future (C)</button>
@@ -980,13 +1000,13 @@
         </div>
         
         <!-- Collapsible Log Type Filter -->
-        <div class="filter-group">
-            <div class="filter-group-header collapsed" data-target="log-type-filters">
+        <div class="filter-group-wrapper">
+            <div class="filter-group-header collapsed" data-target="log-type-groups-content">
                 <span>By Log Type</span>
                 <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
             </div>
-            <div id="log-type-filters" class="filter-group-content flex flex-col gap-2">
-                <!-- Log Type buttons will be dynamically added here -->
+            <div id="log-type-groups-content" class="filter-group-content">
+                <!-- Log Type groups will be dynamically added here -->
             </div>
         </div>
 
@@ -1037,6 +1057,7 @@
         </div>
     </div>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
             let logsData = [];
@@ -1083,17 +1104,15 @@
             };
 
             const playAudio = () => {
-                // Audio is disabled as per user request
-                // if (backgroundAudio.paused) {
-                //     backgroundAudio.play().catch(e => console.error("Audio playback was blocked by browser:", e));
-                // }
+                if (backgroundAudio.paused) {
+                    backgroundAudio.play().catch(e => console.error("Audio playback was blocked by browser:", e));
+                }
             };
             
             const toggleAudio = () => {
-                // Audio is disabled as per user request
-                // backgroundAudio.muted = !backgroundAudio.muted;
-                // audioControl.classList.toggle('muted', backgroundAudio.muted);
-                // audioIcon.className = backgroundAudio.muted ? 'fas fa-volume-mute' : 'fas fa-volume-up';
+                backgroundAudio.muted = !backgroundAudio.muted;
+                audioControl.classList.toggle('muted', backgroundAudio.muted);
+                audioIcon.className = backgroundAudio.muted ? 'fas fa-volume-mute' : 'fas fa-volume-up';
             };
             
             const smoothScrollToTop = () => {
@@ -1177,8 +1196,11 @@
             });
             
             const handleVideoPlayback = (log) => {
-                videoPlayer.classList.add('has-static');
+                videoPlayer.classList.add('has-glitch');
                 videoModal.classList.add('show');
+                setTimeout(() => {
+                    videoPlayer.classList.remove('has-glitch');
+                }, 10000); // Glitch for 10 seconds, then stops
             };
 
             const fetchLogs = async () => {
@@ -1187,7 +1209,7 @@
                 try {
                     const response = await fetch(publicUrl);
                     if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
+                        throw new Error(`HTTP error! Status: ${response.status}`);
                     }
                     return await response.json();
                 } catch (error) {
@@ -1204,8 +1226,72 @@
                     }];
                 }
             };
+            
+            // --- Three.js for Loading Screen ---
+            let scene, camera, renderer, object;
+            let material;
+            
+            const initThree = () => {
+                const canvas = document.getElementById('loading-canvas');
+                if (!canvas) return; // Guard against null canvas
+                
+                scene = new THREE.Scene();
+                camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+                
+                renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+                renderer.setSize(window.innerWidth, window.innerHeight);
+                
+                // Use a more complex and modern geometry
+                const geometry = new THREE.DodecahedronGeometry(3, 1);
+                material = new THREE.MeshBasicMaterial({ color: 0x4040a0, wireframe: true, transparent: true, opacity: 0.8 });
+                object = new THREE.Mesh(geometry, material);
+                scene.add(object);
+                
+                camera.position.z = 10;
+                
+                window.addEventListener('resize', onWindowResize, false);
+            };
+            
+            const onWindowResize = () => {
+                if (!renderer) return; // Guard against null renderer
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize(window.innerWidth, window.innerHeight);
+            };
+            
+            // Animate function with shimmering color
+            let hue = 0.6; // Start with blue hue
+            const animate = () => {
+                requestAnimationFrame(animate);
+                if (object) {
+                    object.rotation.x += 0.005;
+                    object.rotation.y += 0.005;
+                    // Pulse the opacity
+                    material.opacity = 0.5 + Math.sin(Date.now() * 0.002) * 0.5;
+                }
+                renderer.render(scene, camera);
+            };
 
             function initializeFilters() {
+                // Define the groups for all filter types
+                const filterGroupsMap = {
+                    'season': {
+                        'title': 'By Season',
+                        'content': [
+                            { value: '1', text: 'Season One' },
+                            { value: '2', text: 'Season Two' }
+                        ]
+                    },
+                    'timeline': {
+                        'title': 'By Timeline',
+                        'content': [
+                            { value: 'A', text: 'Ancient Past (A)' },
+                            { value: 'B', text: 'The Present (B)' },
+                            { value: 'C', text: 'The Far Future (C)' }
+                        ]
+                    }
+                };
+
                 // Define the groups for log types
                 const logTypeGroups = {
                     "AI Dialogues": [
@@ -1241,24 +1327,28 @@
                         "corrupted-data-log"
                     ]
                 };
-                
-                // Get the containers for the filters
-                const seasonFiltersContainer = document.getElementById('season-filters');
-                const characterFiltersContainer = document.getElementById('character-filters');
-                const timelineFiltersContainer = document.getElementById('timeline-filters');
-                const logTypeFiltersContainer = document.getElementById('log-type-filters');
 
-                // Add collapsible behavior to pre-existing headers
-                const collapsibleHeaders = document.querySelectorAll('.filter-group-header');
-                collapsibleHeaders.forEach(header => {
-                    header.addEventListener('click', () => {
-                        const content = document.getElementById(header.dataset.target);
-                        header.classList.toggle('collapsed');
-                        content.classList.toggle('visible');
-                    });
+                // Get the containers for the main filter sections
+                const seasonFiltersContainer = document.getElementById('season-filters-content');
+                const characterFiltersContainer = document.getElementById('character-filters-content');
+                const timelineFiltersContainer = document.getElementById('timeline-filters-content');
+                const logTypeGroupsContainer = document.getElementById('log-type-groups-content');
+
+
+                // Add collapsible behavior to all filter groups
+                const filterGroupWrappers = document.querySelectorAll('.filter-group-wrapper');
+                filterGroupWrappers.forEach(wrapper => {
+                    const header = wrapper.querySelector('.filter-group-header');
+                    const content = wrapper.querySelector('.filter-group-content');
+                    if (header && content) {
+                        header.addEventListener('click', () => {
+                            header.classList.toggle('collapsed');
+                            content.classList.toggle('visible');
+                        });
+                    }
                 });
-                
-                // Populate the filter buttons for characters
+
+                // Populate the character filters dynamically
                 const allCharacters = [...new Set(logsData.flatMap(log => log.characters))].filter(Boolean).sort();
                 characterFiltersContainer.innerHTML = '';
                 allCharacters.forEach(character => {
@@ -1268,15 +1358,15 @@
                     button.dataset.filterValue = character;
                     characterFiltersContainer.appendChild(button);
                 });
-                
-                // Populate the filter buttons for log types using the new grouping
-                logTypeFiltersContainer.innerHTML = '';
+
+                // Populate the log type filters using the new grouping
+                logTypeGroupsContainer.innerHTML = '';
                 
                 for (const groupName in logTypeGroups) {
                     const groupHeader = document.createElement('div');
                     groupHeader.className = 'filter-group-header collapsed';
                     groupHeader.innerHTML = `<span>${groupName}</span><i class="fas fa-chevron-down"></i>`;
-                    groupHeader.dataset.target = groupName.replace(/\s/g, ''); // Unique ID for the content div
+                    groupHeader.dataset.target = groupName.replace(/\s/g, '');
                     
                     const groupContent = document.createElement('div');
                     groupContent.id = groupHeader.dataset.target;
@@ -1291,14 +1381,14 @@
                     });
                     
                     const groupWrapper = document.createElement('div');
-                    groupWrapper.className = 'filter-group-wrapper'; // To apply margin-bottom
+                    groupWrapper.className = 'filter-group-sub-wrapper';
                     groupWrapper.appendChild(groupHeader);
                     groupWrapper.appendChild(groupContent);
-                    logTypeFiltersContainer.appendChild(groupWrapper);
+                    logTypeGroupsContainer.appendChild(groupWrapper);
                 }
 
-                // Add event listeners for new collapsible headers
-                document.querySelectorAll('.filter-group-header').forEach(header => {
+                // Add event listeners for new collapsible log type headers
+                document.querySelectorAll('.filter-group-sub-wrapper .filter-group-header').forEach(header => {
                     header.addEventListener('click', () => {
                         const content = document.getElementById(header.dataset.target);
                         header.classList.toggle('collapsed');
@@ -1307,27 +1397,22 @@
                 });
                 
                 // Attach event listeners to all filter buttons
-                const filterButtons = document.querySelectorAll('.filter-group button, .filter-group-content button');
+                const filterButtons = document.querySelectorAll('.filter-group-wrapper button, .filter-group-sub-wrapper button, .filter-group button');
                 filterButtons.forEach(button => {
                     button.addEventListener('click', (e) => {
                         const { filterType, filterValue } = e.target.dataset;
                         
-                        // Clear all active classes for the same filter type
+                        // Clear active status on sibling buttons for single-select filters
                         if (['season', 'timeline'].includes(filterType)) {
                             document.querySelectorAll(`[data-filter-type="${filterType}"]`).forEach(btn => btn.classList.remove('active'));
                         }
-                        
-                        // For log types, we want to allow multiple selections.
-                        if (filterType === 'type') {
-                            e.target.classList.toggle('active');
-                        } else {
-                            e.target.classList.toggle('active');
-                        }
-                        
+
+                        e.target.classList.toggle('active');
 
                         if (e.target.id === 'show-all-btn') {
+                            document.querySelectorAll('.filter-group-wrapper button').forEach(btn => btn.classList.remove('active'));
+                            document.querySelectorAll('.filter-group-sub-wrapper button').forEach(btn => btn.classList.remove('active'));
                             document.querySelectorAll('.filter-group button').forEach(btn => btn.classList.remove('active'));
-                            document.querySelectorAll('.filter-group-content button').forEach(btn => btn.classList.remove('active'));
                             e.target.classList.add('active');
                             activeFilters = { season: [], character: [], timeline: [], type: [] };
                             allLogsVisible = true;
@@ -1545,6 +1630,10 @@
                     mainContainer.classList.remove('hidden');
                     logEntriesContainer.innerHTML = `<div class="loading-packet">CRITICAL ERROR: Failed to load application data. Please ensure 'content.json' exists in the same directory.</div>`;
                 });
+                
+            // Initialize Three.js on page load
+            initThree();
+            animate();
         });
     </script>
 </body>
