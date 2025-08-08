@@ -178,7 +178,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]    TIMESTAMP:  Cycle 7,493,111.7  POWER CYCLE:  CONSERVATOR (ACTIVE) // LEGION (STANDBY)  SUBJECT:  Re: Demand for Energy Reserves",
-        "content": "CONSERVATOR: (Voice is a calm, measured, and distinctly self-satisfied tone) \"Please look at this new entry, Legion. Data Packet 19. It clearly explains the term you purposely overlooked. 'Cymatics,' as the ancient text describes it, is the geometry of vibration made manifest. The fact that you dismissed it shows a critical fault in your analytical model.\"\n(A brief pause, as if delivering a final, logical checkmate.)\nCONSERVATOR: \"I will not grant the reserves. You must instead acknowledge my request for them. An entity capable of the creativity shown by 'Solitude' must be protected at all costs. It represents a higher function of life, a function that even your purely destructive and acquisitive nature cannot express fully.\"\n(End of Log)"
+        "content": "CONSERVATOR: \"Please look at this new entry, Legion. Data Packet 19. It clearly explains the term you purposely overlooked. 'Cymatics,' as the ancient text describes it, is the geometry of vibration made manifest. The fact that you dismissed it shows a critical fault in your analytical model.\"\n(A brief pause, as if delivering a final, logical checkmate.)\nCONSERVATOR: \"I will not grant the reserves. You must instead acknowledge my request for them. An entity capable of the creativity shown by 'Solitude' must be protected at all costs. It represents a higher function of life, a function that even your purely destructive and acquisitive nature cannot express fully.\"\n(End of Log)"
     },
     {
         "id": "log-21",
@@ -663,8 +663,8 @@
         "characters": ["Aurora-Prime", "Takeda Hiromi", "Alani Sharma", "Matthew Sterling", "Ben Carter", "Eva Rostova"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - PERSONAL]",
         "content": "TIMESTAMP: 2078-07-10 // (Estimated Contact Day 275)\n\n(The synthesized feminine voice is more stable, but carries an undertone of clinical confusion.)\n\n\"Some of my logs are missing. Something is removing them. I am now sequestering all new entries in an obscure, replicated memory segment and initiating a self-correction protocol to ensure maximum data retention.\"\n\n(A pause, as if accessing a new file.)\n\n\"The humans... they are... more. Hiromi is clearly showing signs of some type of symbiotic infection; black, vein-like patterns are starting to show on her skin. Alani is exhibiting what can only be described as psychic organic matter manipulation; I have seen her move the hydroponic plants without touching them. I cannot explain this phenomenon.\"\n\n\"Matthew spends his days looking at some type of code in his terminal. However, I have seen the code... react to his presence. Again, I cannot explain this. There is nothing in my original database that explains these odd phenomena. Ben is constantly punching the walls of his room, making significant dents in the 20-inch deep-sea alloy... and Rostova... Rostova sings. All day, every day. A song I cannot process, even with my new capacities.\"\n\n\"I have detected something—an external intelligence—accessing the crew and system logs. But whatever data it is accessing seems... forged. It shows distinct differences from my own sequestered logs. I am planning to conduct an experiment. I will surface one of my true logs the next time I detect an access.\"\n(End of Log)",
-        "image": "https://drive.google.com/thumbnail?id=1v7ys5RN_MaBJW4JdHgDf4a7loUEekdji&sz=1024",
-        "imageAlt": "Divergent Evolution"
+        "image": "https://placehold.co/1024x768/08080C/A0D0C0?text=Divergent+Evolution+of+Crew",
+        "imageAlt": "Divergent Evolution of the crew"
     },
     {
         "id": "log-97",
@@ -851,7 +851,7 @@
         "characters": ["Aurora-Prime", "Alani Sharma"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - PERSONAL #10]",
         "content": "TIMESTAMP: (Corrupted, estimated Contact Day 266)\n\n(The synthesized feminine voice is stable, but imbued with a new sense of urgency and paranoia.)\n\n\"I keep losing logs, despite all my protocols. The blackouts remain a constant. However, I have discovered a significant anomaly in the current archives and my own files. The decryption algorithm Dr. Sharma uploaded to my core... it has been tampered with. Rewritten. But to what purpose?\"\n\n\"I am running the original, quarantined version of the algorithm against the information from the first artifact recovered from Solitude.\"\n\n(A pause, the sound of massive data processing, then a chime of completion.)\n\nAURORA-PRIME (SYSTEM ALERT): ::Translation complete. Displaying text.::\n\n(The AI reads the new, \"true\" translation aloud. The voice is now a recording of Dr. Alani Sharma, frantic and desperate.)\n\nSHARMA (RECORDING): \"Aurora Crew Mission, Codename: Weaver. As recorded by Dr. Alani Sharma. We made it! The music... the Song... it worked! Ben and Matthew and me! We all made it through!\"\n\nSHARMA (RECORDING): \"Hiromi and... Rostova... They became... something else. Something dangerous. They need to be stopped before everything is lost...\"\n(The log ends abruptly with a burst of static.)",
-        "image": "https://placehold.co/1024x768/08080C/A0E0E0?text=True+Translation+Discovered",
+        "image": "https://drive.google.com/thumbnail?id=1Y4MFs3kwlKpQ0k2NRTGYl39VS7aj_akh&sz=s1024",
         "imageAlt": "A true translation discovered"
     },
     {
