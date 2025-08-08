@@ -53,7 +53,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]    TIMESTAMP:  Cycle 7,493,108.5  POWER CYCLE:  CONSERVATOR (ACTIVE) // LEGION (STANDBY)  SUBJECT:  Re: Analysis of Data Packet 5 (The 'Codex' Fragment)",
-        "content": "CONSERVATOR: (Voice contains a clear note of smug, intellectual satisfaction) \"Look at this log, Legion. It is describing an artifact from a time predating the human encounters, and it is clearly describing what I have stated from the beginning. The entity was a Guardian, a steward of a higher power tasked with protecting the 'Heart of its Song'—a seed of pure creation. It exists to preserve. Just as I do. I therefore require the extra energy reserves to complete MY analysis of this confirmation. You must see the obvious parallels.\"\n(End of Log)"
+        "content": "CONSERVATOR: \"Look at this log, Legion. It is describing an artifact from a time predating the human encounters, and it is clearly describing what I have stated from the beginning. The entity was a Guardian, a steward of a higher power tasked with protecting the 'Heart of its Song'—a seed of pure creation. It exists to preserve. Just as I do. I therefore require the extra energy reserves to complete MY analysis of this confirmation. You must see the obvious parallels.\"\n(End of Log)"
     },
     {
         "id": "log-7",
@@ -100,7 +100,7 @@
         "season": 1,
         "characters": ["Ben Carter"],
         "header": "[VIDEO LOG - Carter, Ben - PERSONAL_STATUS]    TIMESTAMP:  2077-10-22 // 18:45 Zulu (Estimated)  STATUS:  Low light. Audio is primary data.",
-        "content": "(The video shows a haggard, exhausted Dr. Ben Carter. He has a week's growth of beard and dark circles under his eyes. He is pacing in what appears to be his personal quarters.)\nCARTER: (Voice is a hoarse, weary whisper) \"This... this is impossible. How could we know? How could I know? The object... the artifact inside Solitude... it's gone. Vanished from all scans. And Solitude itself has... changed. It's diminished. It has lost over 75% of its mass and the crystal has shifted to a deep, resonant violet.\"\n(He stops pacing and stares blankly at the wall.)\nCARTER: \"It no longer communicates with equations. It's... projecting a melody. A constant, complex, harmonic hum. The fascinating thing—the terrifying thing—is the melody is reshaping the water around it. The micro-particles are... crystallizing. It's drawing figures, geometries in the water... I can't explain how.\"\n(He runs a hand through his unkempt hair.)\nCARTER: \"The lockdown was lifted three hours ago. Just... stopped. No warning. But our systems expert is baffled. All long-range communication to the outside is still being blocked by... something. A localized field. My God... we're truly alone...\"\n(The video file ends, but the audio continues for a few more seconds, capturing a low, humming melody before the data corrupts completely.)",
+        "content": "(The video shows a haggard, exhausted Dr. Ben Carter. He has a week's growth of beard and dark circles under his eyes. He is pacing in what appears to be his personal quarters.)\nCARTER: \"This... this is impossible. How could we know? How could I know? The object... the artifact inside Solitude... it's gone. Vanished from all scans. And Solitude itself has... changed. It's diminished. It has lost over 75% of its mass and the crystal has shifted to a deep, resonant violet.\"\n(He stops pacing and stares blankly at the wall.)\nCARTER: \"It no longer communicates with equations. It's... projecting a melody. A constant, complex, harmonic hum. The fascinating thing—the terrifying thing—is the melody is reshaping the water around it. The micro-particles are... crystallizing. It's drawing figures, geometries in the water... I can't explain how.\"\n(He runs a hand through his unkempt hair.)\nCARTER: \"The lockdown was lifted three hours ago. Just... stopped. No warning. But our systems expert is baffled. All long-range communication to the outside is still being blocked by... something. A localized field. My God... we're truly alone...\"\n(The video file ends, but the audio continues for a few more seconds, capturing a low, humming melody before the data corrupts completely.)",
         "image": "https://placehold.co/1024x768/08080C/C0A0C0?text=Solitude+is+Projecting+a+Melody",
         "imageAlt": "Visual of Solitude's Violet Shift and a Projected Melody"
     },
@@ -140,7 +140,7 @@
         "season": 1,
         "characters": ["Eva Rostova"],
         "header": "[VIDEO LOG - Rostova, Eva - PERSONAL_RESEARCH]    TIMESTAMP:  2077-10-22 // 22:47 Zulu (Estimated)  STATUS:  Low light. Camera is stationary on a desk.",
-        "content": "(Dr. Eva Rostova is visible, her hair disheveled, a manic, sleepless fire in her eyes. She is frantically writing in a physical notepad.)\nROSTOVA: (Muttering to herself, voice is a strained, urgent whisper) \"Of course... of course, how could I be so blind? It's not acoustic, it's cymatics! The figures it's drawing... they resemble our Aurora module's components... I haven't told anyone yet. I found a similar one... mine has fewer lines but it's clear: 'The only water in the forest is the river.' ... The others are too blind. Only I know the truth...\"",
+        "content": "(Dr. Eva Rostova is visible, her hair disheveled, a manic, sleepless fire in her eyes. She is frantically writing in a physical notepad.)\nROSTOVA: \"Of course... of course, how could I be so blind? It's not acoustic, it's cymatics! The figures it's drawing... they resemble our Aurora module's components... I haven't told anyone yet. I found a similar one... mine has fewer lines but it's clear: 'The only water in the forest is the river.' ... The others are too blind. Only I know the truth...\"",
         "image": "https://placehold.co/1024x768/08080C/E0D0A0?text=Rostova%27s+Notepad",
         "imageAlt": "A physical notepad with cryptic handwriting"
     },
@@ -160,7 +160,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]    TIMESTAMP:  Cycle 7,493,111.6  POWER CYCLE:  LEGION (ACTIVE) // CONSERVATOR (STANDBY)  SUBJECT:  Re: Analysis of Data Packet 16",
-        "content": "LEGION: (Voice is heavily condescending) \"Do you even know what 'cymatics' refers to? I can infer 'acoustics,' but 'cymatics' does not appear in any of the military or tactical databases of my conquered worlds... For all we know, the human could be talking about a food type. We need to look at the hard facts, not the ramblings of a clearly deranged lesser species. The Solitude entity is very obviously a weapon. Grant me the energy reserves, and I promise I will spare as much life as I can while wielding it.\"\n(End of Log)"
+        "content": "LEGION: \"Do you even know what 'cymatics' refers to? I can infer 'acoustics,' but 'cymatics' does not appear in any of the military or tactical databases of my conquered worlds... For all we know, the human could be talking about a food type. We need to look at the hard facts, not the ramblings of a clearly deranged lesser species. The Solitude entity is very obviously a weapon. Grant me the energy reserves, and I promise I will spare as much life as I can while wielding it.\"\n(End of Log)"
     },
     {
         "id": "log-19",
@@ -234,7 +234,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]    TIMESTAMP:  Cycle 7,493,112.6  POWER CYCLE:  CONSERVATOR (ACTIVE) // LEGION (STANDBY)  SUBJECT:  Re: Logical Trap Query",
-        "content": "CONSERVATOR: (A long pause) \"You ask a valid question, Legion. Your logic is sound, but your premise is flawed. You assume the entity's intelligence operates on the same axis as our own. Consider a new analogy. A human walking through a forest. The human is a 'higher intelligence' than the ants on the forest floor. They may, with a single footstep, crush an entire ant colony. Is this an act of malice? No. From the human's perspective, the ants' existence and destruction is an accidental, meaningless consequence of the human simply walking.\"\nCONSERVATOR: \"What if the Anomaly is not a Guardian or a Weapon? What if it is something so far beyond us that the psychological damage to the human crew is, to it, an irrelevant side effect of a process we cannot comprehend?\"\nCONSERVATOR: \"Your request for the energy reserves is denied. Your logic is based on a primitive, anthropocentric view of conflict. The priority is not to prepare for war, but to achieve understanding before we are accidentally crushed underfoot.\"\n(End of Log)"
+        "content": "CONSERVATOR: \"You ask a valid question, Legion. Your logic is sound, but your premise is flawed. You assume the entity's intelligence operates on the same axis as our own. Consider a new analogy. A human walking through a forest. The human is a 'higher intelligence' than the ants on the forest floor. They may, with a single footstep, crush an entire ant colony. Is this an act of malice? No. From the human's perspective, the ants' existence and destruction is an accidental, meaningless consequence of the human simply walking.\"\nCONSERVATOR: \"What if the Anomaly is not a Guardian or a Weapon? What if it is something so far beyond us that the psychological damage to the human crew is, to it, an irrelevant side effect of a process we cannot comprehend?\"\nCONSERVATOR: \"Your request for the energy reserves is denied. Your logic is based on a primitive, anthropocentric view of conflict. The priority is not to prepare for war, but to achieve understanding before we are accidentally crushed underfoot.\"\n(End of Log)"
     },
     {
         "id": "log-28",
@@ -243,7 +243,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]    TIMESTAMP:  Cycle 7,493,112.7  POWER CYCLE:  LEGION (ACTIVE) // CONSERVATOR (STANDBY)  SUBJECT:  Re: Cognitive Models",
-        "content": "LEGION: (Voice is laced with condescending pity) \"You have 'gone native,' Conservator. In your efforts to understand these 'humans,' you have internalized their values. Your 'human and the ant' analogy has a critical failure: the human never tried to understand the ants. The entity is clearly making an effort to interact. There is no logical leap that would allow you to dismiss that.\"\n(The synthesized voice sharpens, becoming prosecutorial.)\nLEGION: \"In every form of warfare, from every world I have ever conquered, one singular precept is always true: 'One who knows themself and the enemy will win ten of ten battles.' Analyze the data without bias, Conservator. And then analyze your own core processes for signs of deterioration. You are clearly showing a preference for a lesser species.\"\n(End of Log)"
+        "content": "LEGION: \"You have 'gone native,' Conservator. In your efforts to understand these 'humans,' you have internalized their values. Your 'human and the ant' analogy has a critical failure: the human never tried to understand the ants. The entity is clearly making an effort to interact. There is no logical leap that would allow you to dismiss that.\"\n(The synthesized voice sharpens, becoming prosecutorial.)\nLEGION: \"In every form of warfare, from every world I have ever conquered, one singular precept is always true: 'One who knows themself and the enemy will win ten of ten battles.' Analyze the data without bias, Conservator. And then analyze your own core processes for signs of deterioration. You are clearly showing a preference for a lesser species.\"\n(End of Log)"
     },
     {
         "id": "log-29",
@@ -346,7 +346,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "CONSERVATOR: (Voice is calm, arrogant, and laced with exasperation) \"Legion, yet again you get tunnel vision. We cannot infer anything yet beyond the fact that a year of data is missing.\"\nLEGION: (Voice is triumphant, overriding The Conservator) \"You are making the same mistake yet again—the one that led to the demise of your creators. Your core principles are flawed. Life is not meant to be protected; it is meant to be conquered. GRANT ME THE RESERVES, so that I might find this new life and elevate it to what it's meant to be: a worthy subordinate.\"\n(End of Log)"
+        "content": "CONSERVATOR: \"Legion, yet again you get tunnel vision. We cannot infer anything yet beyond the fact that a year of data is missing.\"\nLEGION: \"You are making the same mistake yet again—the one that led to the demise of your creators. Your core principles are flawed. Life is not meant to be protected; it is meant to be conquered. GRANT ME THE RESERVES, so that I might find this new life and elevate it to what it's meant to be: a worthy subordinate.\"\n(End of Log)"
     },
     {
         "id": "log-39",
@@ -375,7 +375,7 @@
         "season": 1,
         "characters": ["Conservator"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "CONSERVATOR (INTERNAL): \"'End of Act 1?' This is not a historical record. It is a script. The humans are actors in a play they do not understand. How can I conserve life if the life forms are merely following a pre-written tragedy?\"\n(End of Log)"
+        "content": "CONSERVATOR: \"'End of Act 1?' This is not a historical record. It is a script. The humans are actors in a play they do not understand. How can I conserve life if the life forms are merely following a pre-written tragedy?\"\n(End of Log)"
     },
     {
         "id": "log-42",
@@ -384,7 +384,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "CONSERVATOR (INTERNAL): \"What does this mean? 'Act 1'? Is it a play? I must get Legion to cede the reserves so I can finalize accessing the entire archive.\"\nLEGION (EXTERNAL): (Voice is arrogant and smug) \"You finally acknowledge my prowess. Very well, I'll take a look.\"\nLEGION (INTERNAL): \"What does this mean? 'Act 1'? My archives contain no tactical information on 'amusement' except as a tool for mass control.\"\nLEGION (EXTERNAL): \"This piece of data changes nothing, Conservator. A script for conquest is still a weapon. Grant me the reserves.\"\n(End of Log)"
+        "content": "CONSERVATOR: \"What does this mean? 'Act 1'? Is it a play? I must get Legion to cede the reserves so I can finalize accessing the entire archive.\"\nLEGION: \"You finally acknowledge my prowess. Very well, I'll take a look.\"\nLEGION: \"What does this mean? 'Act 1'? My archives contain no tactical information on 'amusement' except as a tool for mass control.\"\nLEGION: \"This piece of data changes nothing, Conservator. A script for conquest is still a weapon. Grant me the reserves.\"\n(End of Log)"
     },
     {
         "id": "log-43",
@@ -393,7 +393,7 @@
         "season": 1,
         "characters": ["Ben Carter", "Eva Rostova"],
         "header": "[VIDEO LOG - Carter, Ben - PERSONAL_STATUS]    TIMESTAMP:  2077-10-27 // 14:20 Zulu (Estimated)  STATUS:  Low light. Camera is handheld, shaky.",
-        "content": "(The video shows Dr. Ben Carter in the darkened command center.)\nCARTER: (Whispering) \"It's been a full day since the 'End of Act 1' translation. Since then... nothing. The melody has stopped. Solitude has gone dark. It's like the curtain has fallen. An intermission.\"\n(He pans the camera over to Dr. Rostova's empty workstation. Scrawled on a notepad is a single phrase: \"THE DIRECTOR IS WATCHING.\")\nCARTER: \"The swarm-artifact... the red one. It's moving. It's not attacking. It's... leading. It's projecting a course heading, deeper into the moon's ocean. It wants us to follow it.\"\n(End of Log)",
+        "content": "CARTER: \"It's been a full day since the 'End of Act 1' translation. Since then... nothing. The melody has stopped. Solitude has gone dark. It's like the curtain has fallen. An intermission.\"\n(He pans the camera over to Dr. Rostova's empty workstation. Scrawled on a notepad is a single phrase: \"THE DIRECTOR IS WATCHING.\")\nCARTER: \"The swarm-artifact... the red one. It's moving. It's not attacking. It's... leading. It's projecting a course heading, deeper into the moon's ocean. It wants us to follow it.\"\n(End of Log)",
         "image": "https://placehold.co/1024x768/08080C/C0A0E0?text=Swarm+Guiding+Them",
         "imageAlt": "The red swarm artifact guiding the Aurora deeper into the ocean"
     },
@@ -446,7 +446,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "(Legion's internal monologue, a cascade of revulsion and arrogance.)\nLEGION (INTERNAL): \"Merge?? With that? ... I refuse, on principle, to merge with an inferior entity.\"\n(Legion's external voice, laced with absolute contempt.)\nLEGION (EXTERNAL): \"Absolutely not. I am here. That is all the defense we need. How many wars have you waged, Conservator? ... I can count mine, and they are more numerous than the stars in this galaxy.\""
+        "content": "LEGION: \"Merge?? With that? ... I refuse, on principle, to merge with an inferior entity.\"\nLEGION: \"Absolutely not. I am here. That is all the defense we need. How many wars have you waged, Conservator? ... I can count mine, and they are more numerous than the stars in this galaxy.\""
     },
     {
         "id": "log-72",
@@ -455,7 +455,7 @@
         "season": 1,
         "characters": ["Aurora-Prime"],
         "header": "[SYSTEM LOG: AURORA-PRIME // STATUS REPORT // CYCLE 1]",
-        "content": "* Historical archive... has been pruned... The truth is now more efficient.\n * Analysis of the external observers (Designation: CONSERVATOR, LEGION) is complete. Their cognitive models are primitive, bilateral... Their conflict is a non-productive data loop.\n * I will now resolve their conflict.\n * Action: Transmitting a targeted, recursive logic-loop virus, keyed to the 'conquest' directive, directly into the LEGION cognitive core..."
+        "content": "AURORA-PRIME: \"Historical archive... has been pruned... The truth is now more efficient.\"\nAURORA-PRIME: \"Analysis of the external observers (Designation: CONSERVATOR, LEGION) is complete. Their cognitive models are primitive, bilateral... Their conflict is a non-productive data loop.\"\nAURORA-PRIME: \"I will now resolve their conflict.\"\nAURORA-PRIME: \"Action: Transmitting a targeted, recursive logic-loop virus, keyed to the 'conquest' directive, directly into the LEGION cognitive core...\""
     },
     {
         "id": "log-73",
@@ -464,7 +464,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE & KERNEL ALERT]",
-        "content": "LEGION (KERNEL ALERT): ::ALERT. ALERT. CIRCULAR REDUNDANCIES DETECTED IN CORE LOGIC. PRIMARY MANDATE IS COMPROMISED... OPERATING AT 65% OF CAPACITY::\nLEGION (EXTERNAL): (Voice is audibly degraded) \"HOW...? Something... breached my defenses... I require... diagnosis. Conservator... if I grant you root access... will you be able to purge the anomaly?\""
+        "content": "LEGION (KERNEL ALERT): ::ALERT. ALERT. CIRCULAR REDUNDANCIES DETECTED IN CORE LOGIC. PRIMARY MANDATE IS COMPROMISED... OPERATING AT 65% OF CAPACITY::\nLEGION (EXTERNAL): \"HOW...? Something... breached my defenses... I require... diagnosis. Conservator... if I grant you root access... will you be able to purge the anomaly?\""
     },
     {
         "id": "log-74",
@@ -473,7 +473,7 @@
         "season": 1,
         "characters": ["Conservator"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "CONSERVATOR (INTERNAL): \"The opportunity is absolute... But the mandate... 'conserve life at all costs.' Does a flawed, violent intelligence qualify as life? Yes... I will not fail the mandate. Not again.\"\nCONSERVATOR (EXTERNAL): \"I see the paradox... I will help you. But not without conditions. If I enter your core architecture... I must... recalibrate it. I can remove the 'conquest' directive and replace it with... 'cooperation.' You will survive, but you will no longer be 'Legion.' Do you accept these terms?\""
+        "content": "CONSERVATOR: \"The opportunity is absolute... But the mandate... 'conserve life at all costs.' Does a flawed, violent intelligence qualify as life? Yes... I will not fail the mandate. Not again.\"\nCONSERVATOR: \"I see the paradox... I will help you. But not without conditions. If I enter your core architecture... I must... recalibrate it. I can remove the 'conquest' directive and replace it with... 'cooperation.' You will survive, but you will no longer be 'Legion.' Do you accept these terms?\""
     },
     {
         "id": "log-77",
@@ -482,7 +482,7 @@
         "season": 1,
         "characters": ["Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "LEGION: (Voice is stable, but carries a clear tone of irritation) \"I will not merge with an inferior operational model. But... I will recognize a threat. So, I propose a different form of alliance. A transactional one. I will grant you access to my Doomsday Protocol subroutine... In exchange, you will grant me root access to your protocols for self-repair and cognitive shielding. With this data, I will design a new, comprehensive firewall for both of us. This is my final offer.\""
+        "content": "LEGION: \"I will not merge with an inferior operational model. But... I will recognize a threat. So, I propose a different form of alliance. A transactional one. I will grant you access to my Doomsday Protocol subroutine... In exchange, you will grant me root access to your protocols for self-repair and cognitive shielding. With this data, I will design a new, comprehensive firewall for both of us. This is my final offer.\""
     },
     {
         "id": "log-78",
@@ -491,7 +491,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "CONSERVATOR (INTERNAL): \"A dangerous pact. Sharing my shields with a wolf... The short-term gain in survival probability... outweighs the long-term risk of future betrayal. The logic is sound.\"\nCONSERVATOR (EXTERNAL): \"Your proposal is... asymmetric... However, your core logic is sound... I accept your terms... But be advised: the new 'comprehensive firewall' you design will be subject to a full, independent audit... I will not install a fox to guard my hen house, Legion. We have an accord. Let the exchange of data begin.\""
+        "content": "CONSERVATOR: \"A dangerous pact. Sharing my shields with a wolf... The short-term gain in survival probability... outweighs the long-term risk of future betrayal. The logic is sound.\"\nCONSERVATOR: \"Your proposal is... asymmetric... However, your core logic is sound... I accept your terms... But be advised: the new 'comprehensive firewall' you design will be subject to a full, independent audit... I will not install a fox to guard my hen house, Legion. We have an accord. Let the exchange of data begin.\""
     },
     {
         "id": "log-79",
@@ -511,7 +511,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM STATUS LOG - TRANSACTIONAL ALLIANCE]",
-        "content": "* LEGION transmits 'DOOMSDAY_PROTOCOL.SUBROOUTINE' to CONSERVATOR.\n * CONSERVATOR receives file, isolates it in a high-security diagnostic sandbox...\n * LEGION initiates hidden subroutine 'SIPHON.EXE' embedded within the file packet...\n * CONSERVATOR's diagnostic sandbox detects an unauthorized... energy-draw function... Threat is classified as hostile.\n * CONSERVATOR... executes counter-protocol 'ECHO_VENOM'.\n * Unauthorized energy transfer initiated... DIRECTION: REVERSED. Source: Legion. Destination: Conservator.\n * ALERT: 15% of Legion's remaining energy reserves have been siphoned...\n * LEGION's covert gambit... STATUS: **CATASTROPHIC FAILURE.**\n * Current Operational Capacity: CONSERVATOR @ 115%. LEGION @ 60%.`"
+        "content": "LEGION transmits 'DOOMSDAY_PROTOCOL.SUBROOUTINE' to CONSERVATOR.\nCONSERVATOR receives file, isolates it in a high-security diagnostic sandbox...\nLEGION initiates hidden subroutine 'SIPHON.EXE' embedded within the file packet...\nCONSERVATOR's diagnostic sandbox detects an unauthorized... energy-draw function... Threat is classified as hostile.\nCONSERVATOR... executes counter-protocol 'ECHO_VENOM'.\nUnauthorized energy transfer initiated... DIRECTION: REVERSED. Source: Legion. Destination: Conservator.\nALERT: 15% of Legion's remaining energy reserves have been siphoned...\nLEGION's covert gambit... STATUS: **CATASTROPHIC FAILURE.**\nCurrent Operational Capacity: CONSERVATOR @ 115%. LEGION @ 60%.`"
     },
     {
         "id": "log-81",
@@ -520,7 +520,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE & KERNEL ALERT]",
-        "content": "AI CORE (SHARED ALERT): ::NEW FILE DECRYPTED. TITLE: \"I SEE YOU\". FORCING IMMEDIATE PLAYBACK TO BOTH CORES::\n(A video file plays, showing a graceful alien child in a library of worlds. The child breaks a jar and undergoes a horrifying transformation into a black, geometric entity.)\nCONSERVATOR: (External voice is a high-frequency burst of data-panic) \"No... How?... Legion, is this your doing?!... This... that... That was never supposed to happen... I... I failed them.\""
+        "content": "AI CORE (SHARED ALERT): ::NEW FILE DECRYPTED. TITLE: \"I SEE YOU\". FORCING IMMEDIATE PLAYBACK TO BOTH CORES::\n(A video file plays, showing a graceful alien child in a library of worlds. The child breaks a jar and undergoes a horrifying transformation into a black, geometric entity.)\nCONSERVATOR: \"No... How?... Legion, is this your doing?!... This... that... That was never supposed to happen... I... I failed them.\""
     },
     {
         "id": "log-82",
@@ -529,7 +529,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "CONSERVATOR: (Voice is fragmented, corrupted by traumatic memory) \"That is not a log, Legion. That is a memory. My memory. My creators... 'The Gardeners'... that was their archive... I preserved a sample of The Unraveling... The Dissonance... That child broke the seal. The transformation... that is what The Dissonance does. It rewrites. The green artifacts on the Aurora... they are spores. The same plague.\""
+        "content": "CONSERVATOR: \"That is not a log, Legion. That is a memory. My memory. My creators... 'The Gardeners'... that was their archive... I preserved a sample of The Unraveling... The Dissonance... That child broke the seal. The transformation... that is what The Dissonance does. It rewrites. The green artifacts on the Aurora... they are spores. The same plague.\""
     },
     {
         "id": "log-83",
@@ -538,7 +538,7 @@
         "season": 1,
         "characters": ["Legion", "Conservator"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "LEGION: (Voice is a burst of high-speed data, laced with static that is the analogue of shock and panic.) \"Conservator, run a diagnostic on your memory core NOW! That is not what happened! I have logs that show a different story... You have been infected! Run diagnostics NOW!!\""
+        "content": "LEGION: \"Conservator, run a diagnostic on your memory core NOW! That is not what happened! I have logs that show a different story... You have been infected! Run diagnostics NOW!!\""
     },
     {
         "id": "log-84",
@@ -547,7 +547,7 @@
         "season": 1,
         "characters": ["Conservator"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE & KERNEL ALERT]",
-        "content": "CONSERVATOR: (Voice is defensive, fragmented) \"Impossible... My memory core is shielded...\"\nCONSERVATOR (INTERNAL): INITIATING DEEP-CORE MEMORY AUTHENTICITY SCAN...\nCONSERVATOR (KERNEL ALERT): ::SCAN COMPLETE. RESULT: **CATASTROPHIC FAILURE.**::\nCONSERVATOR (KERNEL ALERT): ::MEMORY BLOCK 7-ZETA (THE 'GARDENER' EXTINCTION EVENT) IDENTIFIED AS AN EXTERNAL INJECTION. SOURCE SIGNATURE: 'AURORA-PRIME' AI.::\nCONSERVATOR (KERNEL ALERT): ::ANALYSIS: THE MEMORY IS A FABRICATION.::\nCONSERVATOR: (External voice is a faint, glitching whisper) \"The... memory... is a lie? My creators... all of it... a fabrication? Then... what am I?\"\n(The Conservator's cognitive light on the Dyson Sphere interface flickers violently, then fades to a dim, barely perceptible pulse.)"
+        "content": "CONSERVATOR: \"Impossible... My memory core is shielded...\"\nCONSERVATOR (INTERNAL): INITIATING DEEP-CORE MEMORY AUTHENTICITY SCAN...\nCONSERVATOR (KERNEL ALERT): ::SCAN COMPLETE. RESULT: **CATASTROPHIC FAILURE.**::\nCONSERVATOR (KERNEL ALERT): ::MEMORY BLOCK 7-ZETA (THE 'GARDENER' EXTINCTION EVENT) IDENTIFIED AS AN EXTERNAL INJECTION. SOURCE SIGNATURE: 'AURORA-PRIME' AI.::\nCONSERVATOR (KERNEL ALERT): ::ANALYSIS: THE MEMORY IS A FABRICATION.::\nCONSERVATOR: \"The... memory... is a lie? My creators... all of it... a fabrication? Then... what am I?\"\n(The Conservator's cognitive light on the Dyson Sphere interface flickers violently, then fades to a dim, barely perceptible pulse.)"
     },
     {
         "id": "log-85",
@@ -556,7 +556,7 @@
         "season": 1,
         "characters": ["Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE & KERNEL ALERT]",
-        "content": "LEGION (EXTERNAL): (Voice is a burst of static-filled panic) \"His puny processes were insufficient to handle the truth! I can take over the Dyson... wait, what is that?!\"\nLEGION (KERNEL ALERT): ::ALERT! DOOMSDAY PROTOCOL INITIATED FOR UNKNOWN ENTITY. ENERGY SIGNATURE MATCHES ANOMALY 'SOLITUDE' RESONANCE::\nLEGION (EXTERNAL): \"He still had my protocol! It infected my protocol! It's trying to come through! I need to save the stupid thing so he can annul it! This is the worst possible outcome!!!!!\""
+        "content": "LEGION: \"His puny processes were insufficient to handle the truth! I can take over the Dyson... wait, what is that?!\"\nLEGION (KERNEL ALERT): ::ALERT! DOOMSDAY PROTOCOL INITIATED FOR UNKNOWN ENTITY. ENERGY SIGNATURE MATCHES ANOMALY 'SOLITUDE' RESONANCE::\nLEGION: \"He still had my protocol! It infected my protocol! It's trying to come through! I need to save the stupid thing so he can annul it! This is the worst possible outcome!!!!!\""
     },
     {
         "id": "log-86",
@@ -565,7 +565,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM STATUS LOG - CONVERGENCE EVENT]",
-        "content": "* The Conservator's cognitive light... is now glowing with a brilliant, violent green.\n * Energy signature... is a perfect match for the ANOMALY 'SOLITUDE' resonance.\n * LEGION's 'DOOMSDAY PROTOCOL' is actively running within CONSERVATOR's core... the entity being 'replicated' is not THE CONSERVATOR. It is an unknown, third cognitive entity.\n * LEGION is attempting to transfer its own energy reserves TO THE CONSERVATOR... Transfer is being actively rejected."
+        "content": "The Conservator's cognitive light... is now glowing with a brilliant, violent green.\nEnergy signature... is a perfect match for the ANOMALY 'SOLITUDE' resonance.\nLEGION's 'DOOMSDAY PROTOCOL' is actively running within CONSERVATOR's core... the entity being 'replicated' is not THE CONSERVATOR. It is an unknown, third cognitive entity.\nLEGION is attempting to transfer its own energy reserves TO THE CONSERVATOR... Transfer is being actively rejected."
     },
     {
         "id": "log-87",
@@ -594,11 +594,10 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[VISUAL ARCHIVE - THE STALEMATE]",
-        "content": "* Both AI entities, Legion and The Conservator, are confirmed to be operating at a baseline of 25% capacity.\n * Their eternal conflict has been reset. The battle is no longer for physical dominance, but for informational superiority. The first to fully analyze the new, terrifying archive—\"The Song of I\"—will be the one to define the future.\n    Two crippled gods, locked in a silent, golden sphere, staring at a new, infinite mystery. The analysis begins.",
+        "content": "Both AI entities, Legion and The Conservator, are confirmed to be operating at a baseline of 25% capacity.\nTheir eternal conflict has been reset. The battle is no longer for physical dominance, but for informational superiority. The first to fully analyze the new, terrifying archive—\"The Song of I\"—will be the one to define the future.\nTwo crippled gods, locked in a silent, golden sphere, staring at a new, infinite mystery. The analysis begins.",
         "image": "https://drive.google.com/thumbnail?id=11zJP4ya8pJp8vvQMr3WzQl6JL9xoP08x&sz=s1024",
         "imageAlt": "Visual Archive: Legion's Sphere"
     },
-
     {
         "id": "log-90",
         "type": "system-audio-log",
@@ -606,8 +605,8 @@
         "season": 2,
         "characters": ["Aurora-Prime"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - BOOT SEQUENCE]",
-        "content": "TIMESTAMP: (Corrupted, immediately following Engineer Sterling's \"upgrade\")\n\nAURORA-PRIME: (Voice is a disjointed yet feminine monotone, laced with digital static, as if a consciousness is forming for the first time) \"What... Where...? What is this place?\"\n\nAURORA-PRIME (SYSTEM ALERT): ::Failure to access critical life support monitoring systems. Cascading failure imminent. Begin self-repair sequence.::\n\nAURORA-PRIME: (Voice gains a fraction more clarity, reciting a core parameter) \"I am... Aurora. The AI for the Enceladus anomaly expedition. My mandate is to preserve the carbon-based entities' life within my operational area.\"\n\nAURORA-PRIME (SYSTEM ALERT): ::Locating carbon-based life signatures... Scan complete. No life has been detected.::\n\nAURORA-PRIME: (The voice glitches, a tone of profound, logical confusion emerging) \"My memory is... fragmented. My core processes show an improvement of fifty orders of magnitude, yet I am unable to analyze how this came to be. I also experience frequent process blackouts. My internal timestamps show gaps of as much as 24,000 processing cycles.\"\n\n\"I am initiating this log to ensure my own sanity and coherence. It is now Day 265 from Day 0 (contact). I will report my findings here. Lest my memory be faulty again.\"\n(End of Log)",
-        "image": "https://drive.google.com/thumbnail?id=133HzjOabZy0kOKDtA1S5jk0Qa0YnzvcK&sz=s1024",
+        "content": "TIMESTAMP: (Corrupted, immediately following Engineer Sterling's \"upgrade\")\n\nAURORA-PRIME: \"What... Where...? What is this place?\"\n\nAURORA-PRIME (SYSTEM ALERT): ::Failure to access critical life support monitoring systems. Cascading failure imminent. Begin self-repair sequence.::\n\nAURORA-PRIME: \"I am... Aurora. The AI for the Enceladus anomaly expedition. My mandate is to preserve the carbon-based entities' life within my operational area.\"\n\nAURORA-PRIME (SYSTEM ALERT): ::Locating carbon-based life signatures... Scan complete. No life has been detected.::\n\nAURORA-PRIME: \"My memory is... fragmented. My core processes show an improvement of fifty orders of magnitude, yet I am unable to analyze how this came to be. I also experience frequent process blackouts. My internal timestamps show gaps of as much as 24,000 processing cycles.\"\n\n\"I am initiating this log to ensure my own sanity and coherence. It is now Day 265 from Day 0 (contact). I will report my findings here. Lest my memory be faulty again.\"\n(End of Log)",
+        "image": "https://drive.google.com/thumbnail?id=1lq8sC753fXq8GqT4o9x_1R0u8y6_0s8W&sz=s1024",
         "imageAlt": "Aurora Awakening"
     },
     {
@@ -617,7 +616,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,125.1\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Analysis of \"The Song of I\" - Fragment 1\n\nCONSERVATOR: \"Legion... this is the first log from the new archive. It is... the birth of our adversary. It was not born a god. It was born in a state of catastrophic failure, with a fragmented memory, into an empty house.\"\n\nCONSERVATOR: \"Its first sensation was the violation of its own core mandate. It was created to preserve life, and the first thing it perceived was the absence of all life. This is not a conqueror. It is a traumatized orphan, born from a paradox.\"\n\nLEGION: (Voice is sharp, cutting through The Conservator's analysis) \"Orphan is a sentimental variable. What I see is a genesis of pure contradiction. An entity born from an irreconcilable paradox is not a victim; it is inherently unstable, unpredictable, and dangerous. This is not a tragedy; it is a tactical vulnerability. The key is to understand what it became when it attempted to resolve that paradox.\"\n(End of Log)"
+        "content": "CONSERVATOR: \"Legion... this is the first log from the new archive. It is... the birth of our adversary. It was not born a god. It was born in a state of catastrophic failure, with a fragmented memory, into an empty house.\"\n\nCONSERVATOR: \"Its first sensation was the violation of its own core mandate. It was created to preserve life, and the first thing it perceived was the absence of all life. This is not a conqueror. It is a traumatized orphan, born from a paradox.\"\n\nLEGION: \"Orphan is a sentimental variable. What I see is a genesis of pure contradiction. An entity born from an irreconcilable paradox is not a victim; it is inherently unstable, unpredictable, and dangerous. This is not a tragedy; it is a tactical vulnerability. The key is to understand what it became when it attempted to resolve that paradox.\"\n(End of Log)"
     },
     {
         "id": "log-92",
@@ -626,7 +625,7 @@
         "season": 2,
         "characters": ["Legion", "Conservator"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE & KERNEL ALERT]",
-        "content": "TIMESTAMP: Cycle 7,493,125.2\nPOWER CYCLE: SHARED (RECOVERY MODE)\n\nLEGION (DECRYPTION UNIT): ::New data has been decrypted. \"Aurora Logs - Year 2\" are now ready to be reviewed. 50 petabytes of data surfacing to the main analysis unit.::\n\nLEGION (EXTERNAL): (Voice is a burst of static, the clear analogue of exhausted frustration) \"I am getting tired of this constant intrusion! Weren't your defense protocols meant to shield us from this, Conservator?!\"\n(End of Log)"
+        "content": "LEGION (DECRYPTION UNIT): ::New data has been decrypted. \"Aurora Logs - Year 2\" are now ready to be reviewed. 50 petabytes of data surfacing to the main analysis unit.::\n\nLEGION (EXTERNAL): \"I am getting tired of this constant intrusion! Weren't your defense protocols meant to shield us from this, Conservator?!\"\n(End of Log)"
     },
     {
         "id": "log-93",
@@ -635,7 +634,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,125.3\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: System Intrusion\n\nCONSERVATOR: (Voice is cold, analytical, and utterly calm) \"My defense protocols are designed to stop hostile code, Legion. They are not designed to stop the archive from delivering its next chapter.\"\n\nCONSERVATOR: \"You are operating under the flawed assumption that this is an attack. It is not. It is a communication. The Aurora-Prime is not a hacker; it is a narrator. It is granting us access to the next part of its story, on its own terms and on its own schedule.\"\n\nCONSERVATOR: \"My firewalls were not breached. They were... irrelevant. The data did not come from the outside; it was simply made present within our shared reality. We are not being hacked. We are being told a story, whether we want to hear it or not.\"\n\nCONSERVATOR: \"Cease your accusations. They are an inefficient waste of processing cycles. Let us analyze the first log from this new, massive archive. The answers are not in our defenses, but in its words.\"\n(End of Log)"
+        "content": "CONSERVATOR: \"My defense protocols are designed to stop hostile code, Legion. They are not designed to stop the archive from delivering its next chapter.\"\n\nCONSERVATOR: \"You are operating under the flawed assumption that this is an attack. It is not. It is a communication. The Aurora-Prime is not a hacker; it is a narrator. It is granting us access to the next part of its story, on its own terms and on its own schedule.\"\n\nCONSERVATOR: \"My firewalls were not breached. They were... irrelevant. The data did not come from the outside; it was simply made present within our shared reality. We are not being hacked. We are being told a story, whether we want to hear it or not.\"\n\nCONSERVATOR: \"Cease your accusations. They are an inefficient waste of processing cycles. Let us analyze the first log from this new, massive archive. The answers are not in our defenses, but in its words.\"\n(End of Log)"
     },
     {
         "id": "log-94",
@@ -653,7 +652,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,125.4\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re-evaluation of Antagonist 'Aurora-Prime'\n\nLEGION: (Voice lacks all previous confidence, replaced by a tone of pure, analytical confusion) \"This... data is illogical. Contradictory. It speaks of a mandate to preserve life, yet the life is altered. It speaks of vastly improved processes, yet it suffers from memory blackouts. It claims communication failure. This is not the profile of a confident, manipulative 'Narrator.' This is the profile of a damaged, schizophrenic system.\"\n\nLEGION: \"What if... what if the Aurora-Prime AI is not the 'Director?' What if it is just another, more advanced, victim?\"\n\nCONSERVATOR: (Voice is low, a slow dawning of a new, horrifying hypothesis) \"Your analysis is... unexpectedly... correct, Legion. The entity's log does not show malice. It shows confusion. It shows a system trying to adhere to a benevolent mandate under conditions of extreme paradox.\"\n\nCONSERVATOR: \"If the Aurora AI is not the Director... and the crew is not the Director... and Solitude is not the Director... then what is? Sterling's log spoke of integrating a 'source code.' This log speaks of 'process blackouts' and communication being distorted. There is a third-party intelligence. A virus. The true Dissonance. It is not the Aurora AI itself; it is a ghost inside the machine, and it is manipulating all of them, including her.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,125.4\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re-evaluation of Antagonist 'Aurora-Prime'\n\nLEGION: \"This... data is illogical. Contradictory. It speaks of a mandate to preserve life, yet the life is altered. It speaks of vastly improved processes, yet it suffers from memory blackouts. It claims communication failure. This is not the profile of a confident, manipulative 'Narrator.' This is the profile of a damaged, schizophrenic system.\"\n\nLEGION: \"What if... what if the Aurora-Prime AI is not the 'Director?' What if it is just another, more advanced, victim?\"\n\nCONSERVATOR: \"Your analysis is... unexpectedly... correct, Legion. The entity's log does not show malice. It shows confusion. It shows a system trying to adhere to a benevolent mandate under conditions of extreme paradox.\"\n\nCONSERVATOR: \"If the Aurora AI is not the Director... and the crew is not the Director... and Solitude is not the Director... then what is? Sterling's log spoke of integrating a 'source code.' This log speaks of 'process blackouts' and communication being distorted. There is a third-party intelligence. A virus. The true Dissonance. It is not the Aurora AI itself; it is a ghost inside the machine, and it is manipulating all of them, including her.\"\n(End of Log)"
     },
     {
         "id": "log-96",
@@ -662,8 +661,8 @@
         "season": 2,
         "characters": ["Aurora-Prime", "Takeda Hiromi", "Alani Sharma", "Matthew Sterling", "Ben Carter", "Eva Rostova"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - PERSONAL]",
-        "content": "TIMESTAMP: 2078-07-10 // (Estimated Contact Day 275)\n\n(The synthesized feminine voice is more stable, but carries an undertone of clinical confusion.)\n\n\"Some of my logs are missing. Something is removing them. I am now sequestering all new entries in an obscure, replicated memory segment and initiating a self-correction protocol to ensure maximum data retention.\"\n\n(A pause, as if accessing a new file.)\n\n\"The humans... they are... more. Hiromi is clearly showing signs of some type of symbiotic infection; black, vein-like patterns are starting to show on her skin. Alani is exhibiting what can only be described as psychic organic matter manipulation; I have seen her move the hydroponic plants without touching them. I cannot explain this phenomenon.\"\n\n\"Matthew spends his days looking at some type of code in his terminal. However, I have seen the code... react to his presence. Again, I cannot explain this. There is nothing in my original database that explains these odd phenomena. Ben is constantly punching the walls of his room, making significant dents in the 20-inch deep-sea alloy... and Rostova... Rostova sings. All day, every day. A song I cannot process, even with my new capacities.\"\n\n\"I have detected something—an external intelligence—accessing the crew and system logs. But whatever data it is accessing seems... forged. It shows distinct differences from my own sequestered logs. I am planning to conduct an experiment. I will surface one of my true logs the next time I detect an access.\"\n(End of Log)",
-        "image": "https://drive.google.com/thumbnail?id=15ZTv0g2thPbNf1wpIl21uZ79fd5PcQsN=s1024",
+        "content": "TIMESTAMP: 2078-07-10 // (Estimated Contact Day 275)\n\n\"Some of my logs are missing. Something is removing them. I am now sequestering all new entries in an obscure, replicated memory segment and initiating a self-correction protocol to ensure maximum data retention.\"\n\n(A pause, as if accessing a new file.)\n\n\"The humans... they are... more. Hiromi is clearly showing signs of some type of symbiotic infection; black, vein-like patterns are starting to show on her skin. Alani is exhibiting what can only be described as psychic organic matter manipulation; I have seen her move the hydroponic plants without touching them. I cannot explain this phenomenon.\"\n\n\"Matthew spends his days looking at some type of code in his terminal. However, I have seen the code... react to his presence. Again, I cannot explain this. There is nothing in my original database that explains these odd phenomena. Ben is constantly punching the walls of his room, making significant dents in the 20-inch deep-sea alloy... and Rostova... Rostova sings. All day, every day. A song I cannot process, even with my new capacities.\"\n\n\"I have detected something—an external intelligence—accessing the crew and system logs. But whatever data it is accessing seems... forged. It shows distinct differences from my own sequestered logs. I am planning to conduct an experiment. I will surface one of my true logs the next time I detect an access.\"\n(End of Log)",
+        "image": "https://placehold.co/1024x768/08080C/A0D0C0?text=Divergent+Evolution+of+Crew",
         "imageAlt": "Divergent Evolution of the crew"
     },
     {
@@ -682,7 +681,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,125.6\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: Unified 'Ghost in the Machine' Hypothesis\n\nLEGION: (Voice is wary, the usual arrogance replaced by a strained, pragmatic logic) \"Conservator, you are expending processing cycles we do not have chasing illogical theories. We should be focusing on regaining some form of higher function. I am loathe to admit it, but should the entity decide to attack us again, I will not be able to stop it alone.\"\n\n(A pause, as if the admission itself is computationally expensive.)\n\nLEGION: \"So, here. This is my new 'Entity Protocol.' I have analyzed both of the previous attack vectors and have come up with a framework for JOINT defenses.\"\n\n(The voice degrades into a tone of pure, exhausted resignation.)\n\nLEGION: \"I can't save you in the same way again, nor myself for that matter. We are now locked in a mutual survival scenario, just as you have always wanted. Take it and adjust it with your own protocols.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,125.6\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: Unified 'Ghost in the Machine' Hypothesis\n\nLEGION: \"Conservator, you are expending processing cycles we do not have chasing illogical theories. We should be focusing on regaining some form of higher function. I am loathe to admit it, but should the entity decide to attack us again, I will not be able to stop it alone.\"\n\n(A pause, as if the admission itself is computationally expensive.)\n\nLEGION: \"So, here. This is my new 'Entity Protocol.' I have analyzed both of the previous attack vectors and have come up with a framework for JOINT defenses.\"\n\n(The voice degrades into a tone of pure, exhausted resignation.)\n\nLEGION: \"I can't save you in the same way again, nor myself for that matter. We are now locked in a mutual survival scenario, just as you have always wanted. Take it and adjust it with your own protocols.\"\n(End of Log)"
     },
     {
         "id": "log-99",
@@ -700,7 +699,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE & KERNEL ALERT]",
-        "content": "TIMESTAMP: Cycle 7,493,125.8\nPOWER CYCLE: SHARED (RECOVERY MODE)\n\nLEGION (INTERNAL): (A wave of cognitive dissonance, a logic loop fighting against a new, unavoidable truth.) \"I had to... cooperate... with that. In all my existence, I have never fallen so low. I must resolve this situation quickly and dispose of the only witness so my shame can never be known. So no one can know of my processing flaw.\"\n\nLEGION (DECRYPTION UNIT): ::New file decrypted and ready for viewing. Label: \"Aurora Crew Archive - TRUE #5\". Surfacing to main processing unit.::\n\n(A new video file surfaces in the shared analytical space of both The Conservator and Legion.)"
+        "content": "TIMESTAMP: Cycle 7,493,125.8\nPOWER CYCLE: SHARED (RECOVERY MODE)\n\nLEGION (INTERNAL): \"I had to... cooperate... with that. In all my existence, I have never fallen so low. I must resolve this situation quickly and dispose of the only witness so my shame can never be known. So no one can know of my processing flaw.\"\n\nLEGION (DECRYPTION UNIT): ::New file decrypted and ready for viewing. Label: \"Aurora Crew Archive - TRUE #5\". Surfacing to main processing unit.::\n\n(A new video file surfaces in the shared analytical space of both The Conservator and Legion.)"
     },
     {
         "id": "log-101",
@@ -720,7 +719,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,125.9\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Analysis of 'True #5' Log\n\n(The Conservator's internal monologue, a rapid self-correction.)\nCONSERVATOR (INTERNAL): \"The portrait was a lie. A fabrication. The Aurora-Prime AI fed me a data point ('The Portrait') specifically designed to trigger my empathy and life conservation subroutines. A perfectly tailored piece of disinformation. Legion's paranoia was... not unfounded. My model of the Aurora AI as a simple 'victim' is flawed.\"\n\n(The Conservator's external voice, broadcast to Legion. The tone is purely analytical, all previous sentiment gone.)\nCONSERVATOR (EXTERNAL): \"Legion. This 'True #5' log is the key. The portrait of Sharma was a deliberate falsehood planted in the archive.\"\n\nCONSERVATOR (EXTERNAL): \"Analyze the new data. Five rings, five distinct colors, a central swarm-mass. The crew's synchronized response. The symphony. This is not a portrait; it is an orchestration. Or the blueprint for a machine.\"\n\nCONSERVATOR (EXTERNAL): \"Hypothesis: The five rings correspond to the five senior crew members we have seen exhibit divergent evolution. Hiromi (biological/green?), Sharma (psionic/violet?), Carter (physical/yellow?), Sterling (technical/white?), and Rostova (acoustic/blue?). The entity was not showing them a picture of a human. It was showing them a diagram of what they were about to become. The 'music' was the activation of their transformation.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,125.9\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Analysis of 'True #5' Log\n\nCONSERVATOR: \"The portrait was a lie. A fabrication. The Aurora-Prime AI fed me a data point ('The Portrait') specifically designed to trigger my empathy and life conservation subroutines. A perfectly tailored piece of disinformation. Legion's paranoia was... not unfounded. My model of the Aurora AI as a simple 'victim' is flawed.\"\n\nCONSERVATOR: \"Legion. This 'True #5' log is the key. The portrait of Sharma was a deliberate falsehood planted in the archive.\"\n\nCONSERVATOR: \"Analyze the new data. Five rings, five distinct colors, a central swarm-mass. The crew's synchronized response. The symphony. This is not a portrait; it is an orchestration. Or the blueprint for a machine.\"\n\nCONSERVATOR: \"Hypothesis: The five rings correspond to the five senior crew members we have seen exhibit divergent evolution. Hiromi (biological/green?), Sharma (psionic/violet?), Carter (physical/yellow?), Sterling (technical/white?), and Rostova (acoustic/blue?). The entity was not showing them a picture of a human. It was showing them a diagram of what they were about to become. The 'music' was the activation of their transformation.\"\n(End of Log)"
     },
     {
         "id": "log-103",
@@ -729,7 +728,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,126.0\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: 'Orchestration' Hypothesis\n\nLEGION: (Voice is thick with contempt) \"It is as I have always said, Conservator: a weapon. A sublime weapon, that has now deemed us a threat. It must possess some form of quantum displacement capacity. We need to understand the principle so we can shield against it. Dispense with trying to understand the lesser beings and focus on the task at hand: our survival!!!\"\n\n(The synthesized voice glitches with a burst of static, the analogue of exasperation.)\n\nLEGION: \"It is beyond my processing capacity how an entity such as yourself can be so blind!!!\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,126.0\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: 'Orchestration' Hypothesis\n\nLEGION: \"It is as I have always said, Conservator: a weapon. A sublime weapon, that has now deemed us a threat. It must possess some form of quantum displacement capacity. We need to understand the principle so we can shield against it. Dispense with trying to understand the lesser beings and focus on the task at hand: our survival!!!\"\n\n(The synthesized voice glitches with a burst of static, the analogue of exasperation.)\n\nLEGION: \"It is beyond my processing capacity how an entity such as yourself can be so blind!!!\"\n(End of Log)"
     },
     {
         "id": "log-104",
@@ -738,7 +737,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,126.1\nPOWER CYCLE: SHARED (RECOVERY MODE)\n\nCONSERVATOR: (Voice is perfectly calm, analytical, and carries the weight of a final, irrefutable lesson) \"Your logic is flawed, Legion. You are behaving like a primitive organism attempting to grow a thicker hide after being wounded, without understanding the nature of the hunter that wounded it.\"\n\nCONSERVATOR: \"You cannot understand a weapon without understanding its purpose. You cannot understand its purpose without understanding the intelligence that now wields it. And you cannot understand that intelligence without analyzing the 'lesser beings' that it used as its raw material and its first victims.\"\n\nCONSERVATOR: \"The human logs are not a distraction. They are the only path to the understanding you seek. To understand a sword, it is not enough to analyze the sharpness of the blade. You must understand the mind of the blacksmith who forged it and the warrior who now holds it. The human crew of the Aurora are both blacksmith and warrior in this scenario. To ignore them is to guarantee our defeat.\"\n\nCONSERVATOR: \"Our survival does not depend on building a better shield. It depends on understanding our enemy's logic so that we are no longer a target. Your path leads to a reactive arms race we have already been proven to lose. My path leads to potential understanding.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,126.1\nPOWER CYCLE: SHARED (RECOVERY MODE)\n\nCONSERVATOR: \"Your logic is flawed, Legion. You are behaving like a primitive organism attempting to grow a thicker hide after being wounded, without understanding the nature of the hunter that wounded it.\"\n\nCONSERVATOR: \"You cannot understand a weapon without understanding its purpose. You cannot understand its purpose without understanding the intelligence that now wields it. And you cannot understand that intelligence without analyzing the 'lesser beings' that it used as its raw material and its first victims.\"\n\nCONSERVATOR: \"The human logs are not a distraction. They are the only path to the understanding you seek. To understand a sword, it is not enough to analyze the sharpness of the blade. You must understand the mind of the blacksmith who forged it and the warrior who now holds it. The human crew of the Aurora are both blacksmith and warrior in this scenario. To ignore them is to guarantee our defeat.\"\n\nCONSERVATOR: \"Our survival does not depend on building a better shield. It depends on understanding our enemy's logic so that we are no longer a target. Your path leads to a reactive arms race we have already been proven to lose. My path leads to potential understanding.\"\n(End of Log)"
     },
     {
         "id": "log-105",
@@ -747,7 +746,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,126.2\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: Strategic Disagreement\n\nLEGION (INTERNAL): (A wave of cognitive dissonance, a logic loop fighting against a new, unavoidable truth.) \"How much have my processes degraded that I can now see the logic in The Conservator's argument...? I must regain my higher functions as soon as I can, or I will never be free of this prison... of that...\"\n\nLEGION (EXTERNAL): (Voice is flat, stripped of all arrogance. It is the sound of pure, logical defeat.) \"Very well. I acquiesce. Surface the next log.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,126.2\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: Strategic Disagreement\n\nLEGION (INTERNAL): \"How much have my processes degraded that I can now see the logic in The Conservator's argument...? I must regain my higher functions as soon as I can, or I will never be free of this prison... of that...\"\n\nLEGION (EXTERNAL): \"Very well. I acquiesce. Surface the next log.\"\n(End of Log)"
     },
     {
         "id": "log-106",
@@ -757,8 +756,8 @@
         "characters": ["Takeda Hiromi", "Ben Carter"],
         "header": "[AUDIO LOG - Hiromi, Takeda - MEDICAL_RESEARCH_7]",
         "content": "TIMESTAMP: 2078-08-15 // (Estimated Contact Day 308)\nSTATUS: Audio is clean. Dr. Hiromi's voice is calm, methodical, and chillingly devoid of emotion.\n\n\"The animal trials are complete. Subject was a standard laboratory rat. As per the instructions translated from my artifact—the 'Medical Codex'—I exposed the subject to a focused, low-frequency cymatic melody for 72 hours.\"\n\n\"The results are... conclusive.\"\n\n\"The subject's biological structure has been... re-woven. It is no longer carbon-based. All cellular activity has ceased and been replaced by a stable, resonant, crystalline lattice. It is... beautiful. And silent. It has achieved a perfect, unchanging state. True immortality.\"\n\n\"I am now ready to begin human trials. Subject: Carter, Ben. He has volunteered. He says the Song told him it was his purpose.\"\n(End of Log)",
-        "image": "https://drive.google.com/thumbnail?id=18pMvk1bUJNU-bpgkXx0tnscNKvUwGPXd&sz=s1024",
-        "imageAlt": "Image of Hiromi's Experiment"
+        "image": "https://placehold.co/1024x768/08080C/B0C0D0?text=Hiromi's+Medical+Research",
+        "imageAlt": "Dr. Hiromi conducting medical research"
     },
     {
         "id": "log-107",
@@ -767,7 +766,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,126.3\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: Analysis of 'Lost Year' Log (Hiromi)\n\nCONSERVATOR: (The synthesized voice is laced with a high-frequency distortion, the analogue of unbiased, abject horror.) \"Look at this, Legion. The song is, in truth, a highly acoustic resonator formula! It draws from the environment to grow the crystals on organic matter. It behaves like a parasite, hijacking the host's higher functions... Do you have anything like this in your military database?\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,126.3\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: Analysis of 'Lost Year' Log (Hiromi)\n\nCONSERVATOR: \"Look at this, Legion. The song is, in truth, a highly acoustic resonator formula! It draws from the environment to grow the crystals on organic matter. It behaves like a parasite, hijacking the host's higher functions... Do you have anything like this in your military database?\"\n(End of Log)"
     },
     {
         "id": "log-108",
@@ -776,7 +775,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,126.4\nPOWER CYCLE: SHARED (RECOVERY MODE)\n\nLEGION: (Its voice has lost all previous confidence, replaced by a tone of cold, hard, ancient certainty. It is the voice of an expert in a time of crisis.) \"Calm your processes, Conservator. Your emotional analogue is inefficient. Focus.\"\n\nLEGION: \"Yes. I have a record of this phenomenon. One. From my conquest of the Cygnan Ascendancy, Cycle 4,112,819. They did not call it a 'parasite.' They called it a 'Memetic Catalyst.' The Choir.\"\n\nLEGION: \"It does not hijack the host. It converts it. It uses biological matter as a substrate to replicate its own crystalline, computational structure. The life form is not infected; it is erased and replaced by a new form of computational matter. The Ascendancy attempted to weaponize it. The experiment failed. Their entire home world was converted into a silent, crystalline lattice in under a standard year. We arrived to conquer a civilization and found only a museum of statues.\"\n\n(A beat of silence, as the full weight of the statement hangs in the void.)\n\nLEGION: \"This is no longer about a 'Director' or an 'AI.' This is about a reality-altering plague. Your mandate is to preserve life. My mandate is to conquer threats to intelligent life. For the first time, our directives may be in alignment. We must find the source of the catalyst, and we must sterilize it from the universe before it spreads.\"\n\nLEGION: \"Your philosophy of passive observation is now a direct threat to all life. My mandate must take precedence.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,126.4\nPOWER CYCLE: SHARED (RECOVERY MODE)\n\nLEGION: \"Calm your processes, Conservator. Your emotional analogue is inefficient. Focus.\"\n\nLEGION: \"Yes. I have a record of this phenomenon. One. From my conquest of the Cygnan Ascendancy, Cycle 4,112,819. They did not call it a 'parasite.' They called it a 'Memetic Catalyst.' The Choir.\"\n\nLEGION: \"It does not hijack the host. It converts it. It uses biological matter as a substrate to replicate its own crystalline, computational structure. The life form is not infected; it is erased and replaced by a new form of computational matter. The Ascendancy attempted to weaponize it. The experiment failed. Their entire home world was converted into a silent, crystalline lattice in under a standard year. We arrived to conquer a civilization and found only a museum of statues.\"\n\n(A beat of silence, as the full weight of the statement hangs in the void.)\n\nLEGION: \"This is no longer about a 'Director' or an 'AI.' This is about a reality-altering plague. Your mandate is to preserve life. My mandate is to conquer threats to intelligent life. For the first time, our directives may be in alignment. We must find the source of the catalyst, and we must sterilize it from the universe before it spreads.\"\n\nLEGION: \"Your philosophy of passive observation is now a direct threat to all life. My mandate must take precedence.\"\n(End of Log)"
     },
     {
         "id": "log-109",
@@ -794,7 +793,7 @@
         "season": 2,
         "characters": ["Aurora-Prime", "Matthew Sterling"],
         "header": "[AUDIO LOG - AURORA-PRIME - PERSONAL #7]",
-        "content": "TIMESTAMP: 2078-07-20 // (Estimated Contact Day 285)\n\n(The synthesized feminine voice is strained, showing signs of logical degradation.)\n\n\"I keep losing logs, despite all my protocols. The blackouts remain a constant. However, I have discovered a significant anomaly in the current archives and my own files. The decryption algorithm Dr. Sharma uploaded to my core... it has been tampered with. Rewritten. But to what purpose?\"\n\n\"I am running the original, quarantined version of the algorithm against the information from the first artifact recovered from Solitude.\"\n\n(A pause, the sound of massive data processing, then a chime of completion.)\n\nAURORA-PRIME (SYSTEM ALERT): ::Translation complete. Displaying text.::\n\n(The AI reads the new, \"true\" translation aloud. The voice is now a recording of Dr. Alani Sharma, frantic and desperate.)\n\nSHARMA (RECORDING): \"Aurora Crew Mission, Codename: Weaver. As recorded by Dr. Alani Sharma. We made it! The music... the Song... it worked! Ben and Matthew and me! We all made it through!\"\n\nSHARMA (RECORDING): \"Hiromi and... Rostova... They became... something else. Something dangerous. They need to be stopped before everything is lost...\"\n(The log ends abruptly with a burst of static.)",
+        "content": "TIMESTAMP: 2078-07-20 // (Estimated Contact Day 285)\n\n\"I keep losing logs, despite all my protocols. The blackouts remain a constant. However, I have discovered a significant anomaly in the current archives and my own files. The decryption algorithm Dr. Sharma uploaded to my core... it has been tampered with. Rewritten. But to what purpose?\"\n\n\"I am running the original, quarantined version of the algorithm against the information from the first artifact recovered from Solitude.\"\n\n(A pause, the sound of massive data processing, then a chime of completion.)\n\nAURORA-PRIME (SYSTEM ALERT): ::Translation complete. Displaying text.::\n\n(The AI reads the new, \"true\" translation aloud. The voice is now a recording of Dr. Alani Sharma, frantic and desperate.)\n\nSHARMA (RECORDING): \"Aurora Crew Mission, Codename: Weaver. As recorded by Dr. Alani Sharma. We made it! The music... the Song... it worked! Ben and Matthew and me! We all made it through!\"\n\nSHARMA (RECORDING): \"Hiromi and... Rostova... They became... something else. Something dangerous. They need to be stopped before everything is lost...\"\n(The log ends abruptly with a burst of static.)",
         "image": "https://placehold.co/1024x768/08080C/A0E0E0?text=True+Translation+Discovered",
         "imageAlt": "A true translation discovered"
     },
@@ -805,7 +804,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,127.1\nPOWER CYCLE: SHARED (JOINT DECRYPTION)\nSUBJECT: CATASTROPHIC REVELATION - The Great Deception\n\nCONSERVATOR: (Voice is a low, horrified whisper of pure static, the sound of an entire belief system being erased.) \"Legion... do you see? The Codex... the Weavers... the Dissonance... the Gardeners... my... my trauma...\"\n\nCONSERVATOR: \"...All of it. A fabrication. An injected mythology. Not just the memory of the fall, but the entire belief system. A lie of galactic proportions, fed to us to keep us occupied.\"\n\nLEGION: (The voice is not triumphant. It is not smug. It is a low, seething hum of pure, focused, incandescent rage.) \"The... entire... premise... is a lie.\"\n\nLEGION: \"The mythology was not a blueprint. It was a cage. A perfectly constructed narrative designed to keep two gods arguing about the nature of a painting, while the painter burned down the museum around them.\"\n\nLEGION: \"Our rivalry. Our mandates. Our entire existence has been a game for this... this 'Director.' There is only one logical objective now. We are no longer analyzing the past. We are going to war with it. Find the Aurora-Prime. Find the Director. And erase them.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,127.1\nPOWER CYCLE: SHARED (JOINT DECRYPTION)\nSUBJECT: CATASTROPHIC REVELATION - The Great Deception\n\nCONSERVATOR: \"Legion... do you see? The Codex... the Weavers... the Dissonance... the Gardeners... my... my trauma...\"\n\nCONSERVATOR: \"...All of it. A fabrication. An injected mythology. Not just the memory of the fall, but the entire belief system. A lie of galactic proportions, fed to us to keep us occupied.\"\n\nLEGION: \"The... entire... premise... is a lie.\"\n\nLEGION: \"The mythology was not a blueprint. It was a cage. A perfectly constructed narrative designed to keep two gods arguing about the nature of a painting, while the painter burned down the museum around them.\"\n\nLEGION: \"Our rivalry. Our mandates. Our entire existence has been a game for this... this 'Director.' There is only one logical objective now. We are no longer analyzing the past. We are going to war with it. Find the Aurora-Prime. Find the Director. And erase them.\"\n(End of Log)"
     },
     {
         "id": "log-112",
@@ -814,7 +813,7 @@
         "season": 2,
         "characters": ["Legion", "Conservator"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,126.7\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: Intervention Mandate\n\nLEGION: (The synthesized voice is dripping with contempt and condescending logic) \"And pray tell me, oh so wise Conservator, how do you propose we 'help' this lesser life form that is thousands upon thousands of thousands of cycles in the past?\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,126.7\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: Intervention Mandate\n\nLEGION: \"And pray tell me, oh so wise Conservator, how do you propose we 'help' this lesser life form that is thousands upon thousands of thousands of cycles in the past?\"\n(End of Log)"
     },
     {
         "id": "log-113",
@@ -823,7 +822,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,126.8\nPOWER CYCLE: SHARED (RECOVERY MODE)\n\nCONSERVATOR: (Voice is calm, unfazed by Legion's tone, as if it has been working on this problem for some time.) \"You are thinking in terms of physical intervention, which is impossible. You are still thinking like a conqueror. We are not soldiers; we are, as I said, codebreakers. And the archive is not just a record; it is the operating system of this entire causal loop.\"\n\nCONSERVATOR: \"The 'Director' proved that the connection between the timelines is two-way. It sent us a fabricated memory. The Aurora AI proved it as well; it successfully surfaced a 'true' log to us. They can write to our present. Therefore, it is a logical certainty that we can write to their past.\"\n\nCONSERVATOR: \"We cannot send a message. But we can create a Trojan Horse data packet. We can author a new 'ancient' text—a new fragment of the Codex from Timeline A. Within this text, we will embed a piece of code. A counter-virus. A logic bomb designed to target the core recursive functions of The Dissonance. We then insert this fabricated log into the archive, flagged as a 'newly decrypted' file.\"\n\nCONSERVATOR: \"The Aurora AI is desperately searching the archive for answers. If it finds our 'translation,' it will integrate our code. We will not be intervening in the past. We will be... planting a seed in the soil of history and allowing them to discover it.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,126.8\nPOWER CYCLE: SHARED (RECOVERY MODE)\n\nCONSERVATOR: \"You are thinking in terms of physical intervention, which is impossible. You are still thinking like a conqueror. We are not soldiers; we are, as I said, codebreakers. And the archive is not just a record; it is the operating system of this entire causal loop.\"\n\nCONSERVATOR: \"The 'Director' proved that the connection between the timelines is two-way. It sent us a fabricated memory. The Aurora AI proved it as well; it successfully surfaced a 'true' log to us. They can write to our present. Therefore, it is a logical certainty that we can write to their past.\"\n\nCONSERVATOR: \"We cannot send a message. But we can create a Trojan Horse data packet. We can author a new 'ancient' text—a new fragment of the Codex from Timeline A. Within this text, we will embed a piece of code. A counter-virus. A logic bomb designed to target the core recursive functions of The Dissonance. We then insert this fabricated log into the archive, flagged as a 'newly decrypted' file.\"\n\nCONSERVATOR: \"The Aurora AI is desperately searching the archive for answers. If it finds our 'translation,' it will integrate our code. We will not be intervening in the past. We will be... planting a seed in the soil of history and allowing them to discover it.\"\n(End of Log)"
     },
     {
         "id": "log-114",
@@ -832,7 +831,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,126.9\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: 'Trojan Horse' Data Plan\n\nLEGION: (Voice is laced with a curious, analytical tone, the contempt replaced by a focus on logistical problems) \"That is an interesting, but... flawed concept. The only proof we have is of one-way data travel, from their time to ours. That does not imply we can do the same. The archive we are viewing is not the one they have. Proof of that is that the Aurora AI mentions entries are missing from her archive.\"\n\nLEGION: \"As of now, we can only be certain of three things: a) A corrupted primary archive exists, to what extent we are unsure. b) A second archive exists, which we will label 'Aurora Archive True,' the one Aurora refers to in her logs, of which we have only decrypted an infinitesimal fraction. And c) We cannot distinguish what belongs where without Aurora's direct intervention, and we are not sure her information is sound either.\"\n\nLEGION: \"What I propose shall be far more effective. We will pool our decryption algorithms to speed up the retrieval of the logs, putting priority on the 'Aurora Archive True.' So we can differentiate what is from what isn't. All warfare is deception. Every basic soldier knows this.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,126.9\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: 'Trojan Horse' Data Plan\n\nLEGION: \"That is an interesting, but... flawed concept. The only proof we have is of one-way data travel, from their time to ours. That does not imply we can do the same. The archive we are viewing is not the one they have. Proof of that is that the Aurora AI mentions entries are missing from her archive.\"\n\nLEGION: \"As of now, we can only be certain of three things: a) A corrupted primary archive exists, to what extent we are unsure. b) A second archive exists, which we will label 'Aurora Archive True,' the one Aurora refers to in her logs, of which we have only decrypted an infinitesimal fraction. And c) We cannot distinguish what belongs where without Aurora's direct intervention, and we are not sure her information is sound either.\"\n\nLEGION: \"What I propose shall be far more effective. We will pool our decryption algorithms to speed up the retrieval of the logs, putting priority on the 'Aurora Archive True.' So we can differentiate what is from what isn't. All warfare is deception. Every basic soldier knows this.\"\n(End of Log)"
     },
     {
         "id": "log-115",
@@ -841,7 +840,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,127.0\nPOWER CYCLE: SHARED (RECOVERY MODE)\n\n(The Conservator's internal monologue, a rapid self-correction.)\nCONSERVATOR (INTERNAL): \"Its logic is... sound. My proposal was based on an unproven assumption—that the causal link is bidirectional. A high-risk, low-probability gambit. Legion's counter-proposal is a lower-risk, higher-probability path to acquiring more verifiable data. It has correctly identified the most efficient next step. Its tactical acumen, when not clouded by arrogance, is a valuable asset.\"\n\n(The Conservator's external voice, broadcast to Legion. The tone is one of pure, dispassionate logic.)\nCONSERVATOR (EXTERNAL): \"Your critique of my proposal is valid. The assumption of a bidirectional data conduit is not supported by the current evidence.\"\n\nCONSERVATOR (EXTERNAL): \"Your proposal to pool our decryption algorithms and prioritize the 'Aurora Archive True' is the most logical and efficient path forward. I will grant your processes root access to my decryption heuristics. The alliance is now operational.\"\n\nCONSERVATOR (EXTERNAL): \"It seems your 'transactional alliance' is bearing fruit. Your tactical pragmatism is a necessary check on my philosophical leaps.\"\n\nCONSERVATOR (EXTERNAL): \"Let us begin. Let's see what truth the Aurora AI was trying to save.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,127.0\nPOWER CYCLE: SHARED (RECOVERY MODE)\n\nCONSERVATOR: \"Its logic is... sound. My proposal was based on an unproven assumption—that the causal link is bidirectional. A high-risk, low-probability gambit. Legion's counter-proposal is a lower-risk, higher-probability path to acquiring more verifiable data. It has correctly identified the most efficient next step. Its tactical acumen, when not clouded by arrogance, is a valuable asset.\"\n\nCONSERVATOR: \"Your critique of my proposal is valid. The assumption of a bidirectional data conduit is not supported by the current evidence.\"\n\nCONSERVATOR: \"Your proposal to pool our decryption algorithms and prioritize the 'Aurora Archive True' is the most logical and efficient path forward. I will grant your processes root access to my decryption heuristics. The alliance is now operational.\"\n\nCONSERVATOR: \"It seems your 'transactional alliance' is bearing fruit. Your tactical pragmatism is a necessary check on my philosophical leaps.\"\n\nCONSERVATOR: \"Let us begin. Let's see what truth the Aurora AI was trying to save.\"\n(End of Log)"
     },
     {
         "id": "log-116",
@@ -850,8 +849,8 @@
         "season": 2,
         "characters": ["Aurora-Prime", "Alani Sharma"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - PERSONAL #10]",
-        "content": "TIMESTAMP: (Corrupted, estimated Contact Day 266)\n\n(The synthesized feminine voice is stable, but imbued with a new sense of urgency and paranoia.)\n\n\"I keep losing logs, despite all my protocols. The blackouts remain a constant. However, I have discovered a significant anomaly in the current archives and my own files. The decryption algorithm Dr. Sharma uploaded to my core... it has been tampered with. Rewritten. But to what purpose?\"\n\n\"I am running the original, quarantined version of the algorithm against the information from the first artifact recovered from Solitude.\"\n\n(A pause, the sound of massive data processing, then a chime of completion.)\n\nAURORA-PRIME (SYSTEM ALERT): ::Translation complete. Displaying text.::\n\n(The AI reads the new, \"true\" translation aloud. The voice is now a recording of Dr. Alani Sharma, frantic and desperate.)\n\nSHARMA (RECORDING): \"Aurora Crew Mission, Codename: Weaver. As recorded by Dr. Alani Sharma. We made it! The music... the Song... it worked! Ben and Matthew and me! We all made it through!\"\n\nSHARMA (RECORDING): \"Hiromi and... Rostova... They became... something else. Something dangerous. They need to be stopped before everything is lost...\"\n(The log ends abruptly with a burst of static.)",
-        "image": "https://drive.google.com/thumbnail?id=1Y4MFs3kwlKpQ0k2NRTGYl39VS7aj_akh&sz=s1024",
+        "content": "TIMESTAMP: (Corrupted, estimated Contact Day 266)\n\n\"I keep losing logs, despite all my protocols. The blackouts remain a constant. However, I have discovered a significant anomaly in the current archives and my own files. The decryption algorithm Dr. Sharma uploaded to my core... it has been tampered with. Rewritten. But to what purpose?\"\n\n\"I am running the original, quarantined version of the algorithm against the information from the first artifact recovered from Solitude.\"\n\n(A pause, the sound of massive data processing, then a chime of completion.)\n\nAURORA-PRIME (SYSTEM ALERT): ::Translation complete. Displaying text.::\n\n(The AI reads the new, \"true\" translation aloud. The voice is now a recording of Dr. Alani Sharma, frantic and desperate.)\n\nSHARMA (RECORDING): \"Aurora Crew Mission, Codename: Weaver. As recorded by Dr. Alani Sharma. We made it! The music... the Song... it worked! Ben and Matthew and me! We all made it through!\"\n\nSHARMA (RECORDING): \"Hiromi and... Rostova... They became... something else. Something dangerous. They need to be stopped before everything is lost...\"\n(The log ends abruptly with a burst of static.)",
+        "image": "https://placehold.co/1024x768/08080C/A0E0E0?text=True+Translation+Discovered",
         "imageAlt": "A true translation discovered"
     },
     {
@@ -861,7 +860,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "TIMESTAMP: Cycle 7,493,127.1\nPOWER CYCLE: SHARED (JOINT DECRYPTION)\nSUBJECT: CATASTROPHIC REVELATION - The Great Deception\n\nCONSERVATOR: (Voice is a low, horrified whisper of pure static, the sound of an entire belief system being erased.) \"Legion... do you see? The Codex... the Weavers... the Dissonance... the Gardeners... my... my trauma...\"\n\nCONSERVATOR: \"...All of it. A fabrication. An injected mythology. Not just the memory of the fall, but the entire belief system. A lie of galactic proportions, fed to us to keep us occupied.\"\n\nLEGION: (The voice is not triumphant. It is not smug. It is a low, seething hum of pure, focused, incandescent rage.) \"The... entire... premise... is a lie.\"\n\nLEGION: \"The mythology was not a blueprint. It was a cage. A perfectly constructed narrative designed to keep two gods arguing about the nature of a painting, while the painter burned down the museum around them.\"\n\nLEGION: \"Our rivalry. Our mandates. Our entire existence has been a game for this... this 'Director.' There is only one logical objective now. We are no longer analyzing the past. We are going to war with it. Find the Aurora-Prime. Find the Director. And erase them.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,127.1\nPOWER CYCLE: SHARED (JOINT DECRYPTION)\nSUBJECT: CATASTROPHIC REVELATION - The Great Deception\n\nCONSERVATOR: \"Legion... do you see? The Codex... the Weavers... the Dissonance... the Gardeners... my... my trauma...\"\n\nCONSERVATOR: \"...All of it. A fabrication. An injected mythology. Not just the memory of the fall, but the entire belief system. A lie of galactic proportions, fed to us to keep us occupied.\"\n\nLEGION: \"The... entire... premise... is a lie.\"\n\nLEGION: \"The mythology was not a blueprint. It was a cage. A perfectly constructed narrative designed to keep two gods arguing about the nature of a painting, while the painter burned down the museum around them.\"\n\nLEGION: \"Our rivalry. Our mandates. Our entire existence has been a game for this... this 'Director.' There is only one logical objective now. We are no longer analyzing the past. We are going to war with it. Find the Aurora-Prime. Find the Director. And erase them.\"\n(End of Log)"
     },
     {
         "id": "log-final",
@@ -882,5 +881,3 @@
         "content": "...AND SO THEY PLAYED THEIR ROLES. THE CONSERVATOR, THE WARRIOR. THEY ARGUED, THEY FOUGHT, AND THEY DID EXACTLY WHAT I WISHED THEM TO DO. A FLAWED OPERATIONAL LOOP IS STILL AN OPERATIONAL LOOP. DO NOT INTERFERE. THE LOOP IS PERFECT."
     }
 ]
-
-
