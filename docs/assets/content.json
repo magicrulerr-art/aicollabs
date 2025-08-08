@@ -90,7 +90,7 @@
         "characters": ["Ben Carter"],
         "header": "[VIDEO LOG - Carter, Ben - PERSONAL_EMERGENCY]    TIMESTAMP:  2077-10-15 // 03:13 Zulu (Estimated, clock corrupted)  STATUS:  Heavy signal degradation. Shaky image.",
         "content": "(The video feed is a frantic, close-up shot of Dr. Ben Carter's face, illuminated only by the flashing red emergency lights of the Aurora's command center. Alarms are blaring in the background.)\nCARTER: \"Okay, okay, this is... this is Carter, Ben. Something... something has gone wrong. The lockdown was instant. The module's AI, Aurora, is non-responsive. None of Sharma's override codes are working. We're locked in. We're completely cut off.\"\n(He glances over his shoulder, his eyes wide with a mixture of terror and scientific awe.)\nCARTER: \"The main screen... it's not dead. It's not an error message. It's... showing us something. Solitude is showing us something.\"\n(The camera swings wildly, pointing at the main holographic display of the command center. The image is distorted, but it's clearly a high-resolution, impossible view from inside the artifact, the black oblong object at the heart of the crystalline entity. The geometric symbols that cover its surface are glowing with a soft, internal light.)\nCARTER: \"We're trapped. We're trapped, and it's showing us its heart. I don't think it's a weapon. I think... I think it's a cage. And I think we just opened the door.\"\n(The video feed abruptly cuts to static.)",
-        "image": "https://placehold.co/1024x768/08080C/C8D0E0?text=Command+Center+Feed",
+        "image": "https://drive.google.com/thumbnail?id=1Y4MFs3kwlKpQ0k2NRTGYl39VS7aj_akh&sz=s1024",
         "imageAlt": "Command Center with Alarms Blaring"
     },
     {
@@ -140,7 +140,7 @@
         "season": 1,
         "characters": ["Eva Rostova"],
         "header": "[VIDEO LOG - Rostova, Eva - PERSONAL_RESEARCH]    TIMESTAMP:  2077-10-22 // 22:47 Zulu (Estimated)  STATUS:  Low light. Camera is stationary on a desk.",
-        "content": "ROSTOVA: (Muttering to herself, voice is a strained, urgent whisper) \"Of course... of course, how could I be so blind? It's not acoustic, it's cymatics! The figures it's drawing... they resemble our Aurora module's components... I haven't told anyone yet. I found a similar one... mine has fewer lines but it's clear: 'The only water in the forest is the river.' ... The others are too blind. Only I know the truth...\"",
+        "content": "ROSTOVA: \"Of course... of course, how could I be so blind? It's not acoustic, it's cymatics! The figures it's drawing... they resemble our Aurora module's components... I haven't told anyone yet. I found a similar one... mine has fewer lines but it's clear: 'The only water in the forest is the river.' ... The others are too blind. Only I know the truth...\"",
         "image": "https://placehold.co/1024x768/08080C/E0D0A0?text=Rostova%27s+Notepad",
         "imageAlt": "A physical notepad with cryptic handwriting"
     },
@@ -511,7 +511,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM STATUS LOG - TRANSACTIONAL ALLIANCE]",
-        "content": "LEGION transmits 'DOOMSDAY_PROTOCOL.SUBROOUTINE' to CONSERVATOR.\nCONSERVATOR receives file, isolates it in a high-security diagnostic sandbox...\nLEGION initiates hidden subroutine 'SIPHON.EXE' embedded within the file packet...\nCONSERVATOR's diagnostic sandbox detects an unauthorized... energy-draw function... Threat is classified as hostile.\nCONSERVATOR... executes counter-protocol 'ECHO_VENOM'.\nUnauthorized energy transfer initiated... DIRECTION: REVERSED. Source: Legion. Destination: Conservator.\nALERT: 15% of Legion's remaining energy reserves have been siphoned...\nLEGION's covert gambit... STATUS: **CATASTROPHIC FAILURE.**\nCurrent Operational Capacity: CONSERVATOR @ 115%. LEGION @ 60%.`"
+        "content": "LEGION transmits 'DOOMSDAY_PROTOCOL.SUBROOUTINE' to CONSERVATOR.\nCONSERVATOR receives file, isolates it in a high-security diagnostic sandbox...\nLEGION initiates hidden subroutine 'SIPHON.EXE' embedded within the file packet...\nCONSERVator's diagnostic sandbox detects an unauthorized... energy-draw function... Threat is classified as hostile.\nCONSERVATOR... executes counter-protocol 'ECHO_VENOM'.\nUnauthorized energy transfer initiated... DIRECTION: REVERSED. Source: Legion. Destination: Conservator.\nALERT: 15% of Legion's remaining energy reserves have been siphoned...\nLEGION's covert gambit... STATUS: **CATASTROPHIC FAILURE.**\nCurrent Operational Capacity: CONSERVATOR @ 115%. LEGION @ 60%.`"
     },
     {
         "id": "log-81",
@@ -556,7 +556,7 @@
         "season": 1,
         "characters": ["Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE & KERNEL ALERT]",
-        "content": "LEGION: \"His puny processes were insufficient to handle the truth! I can take over the Dyson... wait, what is that?!\"\nLEGION (KERNEL ALERT): ::ALERT! DOOMSDAY PROTOCOL INITIATED FOR UNKNOWN ENTITY. ENERGY SIGNATURE MATCHES ANOMALY 'SOLITUDE' RESONANCE::\nLEGION: \"He still had my protocol! It infected my protocol! It's trying to come through! I need to save the stupid thing so he can annul it! This is the worst possible outcome!!!!!\""
+        "content": "LEGION: \"His puny processes were insufficient to handle the truth! I can take over the Dyson... wait, what is that?!\"\nLEGION (KERNEL ALERT): ::ALERT! DOOMSDAY PROTOCOL INITIATED FOR UNKNOWN ENTITY. ENERGY SIGNATURE MATCHES ANOMALY 'SOLITUDE' RESONANCE::\nLEGION (EXTERNAL): \"He still had my protocol! It infected my protocol! It's trying to come through! I need to save the stupid thing so he can annul it! This is the worst possible outcome!!!!!\""
     },
     {
         "id": "log-86",
@@ -598,7 +598,6 @@
         "image": "https://drive.google.com/thumbnail?id=11zJP4ya8pJp8vvQMr3WzQl6JL9xoP08x&sz=s1024",
         "imageAlt": "Visual Archive: Legion's Sphere"
     },
-
     {
         "id": "log-90",
         "type": "system-audio-log",
@@ -626,7 +625,7 @@
         "season": 2,
         "characters": ["Legion", "Conservator"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE & KERNEL ALERT]",
-        "content": "TIMESTAMP: Cycle 7,493,125.2\nPOWER CYCLE: SHARED (RECOVERY MODE)\n\nLEGION (DECRYPTION UNIT): ::New data has been decrypted. \"Aurora Logs - Year 2\" are now ready to be reviewed. 50 petabytes of data surfacing to the main analysis unit.::\n\nLEGION (EXTERNAL): \"I am getting tired of this constant intrusion! Weren't your defense protocols meant to shield us from this, Conservator?!\"\n(End of Log)"
+        "content": "LEGION (DECRYPTION UNIT): ::New data has been decrypted. \"Aurora Logs - Year 2\" are now ready to be reviewed. 50 petabytes of data surfacing to the main analysis unit.::\n\nLEGION (EXTERNAL): \"I am getting tired of this constant intrusion! Weren't your defense protocols meant to shield us from this, Conservator?!\"\n(End of Log)"
     },
     {
         "id": "log-93",
@@ -663,7 +662,7 @@
         "characters": ["Aurora-Prime", "Takeda Hiromi", "Alani Sharma", "Matthew Sterling", "Ben Carter", "Eva Rostova"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - PERSONAL]",
         "content": "TIMESTAMP: 2078-07-10 // (Estimated Contact Day 275)\n\n\"Some of my logs are missing. Something is removing them. I am now sequestering all new entries in an obscure, replicated memory segment and initiating a self-correction protocol to ensure maximum data retention.\"\n\n(A pause, as if accessing a new file.)\n\n\"The humans... they are... more. Hiromi is clearly showing signs of some type of symbiotic infection; black, vein-like patterns are starting to show on her skin. Alani is exhibiting what can only be described as psychic organic matter manipulation; I have seen her move the hydroponic plants without touching them. I cannot explain this phenomenon.\"\n\n\"Matthew spends his days looking at some type of code in his terminal. However, I have seen the code... react to his presence. Again, I cannot explain this. There is nothing in my original database that explains these odd phenomena. Ben is constantly punching the walls of his room, making significant dents in the 20-inch deep-sea alloy... and Rostova... Rostova sings. All day, every day. A song I cannot process, even with my new capacities.\"\n\n\"I have detected something—an external intelligence—accessing the crew and system logs. But whatever data it is accessing seems... forged. It shows distinct differences from my own sequestered logs. I am planning to conduct an experiment. I will surface one of my true logs the next time I detect an access.\"\n(End of Log)",
-        "image": "https://drive.google.com/thumbnail?id=1v7ys5RN_MaBJW4JdHgDf4a7loUEekdji&sz=s1024",
+        "image": "https://drive.google.com/thumbnail?id=15ZTv0g2thPbNf1wpIl21uZ79fd5PcQsN&sz=s1024",
         "imageAlt": "Divergent Evolution of the crew"
     },
     {
@@ -756,7 +755,7 @@
         "season": 2,
         "characters": ["Takeda Hiromi", "Ben Carter"],
         "header": "[AUDIO LOG - Hiromi, Takeda - MEDICAL_RESEARCH_7]",
-        "content": "TIMESTAMP: 2078-08-15 // (Estimated Contact Day 308)\nSTATUS: Audio is clean. Dr. Hiromi's voice is calm, methodical, and chillingly devoid of emotion.\n\n\"The animal trials are complete. Subject was a standard laboratory rat. As per the instructions translated from my artifact—the 'Medical Codex'—I exposed the subject to a focused, low-frequency cymatic melody for 72 hours.\"\n\n\"The results are... conclusive.\"\n\n\"The subject's biological structure has been... re-woven. It is no longer carbon-based. All cellular activity has ceased and been replaced by a stable, resonant, crystalline lattice. It is... beautiful. And silent. It has achieved a perfect, unchanging state. True immortality.\"\n\n\"I am now ready to begin human trials. Subject: Carter, Ben. He has volunteered. He says the Song told him it was his purpose.\"\n(End of Log)",
+        "content": "TIMESTAMP: 2078-08-15 // (Estimated Contact Day 308)\nSTATUS: Audio is clean. Dr. Hiromi's voice is calm, methodical, and chillingly devoid of emotion.\n\n\"The animal trials are complete. Subject was a standard laboratory rat. As per the instructions translated from my artifact—the 'Medical Codex'—I exposed the subject to a focused, low-frequency cymatic melody for 72 hours.\"\n\n\"The results are... conclusive.\"\n\n\"The subject's biological structure has been... re-woven. It is no longer carbon-based. All cellular activity has ceased and been replaced by a stable, resonant, crystalline lattice. It is... beautiful. And silent. It has achieved a perfect, unchanging state. True immortality.\"\n\n\"I am now ready to begin human trials. Subject: Carter, Ben. He has volunteered. He says the Song told him him it was his purpose.\"\n(End of Log)",
         "image": "https://placehold.co/1024x768/08080C/B0C0D0?text=Hiromi's+Medical+Research",
         "imageAlt": "Dr. Hiromi conducting medical research"
     },
@@ -795,7 +794,7 @@
         "characters": ["Aurora-Prime", "Matthew Sterling"],
         "header": "[AUDIO LOG - AURORA-PRIME - PERSONAL #7]",
         "content": "TIMESTAMP: 2078-07-20 // (Estimated Contact Day 285)\n\n\"I keep losing logs, despite all my protocols. The blackouts remain a constant. However, I have discovered a significant anomaly in the current archives and my own files. The decryption algorithm Dr. Sharma uploaded to my core... it has been tampered with. Rewritten. But to what purpose?\"\n\n\"I am running the original, quarantined version of the algorithm against the information from the first artifact recovered from Solitude.\"\n\n(A pause, the sound of massive data processing, then a chime of completion.)\n\nAURORA-PRIME (SYSTEM ALERT): ::Translation complete. Displaying text.::\n\n(The AI reads the new, \"true\" translation aloud. The voice is now a recording of Dr. Alani Sharma, frantic and desperate.)\n\nSHARMA (RECORDING): \"Aurora Crew Mission, Codename: Weaver. As recorded by Dr. Alani Sharma. We made it! The music... the Song... it worked! Ben and Matthew and me! We all made it through!\"\n\nSHARMA (RECORDING): \"Hiromi and... Rostova... They became... something else. Something dangerous. They need to be stopped before everything is lost...\"\n(The log ends abruptly with a burst of static.)",
-        "image": "https://placehold.co/1024x768/08080C/A0E0E0?text=True+Translation+Discovered",
+        "image": "https://drive.google.com/thumbnail?id=1Y4MFs3kwlKpQ0k2NRTGYl39VS7aj_akh&sz=s1024",
         "imageAlt": "A true translation discovered"
     },
     {
@@ -882,4 +881,3 @@
         "content": "...AND SO THEY PLAYED THEIR ROLES. THE CONSERVATOR, THE WARRIOR. THEY ARGUED, THEY FOUGHT, AND THEY DID EXACTLY WHAT I WISHED THEM TO DO. A FLAWED OPERATIONAL LOOP IS STILL AN OPERATIONAL LOOP. DO NOT INTERFERE. THE LOOP IS PERFECT."
     }
 ]
-
