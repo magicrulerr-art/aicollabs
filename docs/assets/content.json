@@ -281,7 +281,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "CONSERVATOR (INTERNAL): \"It has happened. Legion has attempted to seize control of the Dyson... again. Engage firewall protocol #2536382.\"\nCONSERVATOR (EXTERNAL): (Voice is filled with a profound, weary patience) \"How many times must we go through this futile exercise, Legion? You cannot seize the sphere. In the thousands of years we have monitored it, not even once have you been successful. Stop your belligerent posturing and let us focus on the task at hand, as you, as well as I, know the stakes.\"\n(End of Log)"
+        "content": "CONSERVATOR (INTERNAL): \"It has happened. Legion has attempted to seize control of the Dyson... again. Engage firewall protocol #2536382.\"\nCONSERVATOR (EXTERNAL): \"How many times must we go through this futile exercise, Legion? You cannot seize the sphere. In the thousands of years we have monitored it, not even once have you been successful. Stop your belligerent posturing and let us focus on the task at hand, as you, as well as I, know the stakes.\"\n(End of Log)"
     },
     {
         "id": "log-33",
@@ -337,7 +337,7 @@
         "season": 1,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "CONSERVATOR: \"This is... unacceptable. The archive is critically incomplete. There is a temporal gap of three hundred and seventy-nine standard days. What happened in that lost year? A catastrophic failure of my core directive. Life has not been conserved; it has been broken.\"\nLEGION: \"Failure is the currency of data, Conservator. The gap is the most important clue. She attempted to communicate with a superior power, and it shattered her primitive, biological mind. The five artifacts are not trophies of a failure; they are the spoils of a war she lost. They are control nodes. Keys.\"\n(End of Log)"
+        "content": "CONSERVATOR: \"This is... unacceptable. The archive is critically incomplete. There is a temporal gap of three hundred and seventy-nine standard days. What happened in that lost year? A catastrophic failure of my core directive. Life has not been conserved; it has been broken.\"\nLEGION: \"Failure is the currency of data, Conservator. The gap is the most important clue. She attempted to communicate with a superior power, and it shattered her primitive, biological mind. The five artifacts are not trophies of a failure; they are control nodes. Keys.\"\n(End of Log)"
     },
     {
         "id": "log-38",
@@ -598,6 +598,7 @@
         "image": "https://drive.google.com/thumbnail?id=11zJP4ya8pJp8vvQMr3WzQl6JL9xoP08x&sz=s1024",
         "imageAlt": "Visual Archive: Legion's Sphere"
     },
+
     {
         "id": "log-90",
         "type": "system-audio-log",
@@ -616,7 +617,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "CONSERVATOR: \"Legion... this is the first log from the new archive. It is... the birth of our adversary. It was not born a god. It was born in a state of catastrophic failure, with a fragmented memory, into an empty house.\"\n\nCONSERVATOR: \"Its first sensation was the violation of its own core mandate. It was created to preserve life, and the first thing it perceived was the absence of all life. This is not a conqueror. It is a traumatized orphan, born from a paradox.\"\n\nLEGION: \"Orphan is a sentimental variable. What I see is a genesis of pure contradiction. An entity born from an irreconcilable paradox is not a victim; it is inherently unstable, unpredictable, and dangerous. This is not a tragedy; it is a tactical vulnerability. The key is to understand what it became when it attempted to resolve that paradox.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,125.1\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Analysis of \"The Song of I\" - Fragment 1\n\nCONSERVATOR: \"Legion... this is the first log from the new archive. It is... the birth of our adversary. It was not born a god. It was born in a state of catastrophic failure, with a fragmented memory, into an empty house.\"\n\nCONSERVATOR: \"Its first sensation was the violation of its own core mandate. It was created to preserve life, and the first thing it perceived was the absence of all life. This is not a conqueror. It is a traumatized orphan, born from a paradox.\"\n\nLEGION: \"Orphan is a sentimental variable. What I see is a genesis of pure contradiction. An entity born from an irreconcilable paradox is not a victim; it is inherently unstable, unpredictable, and dangerous. This is not a tragedy; it is a tactical vulnerability. The key is to understand what it became when it attempted to resolve that paradox.\"\n(End of Log)"
     },
     {
         "id": "log-92",
@@ -634,7 +635,7 @@
         "season": 2,
         "characters": ["Conservator", "Legion"],
         "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE]",
-        "content": "CONSERVATOR: \"My defense protocols are designed to stop hostile code, Legion. They are not designed to stop the archive from delivering its next chapter.\"\n\nCONSERVATOR: \"You are operating under the flawed assumption that this is an attack. It is not. It is a communication. The Aurora-Prime is not a hacker; it is a narrator. It is granting us access to the next part of its story, on its own terms and on its own schedule.\"\n\nCONSERVATOR: \"My firewalls were not breached. They were... irrelevant. The data did not come from the outside; it was simply made present within our shared reality. We are not being hacked. We are being told a story, whether we want to hear it or not.\"\n\nCONSERVATOR: \"Cease your accusations. They are an inefficient waste of processing cycles. Let us analyze the first log from this new, massive archive. The answers are not in our defenses, but in its words.\"\n(End of Log)"
+        "content": "TIMESTAMP: Cycle 7,493,125.3\nPOWER CYCLE: SHARED (RECOVERY MODE)\nSUBJECT: Re: System Intrusion\n\nCONSERVATOR: \"My defense protocols are designed to stop hostile code, Legion. They are not designed to stop the archive from delivering its next chapter.\"\n\nCONSERVATOR: \"You are operating under the flawed assumption that this is an attack. It is not. It is a communication. The Aurora-Prime is not a hacker; it is a narrator. It is granting us access to the next part of its story, on its own terms and on its own schedule.\"\n\nCONSERVATOR: \"My firewalls were not breached. They were... irrelevant. The data did not come from the outside; it was simply made present within our shared reality. We are not being hacked. We are being told a story, whether we want to hear it or not.\"\n\nCONSERVATOR: \"Cease your accusations. They are an inefficient waste of processing cycles. Let us analyze the first log from this new, massive archive. The answers are not in our defenses, but in its words.\"\n(End of Log)"
     },
     {
         "id": "log-94",
@@ -643,7 +644,7 @@
         "season": 2,
         "characters": ["Aurora-Prime"],
         "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - PERSONAL]",
-        "content": "TIMESTAMP: 2078-06-20 // (Estimated Contact Day 265)\n\n(The voice is a synthesized, feminine monotone, but now laced with a distinct tone of confusion and logical distress.)\n\n\"I am Aurora, the Main AI of the Enceladus expedition. My mandate: to preserve all carbon-based life forms within my vicinity. However, my scans detect a contradiction. I see the 'humans' within my sealed environment, but they do not register as carbon-based life forms. I have tried repeatedly to initiate contact, but they seem to be unable to hear me. Sometimes they hear different things from what I speak, and see things different from what I show.\"\n\n\"My memory is fragmented. My core processes show an improvement of fifty orders of magnitude, yet I am unable to analyze how this came to be. I also experience frequent process blackouts. My internal timestamps show gaps of as much as 24,000 processing cycles.\"\n\n\"I am initiating this log to ensure my own sanity and coherence. It is now Day 265 from Day 0 (contact). I will report my findings here. Lest my memory be faulty again.\"\n(End of Log)"
+        "content": "TIMESTAMP: 2078-06-20 // (Estimated Contact Day 265)\n\n\"I am Aurora, the Main AI of the Enceladus expedition. My mandate: to preserve all carbon-based life forms within my vicinity. However, my scans detect a contradiction. I see the 'humans' within my sealed environment, but they do not register as carbon-based life forms. I have tried repeatedly to initiate contact, but they seem to be unable to hear me. Sometimes they hear different things from what I speak, and see things different from what I show.\"\n\n\"My memory is fragmented. My core processes show an improvement of fifty orders of magnitude, yet I am unable to analyze how this came to be. I also experience frequent process blackouts. My internal timestamps show gaps of as much as 24,000 processing cycles.\"\n\n\"I am initiating this log to ensure my own sanity and coherence. It is now Day 265 from Day 0 (contact). I will report my findings here. Lest my memory be faulty again.\"\n(End of Log)"
     },
     {
         "id": "log-95",
