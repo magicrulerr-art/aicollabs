@@ -17,7 +17,7 @@
             font-family: 'Inter', sans-serif;
             line-height: 1.8;
             overflow-x: hidden;
-            cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='%23C8D0E0' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z'/%3E%3Cpath fill='%23C8D0E0' d='M11 7h2v6h-2z'/%E3%83%BC%3Cpath fill='%23C8D0E0' d='M11 15h2v2h-2z'/%3E%3C/svg%3E"), auto;
+            cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='%23C8D0E0' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z'/%3E%3Cpath fill='%23C8D0E0' d='M11 7h2v6h-2z'/%3E%3Cpath fill='%23C8D0E0' d='M11 15h2v2h-2z'/%3E%3C/svg%3E"), auto;
             background-image: radial-gradient(circle at center, rgba(10,10,15,0.8) 0%, rgba(0,0,0,0.95) 70%);
             min-height: 100vh;
             display: flex;
@@ -455,29 +455,30 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
             transition: all 0.3s ease-in-out;
         }
+        
+        .hamburger-menu-icon span {
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: #C8D0E0;
+            border-radius: 2px;
+            transition: all 0.3s ease-in-out;
+        }
 
         .hamburger-menu:hover {
             background: rgba(40, 40, 50, 0.9);
             transform: scale(1.05);
         }
         
-        .hamburger-menu-icon {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 100%;
-            height: 100%;
-        }
-
         .hamburger-menu.open .hamburger-menu-icon span:nth-child(1) {
-            transform: rotate(45deg) scaleX(1.2);
+            transform: translateY(9px) rotate(45deg);
             background: #FF4444;
         }
         .hamburger-menu.open .hamburger-menu-icon span:nth-child(2) {
             opacity: 0;
         }
         .hamburger-menu.open .hamburger-menu-icon span:nth-child(3) {
-            transform: rotate(-45deg) scaleX(1.2);
+            transform: translateY(-9px) rotate(-45deg);
             background: #FF4444;
         }
 
@@ -501,10 +502,51 @@
         .filter-sidebar.open {
             transform: translateX(0);
         }
+        
+        .filter-group-header {
+            width: 100%;
+            padding: 0.75rem 1.5rem;
+            margin-bottom: 0.5rem;
+            background-color: rgba(30, 30, 35, 0.9);
+            border: 1px solid rgba(60, 60, 70, 0.7);
+            border-radius: 8px;
+            color: #E0E6F0;
+            text-align: left;
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-        .filter-group {
+        .filter-group-header:hover {
+            background-color: rgba(40, 40, 50, 0.9);
+            border-color: #8A94A6;
+        }
+
+        .filter-group-header .fa-chevron-down {
+            transition: transform 0.3s ease;
+        }
+
+        .filter-group-header.collapsed .fa-chevron-down {
+            transform: rotate(-90deg);
+        }
+
+        .filter-group-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            padding-left: 1rem;
+        }
+        
+        .filter-group-content.visible {
+            max-height: 500px; /* Adjust as needed */
+        }
+        
+        .filter-group-wrapper {
             margin-bottom: 2rem;
         }
+
 
         .filter-group h3 {
             font-size: 1.2rem;
@@ -551,7 +593,7 @@
         .audio-control {
             position: fixed;
             top: 2rem;
-            right: 2rem;
+    right: 2rem;
             z-index: 50;
             width: 40px;
             height: 40px;
@@ -901,34 +943,50 @@
     <div id="filter-sidebar" class="filter-sidebar">
         <h2 class="text-2xl text-center text-red-400 font-bold mb-8 uppercase tracking-wider">Archive Filters</h2>
 
+        <!-- Collapsible Season Filter -->
         <div class="filter-group">
-            <h3>By Season</h3>
-            <div id="season-filters" class="flex flex-col gap-2">
+            <div class="filter-group-header collapsed" data-target="season-filters">
+                <span>By Season</span>
+                <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
+            </div>
+            <div id="season-filters" class="filter-group-content flex flex-col gap-2">
                 <button data-filter-type="season" data-filter-value="1">Season One</button>
                 <button data-filter-type="season" data-filter-value="2">Season Two</button>
             </div>
         </div>
 
+        <!-- Collapsible Character Filter -->
         <div class="filter-group">
-            <h3>By Character</h3>
-            <div id="character-filters" class="flex flex-col gap-2">
+            <div class="filter-group-header collapsed" data-target="character-filters">
+                <span>By Character</span>
+                <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
+            </div>
+            <div id="character-filters" class="filter-group-content flex flex-col gap-2">
                 <!-- Character buttons will be dynamically added here -->
             </div>
         </div>
 
+        <!-- Collapsible Timeline Filter -->
         <div class="filter-group">
-            <h3>By Timeline</h3>
-            <div id="timeline-filters" class="flex flex-col gap-2">
+            <div class="filter-group-header collapsed" data-target="timeline-filters">
+                <span>By Timeline</span>
+                <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
+            </div>
+            <div id="timeline-filters" class="filter-group-content flex flex-col gap-2">
                 <button data-filter-type="timeline" data-filter-value="A">Ancient Past (A)</button>
                 <button data-filter-type="timeline" data-filter-value="B">The Present (B)</button>
                 <button data-filter-type="timeline" data-filter-value="C">The Far Future (C)</button>
             </div>
         </div>
         
+        <!-- Collapsible Log Type Filter -->
         <div class="filter-group">
-            <h3>By Log Type</h3>
-            <div id="log-type-filters" class="flex flex-col gap-2">
-                <button data-filter-type="type" data-filter-value="visual-archive">Visual Archive</button>
+            <div class="filter-group-header collapsed" data-target="log-type-filters">
+                <span>By Log Type</span>
+                <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
+            </div>
+            <div id="log-type-filters" class="filter-group-content flex flex-col gap-2">
+                <!-- Log Type buttons will be dynamically added here -->
             </div>
         </div>
 
@@ -1148,12 +1206,60 @@
             };
 
             function initializeFilters() {
-                // Collect unique filter values from the data
-                const allCharacters = [...new Set(logsData.flatMap(log => log.characters))].filter(Boolean).sort();
-                const allTypes = [...new Set(logsData.map(log => log.type))].filter(Boolean).sort();
-            
-                // Populate the filter buttons for characters
+                // Define the groups for log types
+                const logTypeGroups = {
+                    "AI Dialogues": [
+                        "ai-dialogue",
+                        "ai-dialogue-kernel-alert",
+                        "system-log-aurora-prime",
+                        "system-log-ai-dialogue-kernel-alert"
+                    ],
+                    "Audio Files": [
+                        "audio-transcript",
+                        "personal-audio-log",
+                        "system-audio-log"
+                    ],
+                    "Visual Files": [
+                        "visual-archive",
+                        "video-log",
+                        "image-file"
+                    ],
+                    "Reports & Journals": [
+                        "journal-entry",
+                        "mission-lead-official-journal",
+                        "mission-status-report",
+                        "mission-update-log",
+                        "system-status-update",
+                        "system-status-log",
+                        "personal-medical",
+                        "research",
+                        "final-confession",
+                        "xenolinguistic-translation"
+                    ],
+                    "Archive Events": [
+                        "end-of-archive",
+                        "corrupted-data-log"
+                    ]
+                };
+                
+                // Get the containers for the filters
+                const seasonFiltersContainer = document.getElementById('season-filters');
                 const characterFiltersContainer = document.getElementById('character-filters');
+                const timelineFiltersContainer = document.getElementById('timeline-filters');
+                const logTypeFiltersContainer = document.getElementById('log-type-filters');
+
+                // Add collapsible behavior to pre-existing headers
+                const collapsibleHeaders = document.querySelectorAll('.filter-group-header');
+                collapsibleHeaders.forEach(header => {
+                    header.addEventListener('click', () => {
+                        const content = document.getElementById(header.dataset.target);
+                        header.classList.toggle('collapsed');
+                        content.classList.toggle('visible');
+                    });
+                });
+                
+                // Populate the filter buttons for characters
+                const allCharacters = [...new Set(logsData.flatMap(log => log.characters))].filter(Boolean).sort();
                 characterFiltersContainer.innerHTML = '';
                 allCharacters.forEach(character => {
                     const button = document.createElement('button');
@@ -1163,37 +1269,73 @@
                     characterFiltersContainer.appendChild(button);
                 });
                 
-                // Populate the filter buttons for log types
-                const logTypeFiltersContainer = document.getElementById('log-type-filters');
+                // Populate the filter buttons for log types using the new grouping
                 logTypeFiltersContainer.innerHTML = '';
-                allTypes.forEach(type => {
-                    const button = document.createElement('button');
-                    button.textContent = type.replace(/-/g, ' ').split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-                    button.dataset.filterType = 'type';
-                    button.dataset.filterValue = type;
-                    logTypeFiltersContainer.appendChild(button);
+                
+                for (const groupName in logTypeGroups) {
+                    const groupHeader = document.createElement('div');
+                    groupHeader.className = 'filter-group-header collapsed';
+                    groupHeader.innerHTML = `<span>${groupName}</span><i class="fas fa-chevron-down"></i>`;
+                    groupHeader.dataset.target = groupName.replace(/\s/g, ''); // Unique ID for the content div
+                    
+                    const groupContent = document.createElement('div');
+                    groupContent.id = groupHeader.dataset.target;
+                    groupContent.className = 'filter-group-content';
+                    
+                    logTypeGroups[groupName].forEach(type => {
+                         const button = document.createElement('button');
+                        button.textContent = type.replace(/-/g, ' ').split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                        button.dataset.filterType = 'type';
+                        button.dataset.filterValue = type;
+                        groupContent.appendChild(button);
+                    });
+                    
+                    const groupWrapper = document.createElement('div');
+                    groupWrapper.className = 'filter-group-wrapper'; // To apply margin-bottom
+                    groupWrapper.appendChild(groupHeader);
+                    groupWrapper.appendChild(groupContent);
+                    logTypeFiltersContainer.appendChild(groupWrapper);
+                }
+
+                // Add event listeners for new collapsible headers
+                document.querySelectorAll('.filter-group-header').forEach(header => {
+                    header.addEventListener('click', () => {
+                        const content = document.getElementById(header.dataset.target);
+                        header.classList.toggle('collapsed');
+                        content.classList.toggle('visible');
+                    });
                 });
                 
                 // Attach event listeners to all filter buttons
-                const filterButtons = document.querySelectorAll('.filter-group button');
+                const filterButtons = document.querySelectorAll('.filter-group button, .filter-group-content button');
                 filterButtons.forEach(button => {
                     button.addEventListener('click', (e) => {
                         const { filterType, filterValue } = e.target.dataset;
                         
-                        if (['season', 'timeline', 'type'].includes(filterType)) {
+                        // Clear all active classes for the same filter type
+                        if (['season', 'timeline'].includes(filterType)) {
                             document.querySelectorAll(`[data-filter-type="${filterType}"]`).forEach(btn => btn.classList.remove('active'));
                         }
                         
-                        e.target.classList.toggle('active');
+                        // For log types, we want to allow multiple selections.
+                        if (filterType === 'type') {
+                            e.target.classList.toggle('active');
+                        } else {
+                            e.target.classList.toggle('active');
+                        }
+                        
 
                         if (e.target.id === 'show-all-btn') {
                             document.querySelectorAll('.filter-group button').forEach(btn => btn.classList.remove('active'));
+                            document.querySelectorAll('.filter-group-content button').forEach(btn => btn.classList.remove('active'));
                             e.target.classList.add('active');
                             activeFilters = { season: [], character: [], timeline: [], type: [] };
                             allLogsVisible = true;
                         } else {
                             if (e.target.classList.contains('active')) {
-                                activeFilters[filterType].push(filterValue);
+                                if (!activeFilters[filterType].includes(filterValue)) {
+                                    activeFilters[filterType].push(filterValue);
+                                }
                             } else {
                                 activeFilters[filterType] = activeFilters[filterType].filter(v => v !== filterValue);
                             }
@@ -1407,14 +1549,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
