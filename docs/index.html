@@ -1124,7 +1124,7 @@
             };
 
             const fetchLogs = async () => {
-                const publicUrl = './assets/content.json';
+                const publicUrl = 'https://raw.githubusercontent.com/magicrulerr-art/aicollabs/refs/heads/main/docs/assets/content.json';
                 
                 try {
                     const response = await fetch(publicUrl);
@@ -1376,7 +1376,7 @@
             }, loadMoreObserverOptions);
 
             // --- Main application startup ---
-            const publicUrl = './assets/content.json';
+            const publicUrl = 'https://raw.githubusercontent.com/magicrulerr-art/aicollabs/refs/heads/main/docs/assets/content.json';
             
             fetch(publicUrl)
                 .then(response => {
@@ -1407,6 +1407,7 @@
     </script>
 </body>
 </html>
+
 
 
 
