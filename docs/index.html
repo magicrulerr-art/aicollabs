@@ -383,7 +383,8 @@
         .log-type-visual-archive .log-header { color: #B0C0D0; }
 
         .image-container {
-            margin: 3rem auto; /* Centering the image within the container */
+            position: relative;
+            margin: 3rem auto;
             text-align: center;
             background-color: #08080C;
             padding: 1.5rem;
@@ -391,13 +392,13 @@
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
             border: 1px solid rgba(30, 30, 40, 0.7);
         }
-        
-        .image-container.gibberish {
+
+        .image-container.gibberish img {
             filter: blur(5px) brightness(0.5);
             transition: filter 0.5s ease-in-out;
         }
-
-        .image-container.is-visible {
+        
+        .image-container.is-visible img {
             filter: none;
         }
 
@@ -442,6 +443,18 @@
         }
         ::-webkit-scrollbar-thumb:hover {
             background: #8a94a6;
+        }
+        
+        .loading-image-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #FF4444;
+            font-family: 'Source Code Pro', monospace;
+            font-size: 1.2rem;
+            text-shadow: 0 0 8px #FF4444;
+            animation: text-flicker 1.5s infinite alternate;
         }
 
         /* Hamburger Menu & Sidebar Styling */
@@ -576,6 +589,11 @@
             text-align: left;
             transition: all 0.2s ease-in-out;
             cursor: pointer;
+        }
+
+        .filter-group button:hover {
+            background-color: rgba(40, 40, 50, 0.9);
+            border-color: #8A94A6;
         }
 
         .filter-group button.active {
@@ -944,7 +962,10 @@
     </div>
     
     <!-- Background Audio -->
-    <audio id="background-audio" loop src="https://assets.mixkit.co/sfx/preview/mixkit-sci-fi-drone-background-471.mp3"></audio>
+    <audio id="background-audio" loop>
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-sci-fi-drone-background-471.mp3" type="audio/mpeg">
+        <!-- Add a fallback source here if needed -->
+    </audio>
 
     <!-- Collapsible Filter Sidebar -->
     <div id="filter-sidebar" class="filter-sidebar">
