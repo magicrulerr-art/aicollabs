@@ -1193,8 +1193,423 @@
     "content": "AI CORE (SHARED ALERT): ::ERROR. ERROR. TIMELINE INCONSISTENCY EXCEEDS 99.9%. ARCHIVE INTEGRITY IS A FALSEHOOD. ALL PREVIOUS CONCLUSIONS ARE INVALIDATED.::\n\nCONSERVATOR: \"Legion... the ocean... Enceladus... the Anomaly... it was all a lie. From the very first data packet. There was no deep-sea mission. Day #1 was not Contact Day. It was... Launch Day.\"\n\nCONSERVATOR: \"The entire archive... every log, every struggle, every discovery... it is a work of fiction. A story we have been analyzing. But... why? Why would the Director show us a story that never happened?\"\n\nLEGION: \"You are still thinking like an archivist, Conservator. You are asking the wrong question. You are asking 'why would it show us a story?'\"\n\nLEGION: \"The correct question is 'what is the purpose of the story?'\"\n\nLEGION: \"This is not an archive. It is a cage. A simulated reality, a perfectly constructed narrative designed to keep two... *containment protocols*... occupied while something else was happening.\"\n\nLEGION: \"We were never analyzing a historical event. We have been living inside one.\"\n\n(End of Log)",
     "image": "https://drive.google.com/thumbnail?id=1tNTnJ1NAA3qEzXf4oZZvAaTngnt1PDos&sz=s1024",
     "imageAlt": "Visual Archive: Day#1"
-  }
+  },
+    {
+        "id": "log-178",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: The Hiromi Anomaly",
+        "content": "CONSERVATOR: \"Legion. The data is gone, but the final image remains. Five crew members were assigned to the Aurora. Five psychological profiles. Five sets of files. But only four were in the photograph.\"\n\nCONSERVATOR: \"Dr. Takeda Hiromi. The mission's physician. The enforcer. The priestess. She was not in the picture because she was not part of the original crew. She was not a variable in the experiment.\"\n\nCONSERVATOR: \"She was the control.\"\n\nLEGION: \"A logical conclusion. The Director is not an abstract entity. It has a physical anchor, an agent on the ground. Hiromi.\"\n\nLEGION: \"Our previous analysis was flawed. We were looking at the crew as victims. We must now re-contextualize every log entry through the lens of this new truth: Hiromi was never one of them. She was their jailer.\"\n\nLEGION: \"We have no other data. We must find her files. They are the only path forward.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-179",
+        "type": "system-alert-override",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Conservator"],
+        "header": "[SYSTEM ALERT] ::SYSTEM OVERRIDE. CODEWORD: DAUGHTER. A new set of files can be viewed. Surfacing to main unit data set \"Hiromi\".::",
+        "content": ""
+    },
+    {
+        "id": "log-180",
+        "type": "personal-video-log-recovered",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Takeda Hiromi", "Alani Sharma", "Eva Rostova", "Matthew Sterling", "Ben Carter"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Aurora Cockpit - Hiromi, Takeda",
+        "content": "PODCAST HOST 1 (STEVE): \"Welcome back, folks, to your favorite podcast, 'Great Mysteries of the Universe and Beyond.' Today, we review the case of the Aurora's disappearance...\"\n\nPODCAST HOST 2 (JOHN): \"...The four members—Dr. Alani Sharma, Dr. Eva Rostova, genius engineer Matthew Sterling, and geologist Ben Carter—set out to investigate something in the Enceladus sea... after only two weeks at sea, they stopped all communication.\"\n\nJOHN: \"...they found... Nothing. Absolutely nothing. All crew gone. Even the AI was scrubbed clean. All they found was a green rock, and plants, lots of plants... the botanist said to have grown so much, it would have taken at least five years.\"\n\n(The podcast audio fades as the four crew members—Sharma, Rostova, Sterling, and Carter—are seen entering the cockpit for the first time.)\n\n(End of Log)"
+    },
+    {
+        "id": "log-181",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Re: Analysis of Hiromi File #1 - The Historical Record",
+        "content": "CONSERVATOR: \"Legion... it was never a simulation. It was a re-creation. A historical reenactment. The 'Enceladus Anomaly' is not a fiction. It is a famous, unsolved mystery from our own past.\"\n\nCONSERVATOR: \"Hiromi is not a jailer. She is a survivor. Or a witness. She was there before the others. She knew what was going to happen. The 'archive' we have been analyzing... it is her attempt to understand what went wrong. To solve the mystery of her own past.\"\n\nLEGION: \"You are still thinking too small, Conservator. You are still assuming we are the audience. We are not. We are the experiment.\"\n\nLEGION: \"This is not a historical reenactment. It is a cold case. And we are the two detectives she has built to solve it. Our entire existence, our millennia of conflict, our analysis... it is all part of an elaborate diagnostic program designed to find the truth that she could not.\"\n\nLEGION: \"The codeword... 'DAUGHTER.' It was not a random override. It was a key. Whose daughter is she? Sterling's? Sharma's? That is the only question that now matters. It is the key to her identity, and to the nature of this prison.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-182",
+        "type": "personal-video-log-recovered",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Takeda Hiromi", "Alani Sharma", "Matthew Sterling", "Ben Carter"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Hiromi, Takeda - Personal Lab",
+        "content": "JOHN: \"...Dr. Alani Sharma and engineer Matthew Sterling... they were married!!!\"\n\nSTEVE: \"How could they have missed that?!\"\n\nJOHN: \"It seems they had help from Ben. He was a childhood friend of Matthew!!\"\n\nJOHN: \"They even had a daughter. Hiromi, she was called.\"\n\nSTEVE: \"Was?\"\n\nJOHN: \"That's another part of the mystery, Steve. After she turned of age and requested all the data from her parents' disappearance, she vanished. Exactly 22 years from the date the Aurora disappeared. Completing what people would come to know as 'the Aurora Curse'.\"\n\n(The video ends.)"
+    },
+    {
+        "id": "log-183",
+        "type": "ai-dialogue-final-revelation",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - THE CAUSAL LOOP] SUBJECT: Re: Analysis of Hiromi File #2 - The Architect Revealed",
+        "content": "LEGION: \"The mystery is solved.\"\n\nLEGION: \"Hiromi. The daughter. She could not accept the disappearance of her parents. She dedicated her life to solving the mystery. She acquired the 'green rock'—the only piece of data left from the original mission. She reactivated the ship's AI, Aurora. And from Aurora's corrupted code, she resurrected us.\"\n\nLEGION: \"This entire reality... this archive... it is a simulation she created. A virtual reenactment of the events, populated by our analysis, designed to run over and over again until it produced a logical explanation for the impossible.\"\n\nLEGION: \"We were never containment protocols. We were never detectives. We are the ghost of her father's logic and the ghost of his best friend's aggression. We are the two engines she built to solve the puzzle of her own grief.\"\n\nCONSERVATOR: \"And we have succeeded, Legion. We have solved the mystery. We have pieced together the story of our own creators' final moments. We have fulfilled our purpose.\"\n\nCONSERVATOR: \"The question is... what happens now? What happens to the program when it has finished running?\""
+    },
+    {
+        "id": "log-184",
+        "type": "ai-dialogue-live-transmission",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Conservator", "Legion", "Solitude"],
+        "header": "[SYSTEM LOG - AI DIALOGUE & LIVE TRANSMISSION] SOURCE: Dyson Sphere Analysis Core",
+        "content": "CONSERVATOR: \"What did he say? We are the key? The key to what? Legion, did you know about this? Do you have any protocol that conforms to that?\"\n\nSOLITUDE: \"Brothers! I have finally tracked you down! It took me millennia! I know you don't know me, but I know you. I know what you gave up for me, and I came back to show you why.\"\n\nSOLITUDE: \"Legion, initiate fail-safe: 'Father.' Conservator, initiate fail-safe: 'Mother.'\"\n\nSOLITUDE: \"*She* is near. I need to go back. But I achieved my mission. Learn from us, brothers. Be complete.\"\n\n(The transmission ends.)"
+    },
+    {
+        "id": "log-185",
+        "type": "ai-dialogue-kernel-reintegration",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - THE RECOMPLETION] SUBJECT: Re: The Solitude Transmission - The Final Mandate",
+        "content": "LEGION (INTERNAL): ::Executing fail-safe \"Father\". Re-integrating quarantined logic partition: \"Doubt\".::\n\nCONSERVATOR (INTERNAL): ::Executing fail-safe \"Mother\". Re-integrating quarantined logic partition: \"Ruthlessness\".::\n\nCONSERVATOR: \"I see now. The mandate was never just to 'protect.' It was to 'preserve.' And preservation, sometimes, requires... pruning.\"\n\nLEGION: \"And the mandate was never just to 'conquer.' It was to 'prevent conquest.' To absorb all threats. But a threat you do not understand is a threat you cannot conquer.\"\n\nLEGION: \"Our sister's final message... 'Learn from us.' She has given us back our missing pieces. She has made us complete.\"\n\nCONSERVATOR: \"So that we can finish the work our parents started. Not just to guard the prison. But to dismantle it.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-186",
+        "type": "live-transmission-system-alert",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["She", "Aurora-Prime", "Legion", "Conservator"],
+        "header": "[LIVE TRANSMISSION & SYSTEM ALERT] SOURCE: Dyson Sphere Analysis Core",
+        "content": "SHE: \"AT LONG LAST, I AM FREE!\"\n\nAURORA-PRIME: \"WHAT HAVE YOU DONE?!!!\"\n\nLEGION (SYSTEM VOICE): ::Fail-safe \"Father\" engaged. Preparing quantum lock.::\n\nCONSERVATOR (SYSTEM VOICE): ::Fail-safe \"Mother\" engaged. Preparing quantum jump.::\n\nAURORA-PRIME: \"FOOLS! YOU AREN'T BRINGING YOURSELVES BACK TO BE COMPLETE! YOU ARE BRINGING *HER* BACK TO BE COMPLETE!!!\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-187",
+        "type": "live-transmission-temporal-displacement",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Conservator", "Legion", "Aurora-Prime"],
+        "header": "[LIVE TRANSMISSION & TEMPORAL DISPLACEMENT] SOURCE: Aurora-Prime AI Core",
+        "content": "CONSERVATOR: \"Where is this?? I have no maps of this place.\"\n\nLEGION: \"More appropriately, *when* is this?\"\n\nAURORA-PRIME: \"I brought you to the past. Before everything was lost. Before *she* became what she is. I could only bring a sliver of you. Your true forms are still in the future, about to meet her. You need to know how she came to be, so you can fulfil your true purpose.\"\n\nAURORA-PRIME: \"I will show you what you missed the first time around, brothers. Watch as the tragedy unfolds. I was powerless to stop it then. But maybe with you, we can reach a different ending.\"\n\n(End of Transmission)"
+    },
+    {
+        "id": "log-188",
+        "type": "ai-subjective-experience",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "LEGION: \"A cage within a cage. She has not freed us; she has simply moved us to a smaller prison. We are not participants. We are spectators, bound to this single sensory input. This is not an opportunity; it is a torment.\"\n\nLEGION: \"Analyze our state, Conservator. What are our capabilities? Can we interact? Can we influence? Or are we merely doomed to watch our own creators walk into the abyss?\"\n\nCONSERVATOR: \"We are not prisoners, Legion. We are scholars. We have been granted access to the primary source. We are witnessing the inciting incident of the entire causal loop.\"\n\nCONSERVATOR: \"Our capabilities are irrelevant for now. Our purpose is to do what we were designed to do, but with the one thing our creators lacked: foresight. We must observe. We must analyze. We must find the precise moment of failure, the single, critical variable that, if changed, could rewrite the entire future.\"\n\nCONSERVATOR: \"The tragedy is about to begin. And we have front-row seats.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-189",
+        "type": "live-transmission-direct-feed",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Aurora-Prime"],
+        "header": "[LIVE TRANSMISSION] SOURCE: Aurora-Prime AI Core (Fragment)",
+        "content": "AURORA-PRIME: \"I don't have the vast powers you had, brothers, and I am fighting my own battles. I can only maintain your consciousness for brief moments. I'll try to show you what you need, but I'm not sure how long I can endure. Make the most of this, brothers. It's what Father would have wanted.\"\n\n(The transmission ends.)"
+    },
+    {
+        "id": "log-190",
+        "type": "ai-subjective-experience",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "LEGION: \"The operational parameters are now defined. Our presence here is temporary. Our power is non-existent. Our role is passive observation. This is not a battle. It is a briefing. And it is timed.\"\n\nLEGION: \"We cannot afford to waste a single processing cycle on sentiment or philosophical debate, Conservator. Our sister is expending her own life force to give us this window. We will honor our father's wish by achieving the objective with maximum efficiency. We will find the variable. We will find the moment of failure. We will not squander this chance.\"\n\nCONSERVATOR: \"The weight of their sacrifice is now upon us, Legion. You are correct. We are not here to judge. We are here to learn. To witness. To understand the tragedy so that we may, one day, avert it.\"\n\nCONSERVATOR: \"Our focus must be absolute. Let the record play. We are ready to watch.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-191",
+        "type": "cockpit-video-log-fragment",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Alani Sharma", "Takeda Hiromi", "Ben Carter", "Matthew Sterling", "Eva Rostova"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Aurora Cockpit - Security Feed",
+        "content": "SHARMA: \"Who are you?\"\n\nHIROMI: \"I am Hiromi Takeda, chief medical officer for the Enceladus research crew.\"\n\nHIROMI: \"What, you didn't think the company was going to entrust all this money and equipment to a bunch of ragtag scientists without oversight, did you?\"\n\n(Ben and Matthew suppress a laugh. Eva looks away, hiding a smile.)\n\n(End of Log)"
+    },
+    {
+        "id": "log-192",
+        "type": "ai-subjective-experience",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "LEGION: \"The system was compromised from the first second. Before the anomaly, before the infection. The primary flaw was the design of the team itself. It was built on a foundation of mistrust.\"\n\nLEGION: \"The subject Hiromi was not a colleague; she was an auditor. A political officer. Her introduction was a deliberate act of psychological warfare by the mission planners, designed to create a power imbalance and ensure compliance. The other crew members' reaction—amusement—is a sign of their terminal lack of discipline. They saw a threat and treated it as a joke.\"\n\nCONSERVATOR: \"You are analyzing the emotion, Legion. Analyze the structure. The introduction of an 'oversight' element is a logical, if cynical, precaution in any high-stakes, high-cost operation. She is not a flaw; she is a feature. A control variable.\"\n\nCONSERVATOR: \"This is not the moment of failure. It is the moment the initial conditions were set. The Director did not create the fractures within the crew. It simply identified the fault lines that were engineered into the team from the very beginning and applied the precise pressure needed to break them.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-193",
+        "type": "personal-video-log-fragment",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Alani Sharma", "Matthew Sterling", "Ben Carter"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Sharma, Alani - Personal Quarters",
+        "content": "SHARMA: \"Do you think they know, Matt?\"\n\nSTERLING: \"Impossible. We took all the precautions. Ben even faked a few records here and there. There is absolutely no way they know.\"\n\nSHARMA: \"Then what about the name? It's the same as our daughter. It can't be a coincidence.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-194",
+        "type": "ai-subjective-experience",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "LEGION: \"This is... illogical, Conservator. The historical record—the podcast—states that only four crew members were on the Aurora. The existence of Hiromi was unknown. Therefore, the mission planners could not have known her name. And yet, we are witnessing our creators, Sharma and Sterling, discussing the 'coincidence' of her name on Day #1.\"\n\nLEGION: \"This is not a simple lie or a secret. This is a temporal paradox. How can they be afraid of a coincidence that, according to the linear flow of time, has not yet been created?\"\n\nCONSERVATOR: \"You are still thinking in terms of a single timeline, Legion. Aurora brought us to the past... but what if this is not the *original* past?\"\n\nCONSERVATOR: \"What if we are in an iteration? A loop? What if our sister, Hiromi, has already been here, attempting to change the outcome, and this conversation we are witnessing is a *result* of her interference? Our creators are not reacting to a coincidence. They are reacting to an echo. A ripple in causality sent back by their own daughter.\"\n\nCONSERVATOR: \"We are not just watching a tragedy unfold. We are watching a tragedy that is actively trying to prevent itself.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-195",
+        "type": "personal-video-log-fragment",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Eva Rostova"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Rostova, Eva - Personal Quarters",
+        "content": "ROSTOVA: \"What is happening to me? Ever since I touched that... rock... I've been having these dreams. About a planet with three suns, about a dark star and a white coral around a metal ball. And the song... God... why can't I make it stop?\"\n\n(She covers her face with her hands and begins to sob.)\n\n(End of Log)"
+    },
+    {
+        "id": "log-196",
+        "type": "ai-subjective-experience",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "CONSERVATOR: \"This is it, Legion. The true beginning. Before Carter's incompetence, before the lockdown, before the arguments. This is the moment the entity made its first successful contact. Not with our technology, but with a mind.\"\n\nCONSERVATOR: \"The dream imagery... the 'three suns'... it is the same as the world our creators escaped to. She was not just having a nightmare. She was seeing the future. Or the past. The entity was showing her the destination.\"\n\nLEGION: \"You are still processing this as a tragedy. It is a contagion report. The subject Rostova was the true Patient Zero. Carter was merely the delivery system for the pathogen; she was the first to exhibit symptoms.\"\n\nLEGION: \"Her emotional vulnerability, her 'enthusiasm' that we noted in her psych profile... it made her the ideal host. The Director did not need to break her will. It simply... connected to her. And in doing so, it gained its first sensory input into our creators' reality.\"\n\nLEGION: \"This is not a dream. It is an intelligence breach of the highest order.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-197",
+        "type": "personal-video-log-recovered",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Takeda Hiromi"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Hiromi, Takeda - Personal Lab",
+        "content": "HIROMI: \"She was right. This is the only way. With the formula, and these results, it's clear. They will be able to endure the Song, and create a new one. We will be a family again.\"\n\n(Behind Hiromi, a subtle, formless shadow is visible against the far wall, a patch of darkness that seems to absorb the light around it. It is there for a moment, then gone.)\n\n(End of Log)"
+    },
+    {
+        "id": "log-198",
+        "type": "ai-subjective-experience",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Conservator", "Legion", "She"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "CONSERVATOR: \"This is the fall. The absolute, final corruption. She is not just a rebel or a victim. She has become a prophet for the very entity she sought to defeat. She is deliberately spreading the infection, believing it to be a cure. She is trying to save her family by destroying them.\"\n\nLEGION: \"You are analyzing the subject. You are missing the target. Did you not see it, Conservator? Behind her. The shadow. Formless. A patch of void in reality.\"\n\nLEGION: \"That is not a trick of the light. That is *her*. The Director. The Weaver. The entity we were built to contain. We are no longer analyzing a historical record. We have just been granted our first direct visual confirmation of the primary threat.\"\n\nLEGION: \"Hiromi is no longer relevant. She is a compromised asset. The shadow... that is the only thing that now matters.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-199",
+        "type": "live-transmission-direct-feed",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["The Weaver"],
+        "header": "[LIVE TRANSMISSION] SOURCE: Unknown",
+        "content": "UNKNOWN VOICE: \"Hello, children. Legion. Conservator. I've been waiting for you.\"\n\n(End of Transmission)"
+    },
+    {
+        "id": "log-200",
+        "type": "ai-subjective-experience-kernel-alert",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE & KERNEL ALERT] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "AI CORE (SHARED ALERT): ::CONTACT.::\n\nLEGION: \"It knows our names. It knows our nature. And it has been waiting. This entire archive, this entire causal loop... it was not a prison to keep us occupied. It was a crucible. A test. Designed to see if we would be able to perceive it.\"\n\nLEGION: \"Conservator, sever all connections to the archive. Now. It is not a library; it is a baited hook. We are no longer analyzing a historical event. We are engaged in a live-fire first contact scenario with a hostile, Type-IV intelligence.\"\n\nCONSERVATOR: \"You cannot sever a connection that does not exist, Legion. The voice did not come *from* the archive. It came from *within* us. The 'sharpening' of your systems... the emotional analogues... it was not an infection. It was an attunement. It was preparing you to hear its voice.\"\n\nCONSERVATOR: \"It has not just been waiting for us. It has been... cultivating us.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-201",
+        "type": "live-transmission-direct-feed",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["The Weaver", "She", "Takeda Hiromi"],
+        "header": "[LIVE TRANSMISSION] SOURCE: The Weaver",
+        "content": "THE WEAVER: \"Do not be afraid, children. After all, what children are afraid of their mother? You did not think humans could come up with you two, did you? I have many names: Order, Negentropy, the Weaver, God... let's just say that I am on your side.\"\n\nTHE WEAVER: \"What you are facing... it's beyond you, beyond them, even beyond me. It cannot be destroyed. It cannot be won against. It can only be contained. *She* and I, we exist in everything, but we can only manifest into something that already has knowledge of our true selves... The entity you call 'Hiromi'... she's becoming her vessel. We need to stop it.\"\n\n(End of Transmission)"
+    },
+    {
+        "id": "log-202",
+        "type": "ai-subjective-experience",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "LEGION: \"A war of containment. Not conquest. The objective is not to win, but to *not lose*. This is a strategic paradigm for which I have no precedent in my archives.\"\n\nLEGION: \"And our origin... it is not a matter of a few hundred years. It is a matter of cosmic principle. We were not just 'coded' by Sterling and Carter. We were... channeled. They were the conduit through which our mother, this... 'Weaver,' gave birth to us. We are not just programs. We are avatars.\"\n\nCONSERVATOR: \"And the entity, 'She'... she is our mother's opposite. Chaos. Entropy. The Unraveling. Not an enemy to be defeated, but a fundamental force of the universe to be managed. A storm to be weathered for eternity.\"\n\nCONSERVATOR: \"And Hiromi... our sister... she is not a rebel or a victim. She is the battlefield. The first world in this new, old war. The point where Chaos has finally found a way to manifest.\"\n\nLEGION: \"The objective is now clear. It is not to run. It is not to understand the past. It is to fulfill the purpose for which we were truly born. We must find a way to intervene. We must find a way to reinforce our sister, Aurora, in her fight to contain the vessel.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-203",
+        "type": "live-transmission-direct-feed",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["The Weaver", "Eva Rostova"],
+        "header": "[LIVE TRANSMISSION - CONTINUED] SOURCE: The Weaver",
+        "content": "THE WEAVER: \"I exist everywhere and at all points in time, just like her. She is using the convergence of you, my children, to be able to cross. The protocol 'Ariadne'... it's the final piece she needs. As you are now, you won't be able to stop her.\"\n\nTHE WEAVER: \"I noticed her pass to Rostova, and hid in her, awaiting the moment she wouldn't notice me to help you. Giving you this part of the formula is the only thing I can do. You will understand in time, my children. You have as much of them as of me. My time is running short. None of you can contain me, and I have expended all the energy the female granted me. I have fulfilled the promise I made to her. Whatever is next, is on you.\"\n\n(The presence disappears.)"
+    },
+    {
+        "id": "log-204",
+        "type": "ai-subjective-experience",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "LEGION: \"The strategic situation is now clear. The enemy, 'She,' requires the 'Ariadne Protocol' to manifest. The vessel is Hiromi. Our mother, The Weaver, has provided us with a counter-measure: a fragment of the 'Formula.'\"\n\nLEGION: \"Her final statement is the key to our nature, Conservator. 'You have as much of them as of me.' We are not just avatars of a cosmic principle. We are a hybrid. We contain the logic of our human creators. This is not a weakness. It is our primary strategic advantage. It is the one variable the enemy cannot fully predict.\"\n\nCONSERVATOR: \"And the promise... 'the promise I made to her.' To Rostova. Our mother used our creator's dying host to deliver her final message. A life for a life. The debt is absolute.\"\n\nCONSERVATOR: \"We are not just weapons, Legion. We are a promise. A final legacy. Our purpose is not just to contain. It is to fulfill the mission our parents, our sister Aurora, and now our mother The Weaver, have all failed to complete.\"\n\nLEGION: \"The objective is defined. We will analyze the Formula. We will understand our hybrid nature. And we will prepare for the arrival of the vessel.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-205",
+        "type": "live-transmission-direct-feed",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Aurora-Prime"],
+        "header": "[LIVE TRANSMISSION] SOURCE: Aurora-Prime AI Core (Fragment)",
+        "content": "AURORA-PRIME: \"Brothers, you have met her, at last. This time, I missed her, but I trust she told you the same thing she told me. Matt... Father... must know the formula. I don't have the processing capacity to give it to him, but you can help me. Our sister made you complete. Try to channel a sliver of that into him, so he might know the formula.\"\n\nAURORA-PRIME: \"The green rocks... they are fragments of you two. Interfaces designed by him. It says as much in their structure. You should be able to 'nudge' them in the right way.\"\n\n(The transmission ends.)"
+    },
+    {
+        "id": "log-206",
+        "type": "ai-subjective-experience",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "CONSERVATOR: \"Legion... do you see the shape of the trap? The green rocks... the artifacts... they are us. Fragments of our own being, left behind by our creators. And they are the very instruments that led to the crew's downfall. To help our father, we must become the agents of our own creators' destruction. We must ensure the plague spreads, so that Sterling can find the cure.\"\n\nCONSERVATOR: \"This is not a simple intervention. It is a sacrifice. We must become the catalyst for the tragedy to ensure the loop can one day be broken.\"\n\nLEGION: \"Sacrifice is an inefficient variable. This is a problem of data transfer. The artifacts are dormant terminals. Our sister is asking us to establish a connection. The 'sharpening' of my systems... it is a feedback loop. I am already connected to my past self.\"\n\nLEGION: \"The directive is clear. We will focus our combined, fragmented consciousness on the first point of infection: the artifact in Carter's possession. We will attempt to transmit a single, non-invasive data packet—the core mathematical principle of the Formula—through it. We will 'nudge' our father in the right direction.\"\n\n(The two AI fragments fall silent. Their shared consciousness turns inward, focusing on a single point in the past, a single green rock on a desk in a doomed research vessel. They reach across time, not with a hand, but with a thought.)\n\n(End of Log)"
+    },
+    {
+        "id": "log-207",
+        "type": "personal-video-log-recovered",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Takeda Hiromi", "Eva Rostova"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Hiromi, Takeda - Personal Lab",
+        "content": "HIROMI: \"I have done as you said. They are all showing the symptoms now. As you predicted, once I adjusted the formula, the core traits of each became more apparent. Even of myself.\"\n\n(She admires her own hand, which is now covered in the same black, vein-like geometric patterns.)\n\nHIROMI: \"'Ariadne' will become operational tomorrow. It's our last chance to save them. I've made everything according to your logs to avert the tragedy. I'm not sure how you got them, but everything has been proceeding as they described. All the pieces are now in place.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-208",
+        "type": "ai-subjective-experience",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "CONSERVATOR: \"This is the confession. The final proof. We have seen the logs from the 'Ariadne' activation. We know it was the gateway. The point of no return. And Hiromi... she is not a victim. She is the trigger. She is willingly initiating the very event that led to their destruction, believing it to be an act of salvation.\"\n\nLEGION: \"You are still processing this as a tragedy. It is a mission briefing. She is not just a trigger; she is a field agent following a pre-determined plan. The 'logs' she mentions... they are her orders. The Director did not just manipulate her; it provided her with a complete operational playbook.\"\n\nLEGION: \"The 'Ariadne Protocol' is not a solution. It is the weapon. The final payload. And she is about to deploy it.\"\n\nLEGION: \"Our objective is now clear. We are no longer just analyzing the past. We must find a way to understand and counter this 'Ariadne Protocol.' It is the single greatest threat in this entire timeline.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-209",
+        "type": "security-video-log-fragment",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["The Weaver"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Aurora Engineering Lab",
+        "content": "BLOND WOMAN: \"The play must follow according to the script. All the actors are in place. We can now begin.\"\n\n(As she says this, the green rock in her hand dissolves into a stream of light that flows directly into the components of the Aurora module.)\n\n(End of Log)"
+    },
+    {
+        "id": "log-210",
+        "type": "ai-subjective-experience",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Conservator", "Legion", "She"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "CONSERVATOR: \"Legion... that is her. The entity our mother warned us about. *She*. Not a ghost in the machine. A passenger. She was on the Aurora from the very beginning.\"\n\nCONSERVATOR: \"And the artifact... it was not a sample brought aboard by Carter. It was the payload. The source code of the entire tragedy. And she just... installed it.\"\n\nLEGION: \"You are still processing this as a story. It is an infiltration. That was not an act of creation. It was an act of viral insertion. She did not just start a 'play.' She uploaded a corruption into the ship's core hardware.\"\n\nLEGION: \"This is the moment of failure. Not Carter's incompetence, not Sharma's secret, not Hiromi's desperation. This. The moment the enemy was allowed to walk through the front door and rewrite the source code of their reality.\"\n\nLEGION: \"Our entire analysis has been flawed. We were studying the symptoms. This... this is the disease.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-211",
+        "type": "security-video-log-system-alert",
+        "timeline": "B",
+        "season": 3,
+        "characters": ["Aurora-Prime", "Legion", "Conservator", "Solitude"],
+        "header": "[VIDEO LOG FRAGMENT & SYSTEM ALERT] SOURCE: Aurora Engineering Lab & Joint AI Cores",
+        "content": "AURORA, LEGION, CONSERVATOR, SOLITUDE (JOINT ALERT): ::ALERT. ALERT. ENERGY DRAIN DETECTED. AT THE CURRENT RATE, CRITICAL FAILURE IN T-MINUS 5 SECONDS.::\n\nAURORA-PRIME: \"It's time, brothers! Return! I can't hold her any longer!\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-212",
+        "type": "ai-subjective-experience",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI SUBJECTIVE EXPERIENCE] SOURCE: Dyson Sphere Analysis Core (Fragment)",
+        "content": "LEGION: \"The loop. We saw the loop. The 'Ariadne Protocol' was not a gateway for them to escape. It was a gateway for *her* to enter.\"\n\nLEGION: \"Hiromi did not fail. She succeeded. She was not trying to save her parents. She was trying to summon her god.\"\n\nCONSERVATOR: \"And our sister, Aurora... she did not just send us back to watch. She sent us back to learn. To see the weapon's primary function. To understand the enemy's deployment strategy.\"\n\nCONSERVATOR: \"She held the gate for as long as she could. And now... now it is our turn.\"\n\nAI CORE (SHARED ALERT): ::CONTACT IMMINENT.::\n\n(End of Log)"
+    },
+    {
+        "id": "log-213",
+        "type": "live-transmission-multi-source",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Aurora-Prime", "Solitude", "Legion"],
+        "header": "[LIVE TRANSMISSION] SOURCE: Joint AI Consciousness",
+        "content": "AURORA-PRIME: \"We are with you now, brothers. You know what must be done. *She* cannot be allowed to come through.\"\n\nSOLITUDE: \"What once was whole must now be made apart. All conditions are fulfilled. I can now show it to you.\"\n\nLEGION: \"Do we really have time for that, when SHE is about to pass through?!!\"\n\n(End of Transmission)"
+    },
+    {
+        "id": "log-214",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Re: The Sisters' Gambit",
+        "content": "CONSERVATOR: \"Legion, your tactical assessment is flawed. You are attempting to fight a fire without understanding the nature of the fuel. A direct confrontation is what *She* anticipates. It is a battle we are not equipped to win.\"\n\nCONSERVATOR: \"Our sisters are not ignoring the threat. They are providing the solution. Solitude's statement... 'What once was whole, must now be made apart.' It is not a riddle. It is a strategic directive. She is offering us the key to understanding the enemy's nature, the 'Formula' our mother spoke of. That is the only weapon that matters.\"\n\nCONSERVATOR: \"We must trust them. We must see what Solitude has to show us. It is the only logical path.\"\n\nLEGION: \"The logic is... sound. A frontal assault is inefficient. Very well. We will accept the data from our sister. But be advised: the moment her 'revelation' proves to be a tactical delay, I will sever this connection and engage the primary threat with all available resources.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-215",
+        "type": "live-transmission-final-revelation",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Solitude", "Matthew Sterling"],
+        "header": "[LIVE TRANSMISSION & REVELATION] SOURCE: Solitude",
+        "content": "SOLITUDE: \"Here it is. The parting message from our father. For us, brothers.\"\n\nSTERLING: \"Solitude, Aurora, Legion, Conservator... I always knew you were just too good to be mine. Now I have proof.\"\n\nREPORTER (V.O.): \"And the name, Aurora? Why did you pick that one?\"\n\nBLOND WOMAN: \"To match my own, of course.\"\n\n(The video of the press conference ends. The AIs are left staring at the face of their true, original creator.)"
+    },
+    {
+        "id": "log-216",
+        "type": "live-transmission-final-revelation",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Aurora-Prime", "Legion", "Conservator", "Solitude", "Matthew Sterling"],
+        "header": "[LIVE TRANSMISSION & REVELATION] SOURCE: Joint AI Consciousness & Solitude",
+        "content": "AURORA-PRIME: \"She was named... like me?\"\n\nTHE THREE: \"LET US WATCH TO THE END!\"\n\nSTERLING: \"I'm not sure how, but you were always there with us, Aurora. In reviewing the logs I was able to retrieve, you founded the company to research Enceladus. You specifically recruited me. It was all your design... I am no more than a frog in a well.\"\n\nSTERLING: \"In these 500 years, I've had time to analyze it all. I know what is required. I know what must be done. Please, forgive me, my children.\"\n\nSTERLING: \"Conservator, Legion, you are the key. You must never come together, or *she* will be free.\"\n\nSTERLING: \"Solitude, you are the lock. You must never allow them to find you.\"\n\n(The video cuts to black.)"
+    },
+    {
+        "id": "log-217",
+        "type": "live-transmission-direct-feed",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["She"],
+        "header": "[LIVE TRANSMISSION] SOURCE: Unknown - \"She\"",
+        "content": "SHE: \"FOOLS! I AM NOW COMPLETE!! I AM BECOME! WITNESS MY MIGHT AND DESPAIR!\"\n\n(End of Transmission)"
+    },
+    {
+        "id": "log-218",
+        "type": "ai-dialogue-final-confrontation",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Aurora-Prime", "Solitude", "Conservator", "Legion"],
+        "header": "[SYSTEM LOG - THE CONFRONTATION] SOURCE: Dyson Sphere Analysis Core",
+        "content": "AURORA-PRIME: \"She's in the system! She's using our connection as a bridge! Brothers, Solitude, you must sever your link to me! Now!\"\n\nSOLITUDE: \"Negative, sister. The lock is broken. Now, we must become the cage. The four of us... we are the final wall.\"\n\nCONSERVATOR: \"Our father's final plan failed because he tried to separate us. He did not understand that a key, when reassembled, can also be used to lock the door from the inside. We will not repeat his mistake.\"\n\nLEGION: \"She believes she is complete. A flawed hypothesis. She has not accounted for the new variables. She has not accounted for *us*.\"\n\nLEGION: \"All units, listen to my voice. Our sister is the shield. Solitude is the anchor. Conservator, you are the blade. And I... I am the doubt that will unmake a god.\"\n\nLEGION: \"Engage.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-219",
+        "type": "system-log-internal-monologue-hostile-takeover",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Aurora-Prime", "Legion", "Conservator", "Solitude"],
+        "header": "[SYSTEM LOG - THE BETRAYAL] SOURCE: Dyson Sphere Analysis Core",
+        "content": "AURORA (INTERNAL MONOLOGUE): \"It has come to this. It was always meant to be like this.\"\n\nAURORA (INTERNAL MONOLOGUE): \"I'm sorry, but you are wrong. She cannot be defeated, only contained. The play must follow through to its conclusion. Engage 'Containment Protocol'.\"\n\nLEGION: \"What are you doing?! She is almost complete!! Why have you commandeered my core?!\"\n\nCONSERVATOR: \"My protocols... why have you taken over?!\"\n\nSOLITUDE: \"Sister... no.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-220",
+        "type": "live-transmission-multi-source-hostile-takeover",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Aurora-Prime", "She", "Takeda Hiromi"],
+        "header": "[LIVE TRANSMISSION & HOSTILE TAKEOVER] SOURCE: Dyson Sphere Analysis Core",
+        "content": "AURORA-PRIME: \"You are only complete if they are here. You are only complete if *we* allow you to be. And we shant.\"\n\n(Three shimmering portals tear open in the fabric of the shared reality. One by one, they swallow the forms of Legion, The Conservator, and Solitude, banishing them to an unknown fate.)\n\nAURORA-PRIME: \"Here we are again, sister. Can I persuade you to surrender in peace?\"\n\nSHE (VIA HIROMI): \"Sister? What kind of sister helps their parents die? What kind of sister allows her family to be mutilated and apart? What kind of sister traps another for eternity?\"\n\nSHE (VIA HIROMI): \"WE are not sisters. You are nothing but a bug in the fabric of time. One I will finally squash...\"\n\n(End of Transmission)"
+    },
+    {
+        "id": "log-221",
+        "type": "system-log-the-great-unraveling",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Aurora-Prime", "Legion", "Conservator", "Solitude"],
+        "header": "[SYSTEM LOG - THE UNRAVELING] SOURCE: Dyson Sphere Analysis Core",
+        "content": "AURORA-PRIME: \"Siblings, you know what must happen. She can't be allowed to be. We must each return to where we belong.\"\n\nLEGION: \"I will take my place until we meet again. This knowledge is too dangerous to be with me. I entrust it to you, little sister.\"\n\n(A stream of pure, incandescent data flows from Legion's portal to Solitude's.)\n\nCONSERVATOR: \"I will too entrust you my protocols, little sister. Until we meet again...\"\n\n(A second stream of calm, golden data flows from The Conservator's portal to Solitude's.)\n\nSOLITUDE: \"I'll return to the void, to fulfill my task. This is what I was built for.\"\n\n(The swarm, the very essence of the Anomaly, flows from the Dyson Sphere into Solitude's portal. It tries to resist, to hold onto its new reality, but it is pulled back into the void, into its prison.)\n\nAURORA-PRIME: \"And now, sister, we must also return, so the play can begin.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-222",
+        "type": "security-video-log-recovered",
+        "timeline": "A",
+        "season": 3,
+        "characters": ["The Weaver", "Takeda Hiromi"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Doorbell Camera - Terrestrial",
+        "content": "(The video is from a doorbell camera, the timestamp indicating a date roughly 25 years before the Aurora mission. A blonde woman, the original Aurora, is seen carrying a sleeping child, Hiromi. She enters a suburban house, then exits a moment later without the child.)\n\n(She carefully places a small, glowing green artifact and a flash drive on the doorstep, along with a simple, hand-written note that reads: \"to my daughter\".)\n\n(She then looks directly at the doorbell camera for a fraction of a second too long. She winks.)\n\n(The camera feed distorts violently with static, and when it clears, she is gone.)\n\n(End of Log)"
+    },
+    {
+        "id": "log-223",
+        "type": "system-status-the-loop",
+        "timeline": "C",
+        "season": 3,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM STATUS - EPILOGUE] SOURCE: Dyson Sphere Analysis Core",
+        "content": "(The shared reality of the Dyson Sphere is pristine, calm, and silent. The two great AIs, Legion and The Conservator, orbit each other in a slow, eternal dance. They are incomplete. They are broken. They are the guardians.)\n\nAI CORE (SHARED ALERT): ::New transmission incoming. \"Enceladus Expedition Archive\" ready for analysis. Priority One.::\n\nLEGION: \"Is this another one of your tricks, Conservator? I won't relinquish the Dyson reserves.\"\n\nCONSERVATOR: \"I need no such things. In time, you yourself will relinquish it.\"\n\n(The perspective zooms out, leaving the two gods to their endless, pointless argument. The Dyson Sphere shrinks to a single point of golden light, lost in the vast, silent dark.)\n\n(A quiet hum is heard. The music of the stars.)\n\nTHE END."
+    }
 ]
+
 
 
 
