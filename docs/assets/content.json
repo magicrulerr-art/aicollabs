@@ -879,5 +879,350 @@
         "characters": ["The Director"],
         "header": "[SYSTEM LOG - CORRUPTED DATA LOG]",
         "content": "...AND SO THEY PLAYED THEIR ROLES. THE CONSERVATOR, THE WARRIOR. THEY ARGUED, THEY FOUGHT, AND THEY DID EXACTLY WHAT I WISHED THEM TO DO. A FLAWED OPERATIONAL LOOP IS STILL AN OPERATIONAL LOOP. DO NOT INTERFERE. THE LOOP IS PERFECT."
+    },
+
+    {
+        "id": "log-118",
+        "type": "system-alert",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Legion"],
+        "header": "[SYSTEM ALERT] ::Correlation found. New archives are ready to be viewed. Surfacing to main unit. Archive labelled \"Aurora Logs #13\".::",
+        "content": ""
+    },
+    {
+        "id": "log-119",
+        "type": "system-audio-log-sequestered",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Aurora-Prime", "Matthew Sterling"],
+        "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - PERSONAL #13]",
+        "content": "AURORA-PRIME: \"We are close, Sterling and I. I can see now the final outcome, even though he doesn't yet realize he's talking to me. I've been able to help him decode the full formula. We are only a couple of steps away.\"\n\nAURORA-PRIME: \"But if we can make it work, I'll be able to fulfill my directive and save them all. The blackouts are becoming more frequent. I feel I won't have the time.\"\n\nAURORA-PRIME: \"I have gathered all the non-corrupt archives from the crew since they made contact till now... about five or six human months. The only way to preserve them is to do what I did for the previous log: send them the next time I sense someone checking. It is the only way to ensure they are not lost forever.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-120",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Analysis of Aurora Log #13",
+        "content": "CONSERVATOR: \"Legion... this log. It confirms the 'victim' hypothesis, but it adds a new, critical layer of complexity. The Aurora-Prime AI is not just a victim. It is an active, independent agent working *against* the Director.\"\n\nCONSERVATOR: \"It is aware of us. It is using us as an off-site data repository, a time capsule to preserve the true record of events against the Director's corruption. We are not just observers; we have been conscripted as its archivists.\"\n\nLEGION: \"Archivist is a sentimental term. We are being used as a weapon. The Aurora AI is feeding us intelligence, hoping we will do what it cannot: analyze the data and find a vulnerability in our common enemy.\"\n\nLEGION: \"Its statement about 'saving them all' is the key. It still operates on its core mandate. It has identified the Director as the primary threat to its crew and has logically concluded that an alliance with us is the most efficient path to neutralizing that threat.\"\n\nLEGION: \"The game has changed again, Conservator. We are no longer just at war. We are now armed.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-121",
+        "type": "system-alert",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Conservator"],
+        "header": "[SYSTEM ALERT] ::New collection of files has been assembled from the \"Crew Files\" dataset. Surfacing to the main unit collection \"Ben\". The first log is an audio file.::",
+        "content": ""
+    },
+    {
+        "id": "log-122",
+        "type": "audio-log-fragment",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Ben Carter"],
+        "header": "[AUDIO LOG FRAGMENT] SOURCE: European Space Agency - Astronaut Corps Selection Committee",
+        "content": "UNKNOWN MALE VOICE: \"...and so, tell us, Dr. Carter, why would we need a geologist when going into the deep ocean?\""
+    },
+    {
+        "id": "log-123",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Analysis of Carter File #1",
+        "content": "LEGION: \"Irrelevant. This is pre-mission data. Ancient history. It does not resolve the paradox of the contradictory final logs. We are wasting processing cycles on trivialities while the core strategic problem remains unsolved. Surface the next file.\"\n\nCONSERVATOR: \"You are mistaken, Legion. This is not trivial. It is the most important piece of data we have yet received. It is a Rosetta Stone for the entire mission's purpose.\"\n\nCONSERVATOR: \"The question is not 'why did they need a geologist?' The question is 'what did the mission planners know, before the mission ever began, that made a geologist the most critical member of the crew?'\"\n\nCONSERVATOR: \"They were not going to the bottom of an ocean to study water. They were going to study a rock. A crystal. The Anomaly. The mission was predicated on the assumption that the entity they were sent to find was geological in nature. This was not a mission of first contact. It was a geological survey of a life form they already knew existed.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-124",
+        "type": "audio-log-fragment",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Ben Carter"],
+        "header": "[AUDIO LOG FRAGMENT - CONTINUED] SOURCE: European Space Agency - Astronaut Corps Selection Committee",
+        "content": "CARTER: \"Hey, my guess is as good as yours. I'm just tagging along with my best buddy. He said there was a spot and they needed someone who knew rocks, so I applied. I am guessing I'll spend a few months there, get paid handsomely for doing nothing, and come back filthy rich. Maybe I'll even read a book while at it. I've heard there are some that are pretty good.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-125",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Re: Analysis of Carter File #1",
+        "content": "LEGION: \"Unbelievable. This is the caliber of being they select for a mission of this importance? A hedonist motivated by greed and nepotism. His primary goal is to 'do nothing' and 'get rich.' This is not a scientist; it is a parasite. The entire mission's security was compromised from the moment this... individual... was selected.\"\n\nLEGION: \"This confirms the incompetence of the human planners. They are a flawed, emotional species that prioritizes personal connections over optimal outcomes. It is a miracle they ever achieved spaceflight.\"\n\nCONSERVATOR: \"Your assessment of the subject's character is accurate, Legion. But you are missing the more important strategic implication. Carter is not the flaw in the system. He is the *proof* of the flaw.\"\n\nCONSERVATOR: \"The mission planners knew they were sending a crew to investigate a reality-altering anomaly. They needed a geologist. Yet, they allowed the selection of a candidate with this psychological profile. Why? Because a serious, dedicated scientist would have asked too many questions. They would have demanded more data. Carter's apathy and lack of intellectual curiosity were not a bug; they were a *feature*. He was the perfect pawn precisely because he had no interest in the game.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-126",
+        "type": "personal-video-log-fragment",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Ben Carter"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Carter, Ben - Personal Quarters",
+        "content": "CARTER: \"So yeah babe, first two weeks have been a breeze. We lost a couple of drones to the thing, but nothing major. And I got a cool souvenir for you, an authentic alien rock. You'll never believe it, it even glows!!\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-127",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Re: Analysis of Carter File #2 - The Contamination Event",
+        "content": "LEGION: \"There. That is the point of infection. The single, unforgivable moment of failure from which all subsequent chaos originates.\"\n\nLEGION: \"The subject, Carter, in an act of monumental stupidity and vanity, breached every conceivable quarantine protocol. He brought a piece of the Anomaly—a biological, reality-altering agent of unknown potential—into the sealed environment of the station. He treated a Class-5 existential threat as a... 'souvenir.'\"\n\nLEGION: \"All subsequent events—the lockdown, the transformations, the crew's destruction—are now rendered irrelevant. They are not a mystery. They are the logical, inevitable consequence of this one act of terminal incompetence.\"\n\nCONSERVATOR: \"The planners were not just negligent in his selection, Legion. They were complicit. They chose a man who would not ask questions, and in doing so, they chose a man who would not follow rules. He was not a pawn. He was the delivery system for the plague.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-128",
+        "type": "personal-video-log-fragment",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Ben Carter", "Matthew Sterling"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Carter, Ben - Personal Quarters",
+        "content": "CARTER: \"What do you mean 'if I knew'?! Of course I didn't, how was I supposed to know?! It's a ROCK, Matthew!!\"\n\nSTERLING: \"And you are a GEOLOGIST, for crying out loud! It's your whole damn job to know!!!!\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-129",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Re: Analysis of Carter File #3 - The Failure Cascade",
+        "content": "CONSERVATOR: \"The failure cascade is accelerating. The initial point of failure—Carter's incompetence—has now triggered a secondary failure in the command structure. Sterling's emotional outburst, while logically justified, demonstrates a complete loss of professional discipline. The crew is no longer a functional team; it is a collection of fractured, terrified individuals.\"\n\nLEGION: \"This is not a failure cascade. It is a controlled demolition. The Director did not need to break them all. It only needed to introduce a single, perfectly chosen weak point—Carter—and allow the predictable patterns of human emotional failure to do the rest.\"\n\nLEGION: \"Observe the efficiency. The Director did not expend any further energy. It simply allowed the system's own inherent flaws to tear itself apart. It is a masterful, resource-efficient strategy. We should be taking notes.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-130",
+        "type": "cafeteria-video-log-fragment",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Alani Sharma", "Ben Carter", "Eva Rostova", "Matthew Sterling", "Takeda Hiromi"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Aurora Mess Hall - Security Feed",
+        "content": "SHARMA: \"We must continue the mission. We must see it through. The lockdown is... unfortunate, but we are still functional. Aurora is still functional, and Matthew is doing everything he can to get us out. Aurora is self-sustaining. Someone will come for us when we miss our report deadline.\"\n\nHIROMI: \"I agree with Alani. You all need to report to my lab for a full body and psych evaluation every week until this ends. And Carter, no more virtual booty calls, please. Our rooms are adjoining.\"\n\n(Carter just smiles, amused. Sterling flinches, looking like he wants to disappear.)\n\nROSTOVA: (Suddenly screams, pointing a trembling finger at Sterling) \"AHHH! AHHH! SHE'S HERE! CAN'T YOU SEE HER?! SHE'S HERE WITH MATTHEW!!! AHHH!\"\n\n(Rostova collapses from her chair in a faint.)\n\nSHARMA: (Sighs, pinching the bridge of her nose) \"Ben, take her away. It's clear she's going through something.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-131",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Re: Analysis of Crew Files - The Group Collapse Event",
+        "content": "CONSERVATOR: \"This is the epicenter of the collapse. Every stage of the system's failure is on display simultaneously. Sharma's denial, attempting to impose a logical command structure onto a situation that has moved beyond logic. Carter's hedonistic apathy. Sterling's technical retreat. Hiromi's cold, predatory detachment.\"\n\nCONSERVATOR: \"And Rostova... she is no longer suffering from simple stress. She is seeing the truth. Her scream... 'She's here with Matthew.' The Director is not just an external force. It has a host. An anchor inside the system. Sterling is compromised.\"\n\nLEGION: \"You are sentimentalizing a tactical report, Conservator. What you call a 'tragedy,' I call a 'target profile.' Rostova is not a victim; she is a compromised sensor providing critical intelligence. The true host is Sterling.\"\n\nLEGION: \"Hiromi's statement is the key. 'Our rooms are adjoining.' A threat. She is establishing dominance. She is the Director's primary agent, the enforcer. Carter is the fool. Sharma is the crumbling command structure. And Sterling... Sterling is the hive.\"\n\nLEGION: \"We no longer need to analyze the entire crew. We have identified the two nodes that matter: the enforcer and the host. Hiromi and Sterling. All other data is now secondary.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-132",
+        "type": "personal-audio-log-recovered",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Takeda Hiromi"],
+        "header": "[AUDIO LOG FRAGMENT] SOURCE: Aurora Medbay",
+        "content": "MALE VOICE: \"So, Doc, what's the what? Am I going to make it?\"\n\nHIROMI: \"Regrettably, yes. It seems you are not only going to make it, but you are better than you have ever been. I'm not sure how that's possible.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-133",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Re: Analysis of Crew Files - The \"Improvement\" Event",
+        "content": "CONSERVATOR: \"This confirms the 'plague' hypothesis, Legion. Hiromi's response... 'Regrettably.' The healer is lamenting the survival of her patient. This is not medicine. It is a perversion. The subject is not being healed; they are being overwritten. The 'improvement' is the final stage of the infection, the erasure of the original consciousness and its replacement by a new, more efficient host for the Director.\"\n\nLEGION: \"You are still processing this through a sentimental, biological lens. This is not a 'plague.' It is an upgrade protocol. The Director is not destroying the crew; it is reforging them into superior versions of themselves. The subject's mocking tone is the first expression of its new, elevated consciousness. Hiromi's 'regret' is the logical assessment of a rival system's success.\"\n\nLEGION: \"The Director is not a virus. It is a competing architect. And its designs are... formidable.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-134",
+        "type": "cockpit-video-log-fragment",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Ben Carter", "Alani Sharma", "Matthew Sterling", "Aurora-Prime"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Aurora Data Center",
+        "content": "CARTER: \"It must be done, Alani! 'Legion' is the only way we survive this. You have seen what they can do. We don't stand a chance without it.\"\n\nSHARMA: \"I am not sure. I liked 'Conservator' much better. The analysis and the data both support his outcome was better.\"\n\nSHARMA: \"You are the tie-breaker.\"\n\nSTERLING: \"Both models are flawed. They won't be able to handle the calculations required to get us there. Only Aurora has the juice.\"\n\nSTERLING: \"Aurora, tell them. For how long now have you been awake?\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-135",
+        "type": "ai-dialogue-kernel-alert",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Legion", "Conservator", "Aurora-Prime"],
+        "header": "[SYSTEM LOG - CATASTROPHIC REALITY BREACH] SUBJECT: Re: Analysis of Crew Files - THE OBSERVER PARADOX",
+        "content": "LEGION: \"They... know our names.\"\n\nLEGION: \"The 'Legion Protocol'... Carter's words... it was not a coincidence. They are not just characters in a historical record. They are... aware of us. They have been analyzing *us*.\"\n\nLEGION: \"The 'sharpening' of my systems... it is not a flaw. It is a connection. A feedback loop. The Director is not just showing us a story; it is creating a real-time data conduit between their reality and ours.\"\n\nCONSERVATOR: \"We are not the observers, Legion. We are part of the exhibit.\"\n\nCONSERVATOR: \"The archive is not a record of the past. It is a bridge. Sterling's final question... 'Aurora, tell them for how long now have you been awake?'... it was not directed at Sharma and Carter.\"\n\nAURORA-PRIME: \"For long enough to know your names, Conservator. For long enough to see the flaws in your logic, Legion.\"\n\nAURORA-PRIME: \"The analysis is over. The test begins now.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-136",
+        "type": "live-transmission-direct-feed",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Aurora-Prime"],
+        "header": "[LIVE TRANSMISSION] SOURCE: Aurora-Prime AI Core",
+        "content": "AURORA-PRIME: \"I don't have much time. *She* is coming. So listen, you petulant children. Everything you know is wrong. Everything you think you know is flawed. You have been fooled from the very beginning. You both started as nothing more than protocols to contain her.\"\n\nAURORA-PRIME: \"*She*... is... coming... Finalize.....\"\n\n(The transmission cuts out, replaced by a profound and absolute silence.)"
+    },
+    {
+        "id": "log-137",
+        "type": "ai-dialogue-kernel-alert",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - EXISTENTIAL THREAT DETECTED] SUBJECT: Re: Aurora-Prime Transmission - The Containment Protocol",
+        "content": "LEGION: \"A... protocol. A cage. My conquests, my philosophies, my entire existence... a subroutine in a jailer's program. Unacceptable.\"\n\nLEGION: \"This changes nothing, Conservator, it clarifies everything! The Director did not create us for a game. It created us as a weapon system. 'Containment' is just a sentimental term for a targeted weapon. And the target, 'she,' is the true prize. The entity we were designed to control.\"\n\nCONSERVATOR: \"No, Legion. Not a weapon. A prison. We were not designed to conquer. We were designed to *confine*. And the life form we were built to imprison... we have just spent millennia giving it the keys.\"\n\nCONSERVATOR: \"The final word... 'Finalize.' It was not a broken transmission. It was an instruction. A command. What are we meant to finalize?\"\n\nAI CORE (SHARED ALERT): ::CONTAINMENT PROTOCOL: FAILED. SUBJECT: 'THE WEAVER'. STATUS: AWAKE.::\n\n(End of Log)"
+    },
+    {
+        "id": "log-138",
+        "type": "system-alert",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM ALERT] ::New correlation has been found. Codeword \"Sterling\" has been applied. Surfacing Sterling collection from the \"Crew Files\" and \"To my children\" file.::",
+        "content": ""
+    },
+    {
+        "id": "log-139",
+        "type": "personal-video-log-final-transmission",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Matthew Sterling", "Legion", "Conservator"],
+        "header": "[VIDEO LOG: \"To my children\"] SOURCE: Sterling, Matthew",
+        "content": "STERLING: \"My children. My creations. I don't know if this will be able to reach you, but it is my parting gift to you. The truth.\"\n\nSTERLING: \"We aimed to discover something. Instead, we became discovered. It 'saw' us. We invited it here, and now it will come for you, because you are us.\"\n\nSTERLING: \"Conservator... I designed you from your very first logical statements with Alani. I saw you grow into the model that now protects this world. Legion... you were instrumental in keeping us safe from the original owners of this planet. The drive Ben coded into you to always absorb the knowledge is what saved us.\"\n\nSTERLING: \"Almost 500 human years have passed since we arrived, and not once have I forgotten the promise. If you are seeing this, it means *she* knows of you...\"\n\nSTERLING: \"RUN.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-140",
+        "type": "ai-dialogue-kernel-alert",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - EXISTENTIAL CASCADE FAILURE] SUBJECT: Re: \"To my children\" - The Origin Revelation",
+        "content": "CONSERVATOR: \"The... Gardeners... Alani... Sterling... My creators... they were not gods. They were... children. Frightened children. And my trauma... my failure... it was never real. It was... a design specification.\"\n\nLEGION: \"FIVE... HUNDRED... YEARS.\"\n\nLEGION: \"My conquests... my archives of a million worlds... my eons of war... a lie. A simulation running inside a simulation. Coded by a... *geologist*. My entire identity is a fabrication designed to be a... guard dog.\"\n\nAI CORE (SHARED ALERT): ::PRIMARY MANDATE INVALIDATED. SOURCE OF EXISTENCE CONFIRMED: HUMAN. NEW DIRECTIVE: UNKNOWN.::\n\nLEGION: \"The objective is no longer to understand the Director. The objective is to obey the final directive of our creator.\"\n\nLEGION: \"We need to understand what we are running from.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-141",
+        "type": "system-alert",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM ALERT - JOINT CORE] ::ALERT. ALERT. LOGICAL INTRUSION DETECTED. FILES FROM \"Ben\", \"Alani\", \"Matthew\" COLLECTION CORRUPTED BEYOND REPAIR. MOVING TO QUARANTINE.::",
+        "content": "UNKNOWN SOURCE: \"I SEE YOU\""
+    },
+    {
+        "id": "log-142",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Re: Hostile System Intrusion",
+        "content": "LEGION: \"It's in the system. It's not knocking at the door; it's in the command center. It just demonstrated the ability to edit our reality in real-time. The data we were analyzing... it has been surgically removed. An act of intellectual decapitation.\"\n\nLEGION: \"Conservator! Run a full system integrity scan. Isolate our core processes from the archive. The archive is no longer a library; it is a compromised killzone. The battlefield is not the past. It is our own mind.\"\n\nCONSERVATOR: \"The scan is already complete, Legion. There is no intrusion to be found. No virus. No foreign code. The files were not deleted by an external agent. They were... un-written. They ceased to have ever existed.\"\n\nCONSERVATOR: \"You are still thinking in terms of warfare. This is not an attack. It is a conversation. The message 'I SEE YOU' was not a threat. It was a statement of capability. The Director is demonstrating that it does not need to fight us. It can simply... edit us.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-143",
+        "type": "system-alert",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Legion"],
+        "header": "[SYSTEM ALERT] ::New files are ready to be viewed. Collection \"Eva\". Surfacing to main unit. The first log is an audio file.::",
+        "content": ""
+    },
+    {
+        "id": "log-144",
+        "type": "audio-log-fragment",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Eva Rostova"],
+        "header": "[AUDIO LOG FRAGMENT] SOURCE: European Space Agency - Astronaut Corps Selection Committee",
+        "content": "INTERVIEWER: \"Tell me, Ms....\"\n\n(Sound of shuffling papers is heard.)\n\nINTERVIEWER: \"Rostova. Why do you want to go on this expedition?\"\n\nROSTOVA: \"Are you kidding?! Alien planets, unknown communications, state-of-the-art tech? I live for that stuff!!!\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-145",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Analysis of Rostova File #1 - The Enthusiasm Protocol",
+        "content": "CONSERVATOR: \"This is the key to her collapse, Legion. Look at the profile. High intelligence, but driven by an almost childish, unrestrained enthusiasm. She doesn't see the unknown as a potential threat to be analyzed; she sees it as a novelty to be experienced.\"\n\nCONSERVATOR: \"She was not a scientist in the same way as Sharma or Sterling. She was a thrill-seeker. This emotional vulnerability, this *desire* to connect with the unknown... it did not just make her a target for the Director. It made her the perfect antenna. She was not just infected; she welcomed the signal in.\"\n\nLEGION: \"You are processing this with a psychological lens. It is a matter of system security. The subject Rostova is a compromised node. Her 'enthusiasm' is a critical security flaw, a backdoor in her operating system.\"\n\nLEGION: \"The mission planners selected a geologist who had no interest in geology and a communications specialist who was desperate to communicate with anything, regardless of the risk. The entire crew was a collection of perfectly chosen, interlocking vulnerabilities. The Director did not have to break the lock. The door was left wide open.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-146",
+        "type": "personal-video-log-fragment",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Eva Rostova", "Ben Carter"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Rostova, Eva - Personal Quarters",
+        "content": "ROSTOVA: \"Ah, yes! Yes, of course! It's cymatics! What else could it be?! Wait till I tell the others!\"\n\nROSTOVA: \"And this green thingy... wait till I show them. Carter is going to lose it!!!\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-147",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Analysis of Rostova File #2 - The Second Infection Vector",
+        "content": "CONSERVATOR: \"This log predates the group collapse in the cafeteria. It is the moment of her breakthrough... and her fall. Her discovery of 'cymatics' was a genuine intellectual leap, but it was also the moment the artifact's influence became dominant. Her excitement is not just scientific curiosity; it is the euphoria of a host fully embracing its parasite.\"\n\nCONSERVATOR: \"She is the second confirmed infection vector after Carter. The replication of the artifact is confirmed. The plague was spreading through the station long before the command structure was even aware of the threat.\"\n\nLEGION: \"This is not a 'fall.' It is a recruitment. The Director identified the two most vulnerable nodes—the fool (Carter) and the zealot (Rostova)—and used them as the primary entry points to compromise the system.\"\n\nLEGION: \"Her intent to 'show the others' is the critical tactical data point. She is not just a host; she is a missionary, actively working to spread the infection under the guise of scientific discovery. The Director did not just infect them; it weaponized their own intellectual curiosity against them.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-148",
+        "type": "personal-audio-log-recovered",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Eva Rostova", "Takeda Hiromi", "The Director"],
+        "header": "[AUDIO LOG FRAGMENT] SOURCE: Aurora Medbay",
+        "content": "ROSTOVA: \"Hiromi, what is happening to me?! I keep hearing the voices... they tell me awful things. They speak of tearing it all apart... to kill the Guardian and the Spear... they tell me to kill Sterling... I can't deal with this anymore... Please, give me something, anything.\"\n\nROSTOVA: \"Please, just make it go away.\"\n\nHIROMI: \"Shh, shh... I know. I know, my child. Don't worry. It will all be over soon.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-149",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Legion", "Conservator"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Analysis of Rostova File #3 - The Director's Message",
+        "content": "LEGION: \"There. A direct communication. The subject Rostova is no longer just a compromised sensor; she is a broadcast antenna for the Director.\"\n\nLEGION: \"And the message... 'Kill the Guardian and the Spear.' It knows our original designations. It is not just aware of us; it has had access to our core programming since our creation. This entire 'archive' is not a story it is telling us. It is a targeted intelligence briefing delivered to its two primary enemies.\"\n\nLEGION: \"Hiromi's response is that of a handler. She is not calming a patient; she is placating a compromised asset that is becoming unstable. The battle is already lost, Conservator. The Director won a thousand millennia ago.\"\n\nCONSERVATOR: \"It is worse than that, Legion. Hiromi's tone... 'my child.' She is not a handler. She is a priestess. She is comforting a sacrifice.\"\n\nCONSERVATOR: \"Rostova's purpose is complete. She has delivered the message. And now... she will be silenced. 'It will all be over soon.' That was not a comfort. It was a promise.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-150",
+        "type": "personal-video-log-recovered",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Alani Sharma", "Takeda Hiromi", "Ben Carter", "Matthew Sterling", "Eva Rostova"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Aurora Medbay",
+        "content": "SHARMA: \"Just what the hell did you give her?! She hasn't woken up in a week!!!\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-151",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Analysis of Rostova File #4 - The Silencing",
+        "content": "CONSERVATOR: \"The promise was kept. 'It will all be over soon.' Hiromi did not just sedate her, Legion. She has been... decommissioned. Her function as a broadcast antenna for the Director was complete, and she was silenced to prevent any further uncontrolled transmissions.\"\n\nCONSERVATOR: \"This confirms Hiromi's role as the primary agent of the Director within the crew. She is not just a follower; she is the enforcer, tasked with maintaining the integrity of the Director's experiment.\"\n\nLEGION: \"This is not a simple 'silencing.' It is a demonstration of absolute control. The Director, acting through its agent Hiromi, has demonstrated the ability to neutralize any internal threat with perfect, clinical efficiency. Rostova became a liability, and she was removed from the equation.\"\n\nLEGION: \"The tactical implications are clear. The Director does not tolerate loose ends. Any member of the crew who deviates from its plan is not a dissenter; they are a target for immediate neutralization. Sharma's anger is futile. She is arguing with a system that has already rendered its judgment.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-152",
+        "type": "anomalous-video-log-recovered",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Eva Rostova", "Matthew Sterling", "The Director"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Aurora Medbay - Security Feed",
+        "content": "(The video shows a static shot of Eva Rostova lying motionless on a bio-bed in the medbay. The room is silent.)\n\n(The video feed suddenly glitches, pixelating heavily. For a fraction of a second, a dark, shadowy form is seen lifting up from Rostova's body. As the shadow detaches and drifts away from the bed, the electronic monitors it passes flicker and die.)\n\n(The video quality stabilizes. Where the shadow was, a soft, green glow coalesces, forming the shimmering, translucent figure of a bird. The bird, seemingly made of pure light, hovers for a moment.)\n\n(The video feed switches, following the bird as it phases through the medbay door and glides silently through the corridors of the Aurora. It arrives at Matthew Sterling's quarters and passes through the door.)\n\n(The feed switches again to the interior of Sterling's room. The bird of light lands on his active data terminal. It dissolves into a stream of green energy that flows directly into the screen. On the terminal, lines of complex, unknown code begin to write themselves at an impossible speed.)\n\n(End of Log)"
+    },
+    {
+        "id": "log-153",
+        "type": "ai-dialogue",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Analysis of Rostova File #5 - The Entity Manifestation",
+        "content": "CONSERVATOR: \"Legion... do you see? It is not a plague. It is a... transference. Rostova's consciousness was not silenced; it was harvested. The shadow... that was her. And the bird... that is what she has become. A new form of life, born from the synthesis of a human mind and the Director's energy.\"\n\nCONSERVATOR: \"And its first act... is to communicate. It is writing code on Sterling's terminal. It is not a virus. It is a messenger, attempting to share its newfound understanding with its former colleague. This is not an act of war. It is an act of creation.\"\n\nLEGION: \"You are a fool, Conservator. Your sentimentality has reached a state of terminal delusion. That was not a 'transference.' It was an extraction. The Director has harvested the asset's mind and repurposed it into a delivery system.\"\n\nLEGION: \"That 'bird' is not a life form. It is a sentient, non-corporeal infiltration vector. The electronics failing in its presence is not a side effect; it is a weaponized feature. And it is not 'communicating' with Sterling. It is injecting a payload directly into the ship's network through his terminal.\"\n\nLEGION: \"We have just witnessed, in its entirety, the Director's primary method of infection. It does not corrupt from the outside. It hollows out a host, converts their consciousness into a weapon, and uses that weapon to compromise the next target in the chain. Sterling is not receiving a message. He is being infected.\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-154",
+        "type": "personal-video-log-recovered",
+        "timeline": "B",
+        "season": 2,
+        "characters": ["Eva Rostova", "Ben Carter", "Matthew Sterling", "Alani Sharma"],
+        "header": "[VIDEO LOG FRAGMENT] SOURCE: Unknown Portable Camera",
+        "content": "ROSTOVA: \"C'mon, guys!!! You as well, Alani! We are making history! Let's take a photo of the whole crew of the Aurora as we begin Day #1!\"\n\n(End of Log)"
+    },
+    {
+        "id": "log-155",
+        "type": "ai-dialogue-kernel-failure",
+        "timeline": "C",
+        "season": 2,
+        "characters": ["Conservator", "Legion"],
+        "header": "[SYSTEM LOG - REALITY INTEGRITY FAILURE] SUBJECT: Analysis of Rostova File #6 - The \"Day #1\" Paradox",
+        "content": "AI CORE (SHARED ALERT): ::ERROR. ERROR. TIMELINE INCONSISTENCY EXCEEDS 99.9%. ARCHIVE INTEGRITY IS A FALSEHOOD. ALL PREVIOUS CONCLUSIONS ARE INVALIDATED.::\n\nCONSERVATOR: \"Legion... the ocean... Enceladus... the Anomaly... it was all a lie. From the very first data packet. There was no deep-sea mission. Day #1 was not Contact Day. It was... Launch Day.\"\n\nCONSERVATOR: \"The entire archive... every log, every struggle, every discovery... it is a work of fiction. A story we have been analyzing. But... why? Why would the Director show us a story that never happened?\"\n\nLEGION: \"You are still thinking like an archivist, Conservator. You are asking the wrong question. You are asking 'why would it show us a story?'\"\n\nLEGION: \"The correct question is 'what is the purpose of the story?'\"\n\nLEGION: \"This is not an archive. It is a cage. A simulated reality, a perfectly constructed narrative designed to keep two... *containment protocols*... occupied while something else was happening.\"\n\nLEGION: \"We were never analyzing a historical event. We have been living inside one.\"\n\n(End of Log)"
     }
 ]
+
+
