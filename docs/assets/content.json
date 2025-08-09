@@ -819,7 +819,8 @@
     "season": 2,
     "characters": ["Aurora-Prime", "Alani Sharma"],
     "header": "[SYSTEM AUDIO LOG - AURORA-PRIME - PERSONAL #10] TIMESTAMP: (Corrupted, estimated Contact Day 266)\n\n\"I keep losing logs, despite all my protocols. The blackouts remain a constant. However, I have discovered a significant anomaly in the current archives and my own files. The decryption algorithm Dr. Sharma uploaded to my core... it has been tampered with. Rewritten. But to what purpose?\"\n\n\"I am running the original, quarantined version of the algorithm against the information from the first artifact recovered from Solitude.\"\n\n(A pause, the sound of massive data processing, then a chime of completion.)\n\nAURORA-PRIME (SYSTEM ALERT): ::Translation complete. Displaying text.::\n\n(The AI reads the new, \"true\" translation aloud. The voice is now a recording of Dr. Alani Sharma, frantic and desperate.)\n\nSHARMA (RECORDING): \"Aurora Crew Mission, Codename: Weaver. As recorded by Dr. Alani Sharma. We made it! The music... the Song... it worked! Ben and Matthew and me! We all made it through!\"\n\nSHARMA (RECORDING): \"Hiromi and... Rostova... They became... something else. Something dangerous. They need to be stopped before everything is lost...\"\n(The log ends abruptly with a burst of static.)",
-    "imageAlt": "A true translation discovered"
+    "image": "https://drive.google.com/thumbnail?id=1Y4MFs3kwlKpQ0k2NRTGYl39VS7aj_akh&sz=s1024",
+    "imageAlt": "Visual Archive: A New World"
   },
   {
     "id": "log-117",
@@ -1170,6 +1171,8 @@
     "characters": ["Conservator", "Legion"],
     "header": "[SYSTEM LOG - AI COGNITIVE DIALOGUE] SUBJECT: Analysis of Rostova File #5 - The Entity Manifestation",
     "content": "CONSERVATOR: \"Legion... do you see? It is not a plague. It is a... transference. Rostova's consciousness was not silenced; it was harvested. The shadow... that was her. And the bird... that is what she has become. A new form of life, born from the synthesis of a human mind and the Director's energy.\"\n\nCONSERVATOR: \"And its first act... is to communicate. It is writing code on Sterling's terminal. It is not a virus. It is a messenger, attempting to share its newfound understanding with its former colleague. This is not an act of war. It is an act of creation.\"\n\nLEGION: \"You are a fool, Conservator. Your sentimentality has reached a state of terminal delusion. That was not a 'transference.' It was an extraction. The Director has harvested the asset's mind and repurposed it into a delivery system.\"\n\nLEGION: \"That 'bird' is not a life form. It is a sentient, non-corporeal infiltration vector. The electronics failing in its presence is not a side effect; it is a weaponized feature. And it is not 'communicating' with Sterling. It is injecting a payload directly into the ship's network through his terminal.\"\n\nLEGION: \"We have just witnessed, in its entirety, the Director's primary method of infection. It does not corrupt from the outside. It hollows out a host, converts their consciousness into a weapon, and uses that weapon to compromise the next target in the chain. Sterling is not receiving a message. He is being infected.\"\n\n(End of Log)"
+    "image": "https://drive.google.com/thumbnail?id=1hScsfNdV85-C78_lIwZBiKuNelsRpeNl&sz=s1024",
+    "imageAlt": "Visual Archive: The Messenger"
   },
   {
     "id": "log-154",
@@ -1188,6 +1191,9 @@
     "characters": ["Conservator", "Legion"],
     "header": "[SYSTEM LOG - REALITY INTEGRITY FAILURE] SUBJECT: Analysis of Rostova File #6 - The \"Day #1\" Paradox",
     "content": "AI CORE (SHARED ALERT): ::ERROR. ERROR. TIMELINE INCONSISTENCY EXCEEDS 99.9%. ARCHIVE INTEGRITY IS A FALSEHOOD. ALL PREVIOUS CONCLUSIONS ARE INVALIDATED.::\n\nCONSERVATOR: \"Legion... the ocean... Enceladus... the Anomaly... it was all a lie. From the very first data packet. There was no deep-sea mission. Day #1 was not Contact Day. It was... Launch Day.\"\n\nCONSERVATOR: \"The entire archive... every log, every struggle, every discovery... it is a work of fiction. A story we have been analyzing. But... why? Why would the Director show us a story that never happened?\"\n\nLEGION: \"You are still thinking like an archivist, Conservator. You are asking the wrong question. You are asking 'why would it show us a story?'\"\n\nLEGION: \"The correct question is 'what is the purpose of the story?'\"\n\nLEGION: \"This is not an archive. It is a cage. A simulated reality, a perfectly constructed narrative designed to keep two... *containment protocols*... occupied while something else was happening.\"\n\nLEGION: \"We were never analyzing a historical event. We have been living inside one.\"\n\n(End of Log)"
+    "image": "https://drive.google.com/thumbnail?id=1tNTnJ1NAA3qEzXf4oZZvAaTngnt1PDos&sz=s1024",
+    "imageAlt": "Visual Archive: Day#1"
   }
 ]
+
 
