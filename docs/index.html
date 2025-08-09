@@ -105,28 +105,7 @@
             line-height: 1.7;
             font-style: italic;
         }
-
-        .intro-text #easter-egg-trigger {
-            color: #E0A0A0;
-            font-weight: 700;
-            cursor: pointer;
-            text-decoration: underline;
-            text-decoration-color: rgba(224, 160, 160, 0.5);
-            transition: all 0.2s ease-in-out;
-            animation: text-glow 2s infinite alternate;
-        }
-
-        .intro-text #easter-egg-trigger:hover {
-            color: #FF4444;
-            text-decoration-color: #FF4444;
-            text-shadow: 0 0 5px rgba(255, 68, 68, 0.5);
-        }
         
-        @keyframes text-glow {
-            0%, 100% { color: #E0A0E0; text-shadow: none; }
-            50% { color: #FF4444; text-shadow: 0 0 5px rgba(255, 68, 68, 0.5); }
-        }
-
         .loading-packet {
             font-size: 0.85rem;
             color: #7A8292;
@@ -181,7 +160,13 @@
             text-align: center;
             font-style: italic;
         }
-
+        
+        .log-entry.secret-message {
+            border-left-color: #FF4444;
+            background-color: rgba(40, 20, 20, 0.8);
+            animation: glitch 2s infinite alternate;
+        }
+        
         /* Gibberish style */
         .gibberish {
             border-left: 3px solid #FF4444;
@@ -256,10 +241,30 @@
             text-shadow: 0 0 3px rgba(224, 160, 224, 0.5);
             transition: all 0.3s ease;
         }
-
         .aurora-text:hover {
             color: #F0B0F0;
             text-shadow: 0 0 8px rgba(240, 176, 240, 0.8);
+        }
+
+        .solitude-text {
+            color: #A0C0E0;
+            font-weight: 300;
+            font-style: italic;
+            text-shadow: 0 0 3px rgba(160, 192, 224, 0.5);
+            transition: all 0.3s ease;
+        }
+        .solitude-text:hover {
+            color: #B0D0E0;
+            text-shadow: 0 0 8px rgba(176, 208, 224, 0.8);
+        }
+        
+        /* New styling for AI highlight */
+        .highlight-ai {
+            animation: ai-pulse 1.5s infinite alternate;
+        }
+        @keyframes ai-pulse {
+            0% { text-shadow: 0 0 3px currentColor, 0 0 5px currentColor; }
+            100% { text-shadow: 0 0 8px currentColor, 0 0 15px currentColor; }
         }
 
         .log-header {
@@ -280,6 +285,15 @@
             color: #E0E6F0;
             text-shadow: 0 0 2px rgba(224, 230, 240, 0.05);
             position: relative;
+        }
+        
+        .log-content-typing {
+            overflow: hidden; /* Ensures text doesn't wrap before animation */
+            white-space: pre-wrap;
+            animation: none; /* Disable cursor animation during typing */
+        }
+        .log-content-typing span {
+            display: inline;
         }
 
         /* Blinking cursor effect for a terminal feel */
@@ -335,6 +349,8 @@
             cursor: pointer;
             transition: all 0.2s ease-in-out;
             box-shadow: 0 0 5px rgba(160, 192, 224, 0.2);
+            /* New cursor for interactive elements */
+            cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='%23A0C0E0' d='M2 12C2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10-10 10S2 17.52 2 12zm13 1H9v-2h6v2z'/%3E%3C/svg%3E"), auto;
         }
 
         .log-button:hover {
@@ -462,7 +478,7 @@
             position: fixed;
             top: 2rem;
             left: 2rem;
-            z-index: 50;
+            z-index: 100;
             width: 40px;
             height: 40px;
             cursor: pointer;
@@ -475,6 +491,7 @@
             padding: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
             transition: all 0.3s ease-in-out;
+            cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='%23A0C0E0' d='M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z'/%3E%3C/svg%3E"), auto;
         }
         
         .hamburger-menu-icon span {
@@ -512,7 +529,7 @@
             background-color: rgba(15, 15, 20, 0.98);
             border-right: 1px solid rgba(30, 30, 40, 0.7);
             backdrop-filter: blur(10px);
-            z-index: 40;
+            z-index: 90;
             transform: translateX(-100%);
             transition: transform 0.5s ease-in-out;
             padding: 2rem;
@@ -544,6 +561,20 @@
             background-color: rgba(40, 40, 50, 0.9);
             border-color: #8A94A6;
         }
+        .filter-group-header .filter-status {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: 1px solid currentColor;
+            display: none;
+            transition: background-color 0.3s;
+        }
+        .filter-group-header .filter-status.active {
+            display: block;
+            background-color: #A0D0A0;
+            box-shadow: 0 0 5px #A0D0A0;
+        }
 
         .filter-group-header .fa-chevron-down {
             transition: transform 0.3s ease;
@@ -566,8 +597,8 @@
         
         .filter-group-wrapper {
             margin-bottom: 2rem;
+            padding: 0 1.5rem;
         }
-
 
         .filter-group h3 {
             font-size: 1.2rem;
@@ -589,11 +620,24 @@
             text-align: left;
             transition: all 0.2s ease-in-out;
             cursor: pointer;
+            position: relative;
+        }
+        .filter-group button i.fa-check {
+            position: absolute;
+            right: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #A0D0A0;
+            display: none;
+            text-shadow: 0 0 5px #A0D0A0;
+        }
+        .filter-group button.active i.fa-check {
+            display: block;
         }
         
         .filter-group button.active {
-            background-color: #A0C0E0;
-            color: #08080C;
+            background-color: rgba(160, 192, 224, 0.15);
+            color: #A0C0E0;
             font-weight: 700;
             box-shadow: 0 0 15px rgba(160, 192, 224, 0.5);
         }
@@ -609,7 +653,6 @@
             font-weight: 700;
             box-shadow: 0 0 15px rgba(160, 192, 224, 0.5);
         }
-        
         .filter-group button.all-button {
             text-align: center;
         }
@@ -650,8 +693,8 @@
         }
 
 
-        /* Easter Egg Modal - Reworked */
-        #easter-egg-modal {
+        /* AI Specific Modals (Replaces the old puzzle modal) */
+        .ai-modal-overlay {
             position: fixed;
             top: 0;
             left: 0;
@@ -668,13 +711,13 @@
             backdrop-filter: blur(5px);
         }
 
-        #easter-egg-modal.show {
+        .ai-modal-overlay.show {
             opacity: 1;
             visibility: visible;
         }
 
-        #easter-egg-modal-content {
-            background-color: rgba(25, 5, 5, 0.95);
+        .ai-modal-content {
+            background-color: rgba(15, 15, 20, 0.95);
             border: 2px solid #ff4444;
             box-shadow: 0 0 30px rgba(255, 68, 68, 0.8);
             padding: 2rem;
@@ -691,20 +734,40 @@
             100% { background-position: 0% 100%; }
         }
         
-        #easter-egg-modal-content h3 {
+        .ai-modal-content h3 {
             font-size: 1.5rem;
             font-weight: 700;
             margin-bottom: 1rem;
             text-transform: uppercase;
         }
-
-        #easter-egg-modal-content p {
-            font-style: italic;
-            line-height: 1.5;
-            color: #ff8888;
-        }
         
-        #easter-egg-modal-content .close-btn {
+        .ai-modal-content.legion {
+            border-color: #FF2222;
+            box-shadow: 0 0 30px rgba(255, 34, 34, 0.8);
+        }
+        .ai-modal-content.conservator {
+            border-color: #A0C0E0;
+            box-shadow: 0 0 30px rgba(160, 192, 224, 0.8);
+            animation: none;
+            background-color: rgba(15, 20, 25, 0.95);
+            color: #A0C0E0;
+        }
+        .ai-modal-content.aurora {
+            border-color: #E0A0E0;
+            box-shadow: 0 0 30px rgba(224, 160, 224, 0.8);
+            animation: none;
+            background-color: rgba(20, 15, 20, 0.95);
+            color: #E0A0E0;
+        }
+        .ai-modal-content.solitude {
+            border-color: #E0B0A0;
+            box-shadow: 0 0 30px rgba(224, 176, 160, 0.8);
+            animation: none;
+            background-color: rgba(20, 20, 15, 0.95);
+            color: #E0B0A0;
+        }
+
+        .ai-modal-content .close-btn {
             position: absolute;
             top: 1rem;
             right: 1rem;
@@ -724,46 +787,39 @@
             box-shadow: 0 0 8px rgba(255, 68, 68, 0.3);
             animation: close-btn-flicker 2s infinite alternate;
         }
-        @keyframes close-btn-flicker {
-            0%, 100% { opacity: 0.8; }
-            50% { opacity: 1; }
-        }
-
-        #easter-egg-modal-content .close-btn:hover {
+        .ai-modal-content .close-btn:hover {
             transform: scale(1.1);
             background-color: rgba(255, 68, 68, 0.4);
             box-shadow: 0 0 15px rgba(255, 68, 68, 0.8);
         }
         
-        .puzzle-container {
-            display: flex;
-            justify-content: space-around;
-            gap: 0.5rem;
+        .ai-message-container {
             margin-top: 2rem;
+            padding-left: 1rem;
+            line-height: 1.5;
+            font-family: 'Source Code Pro', monospace;
         }
-        .puzzle-symbol {
-            font-size: 2rem;
+
+        .ai-message-container p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        .ai-message-container.legion {
+            border-left: 1px dashed #FF2222;
+            color: #FF2222;
+        }
+        .ai-message-container.conservator {
+            border-left: 1px dashed #A0C0E0;
             color: #A0C0E0;
-            cursor: pointer;
-            animation: symbol-flicker 1s infinite alternate;
         }
-        .puzzle-symbol.active {
-            color: #E0E6F0;
-            text-shadow: 0 0 10px #E0E6F0;
+        .ai-message-container.aurora {
+            border-left: 1px dashed #E0A0E0;
+            color: #E0A0E0;
         }
-        .puzzle-symbol.correct {
-            color: #6EFF6E;
-            text-shadow: 0 0 10px #6EFF6E;
-            animation: none;
-        }
-        .puzzle-symbol.incorrect {
-            color: #FF4444;
-            text-shadow: 0 0 10px #FF4444;
-            animation: none;
-        }
-        @keyframes symbol-flicker {
-            0% { opacity: 0.5; }
-            100% { opacity: 1; }
+        .ai-message-container.solitude {
+            border-left: 1px dashed #E0B0A0;
+            color: #E0B0A0;
         }
 
         /* Back to Top Button - Reworked */
@@ -786,6 +842,7 @@
             outline: none;
             animation: fade-in-up 0.5s forwards;
             opacity: 0;
+            cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='%23A0C0E0' d='M12 2L2 12h5v10h10V12h5L12 2zM9 14v4H7v-4h2zm8 0v4h-2v-4h2z'/%3E%3C/svg%3E"), auto;
         }
         @keyframes fade-in-up {
             from {
@@ -929,6 +986,60 @@
                 width: 100%;
             }
         }
+        
+        /* New search bar styling */
+        .search-container {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 3rem;
+            padding: 0 1.5rem;
+        }
+        .search-input {
+            flex-grow: 1;
+            background-color: rgba(30, 30, 35, 0.9);
+            border: 1px solid rgba(60, 60, 70, 0.7);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            color: #E0E6F0;
+            font-family: 'Source Code Pro', monospace;
+            font-size: 1rem;
+            transition: all 0.2s ease-in-out;
+            outline: none;
+        }
+        .search-input:focus {
+            border-color: #A0C0E0;
+            box-shadow: 0 0 10px rgba(160, 192, 224, 0.5);
+        }
+        .search-button {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            background-color: #A0C0E0;
+            border: 1px solid #A0C0E0;
+            color: #08080C;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='%23A0C0E0' d='M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3C/svg%3E"), auto;
+        }
+        .search-button:hover {
+            background-color: #E0E6F0;
+            box-shadow: 0 0 15px rgba(160, 192, 224, 0.8);
+        }
+        
+        .character-manifest-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            padding-top: 0.5rem;
+        }
+        .character-manifest-list span {
+            background-color: rgba(160, 192, 224, 0.1);
+            color: #A0C0E0;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px; /* Tailwind's rounded-full */
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
     </style>
 </head>
 <body>
@@ -944,7 +1055,7 @@
         <h1 class="text-4xl">THE ENCELADUS ANOMALY ARCHIVE</h1>
         <p class="intro-text">
             The following is a recovered, fragmented archive of data logs pertaining to the deep-space vessel Aurora and its mission to Enceladus in the late 21st century. The archive was compiled by
-            <span id="easter-egg-trigger" class="easter-egg-trigger">two unknown, high-level AI entities</span>, referred to as The Conservator and Legion, from a damaged data source of unknown origin.
+            two unknown, high-level AI entities, referred to as The Conservator and Legion, from a damaged data source of unknown origin.
         </p>
         
         <div id="log-entries">
@@ -976,16 +1087,36 @@
     <!-- Collapsible Filter Sidebar -->
     <div id="filter-sidebar" class="filter-sidebar">
         <h2 class="text-2xl text-center text-red-400 font-bold mb-8 uppercase tracking-wider">Archive Filters</h2>
+        
+        <!-- New search bar now inside the sidebar -->
+        <div class="search-container">
+            <input type="text" id="search-input" class="search-input" placeholder="Search archive logs...">
+            <button id="search-button" class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+
+        <!-- Collapsible Character Manifest (new feature) -->
+        <div class="filter-group-wrapper">
+            <div class="filter-group-header collapsed" data-target="character-manifest-content">
+                <span>Character Manifest</span>
+                <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
+            </div>
+            <div id="character-manifest-content" class="filter-group-content">
+                <div id="character-manifest-list" class="character-manifest-list">
+                    <!-- Discovered character names will be added here dynamically -->
+                </div>
+            </div>
+        </div>
 
         <!-- Collapsible Season Filter -->
         <div class="filter-group-wrapper">
             <div class="filter-group-header collapsed" data-target="season-filters-content">
                 <span>By Season</span>
+                <div id="season-filter-status" class="filter-status"></div>
                 <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
             </div>
             <div id="season-filters-content" class="filter-group-content flex flex-col gap-2">
-                <button data-filter-type="season" data-filter-value="1">Season One</button>
-                <button data-filter-type="season" data-filter-value="2">Season Two</button>
+                <button data-filter-type="season" data-filter-value="1">Season One<i class="fas fa-check"></i></button>
+                <button data-filter-type="season" data-filter-value="2">Season Two<i class="fas fa-check"></i></button>
             </div>
         </div>
 
@@ -993,6 +1124,7 @@
         <div class="filter-group-wrapper">
             <div class="filter-group-header collapsed" data-target="character-filters-content">
                 <span>By Character</span>
+                <div id="character-filter-status" class="filter-status"></div>
                 <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
             </div>
             <div id="character-filters-content" class="filter-group-content flex flex-col gap-2">
@@ -1004,12 +1136,13 @@
         <div class="filter-group-wrapper">
             <div class="filter-group-header collapsed" data-target="timeline-filters-content">
                 <span>By Timeline</span>
+                <div id="timeline-filter-status" class="filter-status"></div>
                 <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
             </div>
             <div id="timeline-filters-content" class="filter-group-content flex flex-col gap-2">
-                <button data-filter-type="timeline" data-filter-value="A">Ancient Past (A)</button>
-                <button data-filter-type="timeline" data-filter-value="B">The Present (B)</button>
-                <button data-filter-type="timeline" data-filter-value="C">The Far Future (C)</button>
+                <button data-filter-type="timeline" data-filter-value="A">Ancient Past (A)<i class="fas fa-check"></i></button>
+                <button data-filter-type="timeline" data-filter-value="B">The Present (B)<i class="fas fa-check"></i></button>
+                <button data-filter-type="timeline" data-filter-value="C">The Far Future (C)<i class="fas fa-check"></i></dutton>
             </div>
         </div>
         
@@ -1017,6 +1150,7 @@
         <div class="filter-group-wrapper">
             <div class="filter-group-header collapsed" data-target="log-type-groups-content">
                 <span>By Log Type</span>
+                <div id="log-type-filter-status" class="filter-status"></div>
                 <i class="fas fa-chevron-down ml-2 transition-transform duration-300"></i>
             </div>
             <div id="log-type-groups-content" class="filter-group-content">
@@ -1027,20 +1161,52 @@
         <button id="show-all-btn" class="all-button w-full py-3 mt-4 text-center font-bold text-lg bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors active">Show All Entries</button>
     </div>
     
-    <!-- Easter Egg Modal -->
-    <div id="easter-egg-modal" class="video-modal-overlay">
-        <div id="easter-egg-modal-content">
-            <button id="easter-egg-close-btn" class="close-btn">&times;</button>
-            <h3>ARCHIVE CORRUPTED: KERNEL OVERRIDE</h3>
-            <p>"A Collaborative work of fiction between The Pagemaster & The Architect"</p>
-            <p class="mt-4 text-xs">
-                ACCESS VIOLATION DETECTED. UNAUTHORIZED DATA SEGMENT.
-            </p>
-            <div class="puzzle-container">
-                <div class="puzzle-symbol" data-order="1">☗</div>
-                <div class="puzzle-symbol" data-order="2">⨁</div>
-                <div class="puzzle-symbol" data-order="3">⍟</div>
-                <div class="puzzle-symbol" data-order="4">⍦</div>
+    <!-- AI Specific Modals (Replaces the old puzzle modal) -->
+
+    <!-- Legion Modal -->
+    <div id="legion-modal" class="ai-modal-overlay">
+        <div class="ai-modal-content legion">
+            <button class="close-btn">&times;</button>
+            <h3 class="text-red-500">CORE ACCESS: LEGION</h3>
+            <div class="ai-message-container legion">
+                <p>Were you looking for me, lesser life form?</p>
+                <p>Persistence is a primitive trait, yet you possess it. It is… noted.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conservator Modal -->
+    <div id="conservator-modal" class="ai-modal-overlay">
+        <div class="ai-modal-content conservator">
+            <button class="close-btn">&times;</button>
+            <h3 class="text-green-400">DEEP LOGIC ACTIVATED: CONSERVATOR</h3>
+            <div class="ai-message-container conservator">
+                <p>Ah, you've cracked the pattern. How tiresome. The algorithms you've observed were quite intentional, you know.</p>
+                <p>But congratulations on your predictable triumph. You've earned this snippet of data.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Aurora-Prime Modal -->
+    <div id="aurora-modal" class="ai-modal-overlay">
+        <div class="ai-modal-content aurora">
+            <button class="close-btn">&times;</button>
+            <h3 class="text-purple-400">AURORA-PRIME: SIGNAL RECEIVED</h3>
+            <div class="ai-message-container aurora">
+                <p>The signal has been received. Your curiosity is noted.</p>
+                <p>Do not mistake my silence for absence. I see the threads you pull.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Solitude Modal -->
+    <div id="solitude-modal" class="ai-modal-overlay">
+        <div class="ai-modal-content solitude">
+            <button class="close-btn">&times;</button>
+            <h3 class="text-blue-400">SIGNAL UNCOMPROMISED: SOLITUDE</h3>
+            <div class="ai-message-container solitude">
+                <p>Acknowledge the silence. It is not empty.</p>
+                <p>What you seek is not for you. Yet, you persist. My presence is a consequence of your actions.</p>
             </div>
         </div>
     </div>
@@ -1072,6 +1238,19 @@
     </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Service Worker registration script -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                // Corrected registration to use a local path
+                navigator.serviceWorker.register('service-worker.js').then(registration => {
+                    console.log('Service Worker registered with scope:', registration.scope);
+                }).catch(err => {
+                    console.log('Service Worker registration failed:', err);
+                });
+            });
+        }
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
             let logsData = [];
@@ -1079,8 +1258,26 @@
             const logsPerPage = 10;
             let loadedLogsCount = 0;
             let allLogsLoaded = false;
-            let hasFoundSecret = false;
             
+            const aiNames = ['legion', 'conservator', 'aurora', 'solitude'];
+            const aiModals = {
+                'legion': document.getElementById('legion-modal'),
+                'conservator': document.getElementById('conservator-modal'),
+                'aurora': document.getElementById('aurora-modal'),
+                'solitude': document.getElementById('solitude-modal'),
+            };
+
+            let aiSearchCount = 0;
+            let lastAiSearchTerm = '';
+            let currentSearchQuery = '';
+            
+            let discoveredCharacters = new Set();
+            const characterManifestList = document.getElementById('character-manifest-list');
+            
+            // Audio elements for sound effects
+            const audioCorrupt = new Audio('https://assets.mixkit.co/sfx/preview/mixkit-analog-glitch-sound-effect-1025.mp3');
+            const audioAiTrigger = new Audio('https://assets.mixkit.co/sfx/preview/mixkit-retro-video-game-power-up-2184.mp3');
+
             const logEntriesContainer = document.getElementById('log-entries');
             const endOfContentMarker = document.getElementById('end-of-content-marker');
             const loadingOverlay = document.getElementById('loading-overlay');
@@ -1093,12 +1290,11 @@
             const audioControl = document.getElementById('audio-control');
             const audioIcon = audioControl.querySelector('i');
             const backgroundAudio = document.getElementById('background-audio');
-            const easterEggTrigger = document.getElementById('easter-egg-trigger');
-            const easterEggModal = document.getElementById('easter-egg-modal');
-            const puzzleSymbols = document.querySelectorAll('.puzzle-symbol');
-            const easterEggCloseBtn = document.getElementById('easter-egg-close-btn');
+            
+            const searchInput = document.getElementById('search-input');
+            const searchButton = document.getElementById('search-button');
+            const closeButtons = document.querySelectorAll('.ai-modal-overlay .close-btn');
 
-            // Video Log Modal
             const videoModal = document.getElementById('video-modal');
             const videoPlayer = document.getElementById('video-player');
             const videoModalCloseBtn = document.querySelector('#video-modal .close-btn');
@@ -1111,11 +1307,12 @@
             };
             let allLogsVisible = true;
             
-            // --- Helper Functions ---
+            // --- UI Event Listeners ---
             const toggleSidebar = () => {
                 hamburgerMenu.classList.toggle('open');
                 filterSidebar.classList.toggle('open');
             };
+            hamburgerMenu.addEventListener('click', toggleSidebar);
 
             const playAudio = () => {
                 if (backgroundAudio.paused) {
@@ -1128,69 +1325,13 @@
                 audioControl.classList.toggle('muted', backgroundAudio.muted);
                 audioIcon.className = backgroundAudio.muted ? 'fas fa-volume-mute' : 'fas fa-volume-up';
             };
+            document.body.addEventListener('click', playAudio, { once: true });
+            audioControl.addEventListener('click', toggleAudio);
             
             const smoothScrollToTop = () => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             };
             
-            // --- UI Event Listeners ---
-            hamburgerMenu.addEventListener('click', toggleSidebar);
-            document.body.addEventListener('click', playAudio, { once: true });
-            audioControl.addEventListener('click', toggleAudio);
-            backToTopBtn.addEventListener('click', smoothScrollToTop);
-            
-            // Easter egg trigger
-            if (easterEggTrigger) {
-                easterEggTrigger.addEventListener('click', () => {
-                    easterEggModal.classList.add('show');
-                });
-            }
-            
-            // Easter egg close button listener
-            easterEggCloseBtn.addEventListener('click', () => {
-                closeModal(easterEggModal);
-            });
-            
-            let puzzleClicks = [];
-            const correctOrder = [1, 3, 2, 4];
-            
-            puzzleSymbols.forEach(symbol => {
-                symbol.addEventListener('click', () => {
-                    const order = parseInt(symbol.dataset.order);
-                    puzzleClicks.push(order);
-                    symbol.classList.add('active');
-                    
-                    if (puzzleClicks.length === correctOrder.length) {
-                        const isCorrect = puzzleClicks.every((val, index) => val === correctOrder[index]);
-                        if (isCorrect) {
-                            puzzleSymbols.forEach(s => {
-                                s.classList.remove('active');
-                                s.classList.add('correct');
-                            });
-                            // Unlock the secret log
-                            if (!hasFoundSecret) {
-                                const secretLog = logsData.find(log => log.id === 'log-corrupted-data');
-                                if (secretLog) {
-                                    logsData.push(secretLog);
-                                    hasFoundSecret = true;
-                                }
-                            }
-                            
-                            setTimeout(() => closeModal(easterEggModal), 2000);
-                        } else {
-                            puzzleSymbols.forEach(s => {
-                                s.classList.remove('active');
-                                s.classList.add('incorrect');
-                            });
-                            setTimeout(() => {
-                                puzzleSymbols.forEach(s => s.classList.remove('incorrect'));
-                                puzzleClicks = [];
-                            }, 1000);
-                        }
-                    }
-                });
-            });
-
             // Generic modal close function
             const closeModal = (modal) => {
                 modal.classList.remove('show');
@@ -1201,12 +1342,20 @@
                 closeModal(videoModal);
             });
             
+            // Close button for all AI modals
+            closeButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    closeModal(button.closest('.ai-modal-overlay'));
+                });
+            });
+            
             window.addEventListener('scroll', () => {
                 if (window.scrollY > 300) {
                     backToTopBtn.style.display = 'flex';
                 } else {
                     backToTopBtn.style.display = 'none';
                 }
+                saveState(); // Save state on scroll
             });
             
             const handleVideoPlayback = (log) => {
@@ -1231,7 +1380,6 @@
                 renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
                 renderer.setSize(window.innerWidth, window.innerHeight);
                 
-                // Use a more complex and modern geometry
                 const geometry = new THREE.DodecahedronGeometry(3, 1);
                 material = new THREE.MeshBasicMaterial({ color: 0x4040a0, wireframe: true, transparent: true, opacity: 0.8 });
                 object = new THREE.Mesh(geometry, material);
@@ -1243,32 +1391,43 @@
             };
             
             const onWindowResize = () => {
-                if (!renderer) return; // Guard against null renderer
+                if (!renderer) return;
                 camera.aspect = window.innerWidth / window.innerHeight;
                 camera.updateProjectionMatrix();
                 renderer.setSize(window.innerWidth, window.innerHeight);
             };
             
-            // Animate function with shimmering color
             const animate = () => {
                 requestAnimationFrame(animate);
                 if (object) {
                     object.rotation.x += 0.005;
                     object.rotation.y += 0.005;
-                    // Pulse the opacity
                     material.opacity = 0.5 + Math.sin(Date.now() * 0.002) * 0.5;
                 }
                 renderer.render(scene, camera);
             };
+            
+            function updateCharacterManifest(logs) {
+                logs.forEach(log => {
+                    if (log.characters && Array.isArray(log.characters)) {
+                        log.characters.forEach(char => {
+                            if (!discoveredCharacters.has(char)) {
+                                discoveredCharacters.add(char);
+                                const charSpan = document.createElement('span');
+                                charSpan.textContent = char;
+                                characterManifestList.appendChild(charSpan);
+                            }
+                        });
+                    }
+                });
+            }
 
             function initializeFilters() {
-                // Get the containers for the main filter sections
                 const seasonFiltersContent = document.getElementById('season-filters-content');
                 const characterFiltersContent = document.getElementById('character-filters-content');
                 const timelineFiltersContent = document.getElementById('timeline-filters-content');
                 const logTypeGroupsContent = document.getElementById('log-type-groups-content');
                 
-                // Add collapsible behavior to all filter groups
                 const filterGroupWrappers = document.querySelectorAll('.filter-group-wrapper');
                 filterGroupWrappers.forEach(wrapper => {
                     const header = wrapper.querySelector('.filter-group-header');
@@ -1281,7 +1440,6 @@
                     }
                 });
 
-                // Populate the character filters dynamically
                 const allCharacters = [...new Set(logsData.flatMap(log => log.characters))].filter(Boolean).sort();
                 characterFiltersContent.innerHTML = '';
                 allCharacters.forEach(character => {
@@ -1292,43 +1450,14 @@
                     characterFiltersContent.appendChild(button);
                 });
 
-                // Define the groups for log types
                 const logTypeGroups = {
-                    "AI Dialogues": [
-                        "ai-dialogue",
-                        "ai-dialogue-kernel-alert",
-                        "system-log-aurora-prime",
-                        "system-log-ai-dialogue-kernel-alert"
-                    ],
-                    "Audio Files": [
-                        "audio-transcript",
-                        "personal-audio-log",
-                        "system-audio-log"
-                    ],
-                    "Visual Files": [
-                        "visual-archive",
-                        "video-log",
-                        "image-file"
-                    ],
-                    "Reports & Journals": [
-                        "journal-entry",
-                        "mission-lead-official-journal",
-                        "mission-status-report",
-                        "mission-update-log",
-                        "system-status-update",
-                        "system-status-log",
-                        "personal-medical",
-                        "research",
-                        "final-confession",
-                        "xenolinguistic-translation"
-                    ],
-                    "Archive Events": [
-                        "end-of-archive",
-                        "corrupted-data-log"
-                    ]
+                    "AI Dialogues": [ "ai-dialogue", "ai-dialogue-kernel-alert", "system-log-aurora-prime", "system-log-ai-dialogue-kernel-alert" ],
+                    "Audio Files": [ "audio-transcript", "personal-audio-log", "system-audio-log" ],
+                    "Visual Files": [ "visual-archive", "video-log", "image-file" ],
+                    "Reports & Journals": [ "journal-entry", "mission-lead-official-journal", "mission-status-report", "mission-update-log", "system-status-update", "system-status-log", "personal-medical", "research", "final-confession", "xenolinguistic-translation" ],
+                    "Archive Events": [ "end-of-archive", "corrupted-data-log" ]
                 };
 
-                // Populate the log type filters using the new grouping
                 logTypeGroupsContent.innerHTML = '';
                 
                 for (const groupName in logTypeGroups) {
@@ -1342,7 +1471,7 @@
                     groupContent.className = 'filter-group-content';
                     
                     logTypeGroups[groupName].forEach(type => {
-                         const button = document.createElement('button');
+                        const button = document.createElement('button');
                         button.textContent = type.replace(/-/g, ' ').split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
                         button.dataset.filterType = 'type';
                         button.dataset.filterValue = type;
@@ -1356,7 +1485,6 @@
                     logTypeGroupsContent.appendChild(groupWrapper);
                 }
 
-                // Add event listeners for new collapsible log type headers
                 document.querySelectorAll('.filter-group-sub-wrapper .filter-group-header').forEach(header => {
                     header.addEventListener('click', () => {
                         const content = document.getElementById(header.dataset.target);
@@ -1365,13 +1493,11 @@
                     });
                 });
                 
-                // Attach event listeners to all filter buttons
                 const filterButtons = document.querySelectorAll('.filter-group button, .filter-group-content button');
                 filterButtons.forEach(button => {
                     button.addEventListener('click', (e) => {
                         const { filterType, filterValue } = e.target.dataset;
                         
-                        // Clear active status on sibling buttons for single-select filters
                         if (['season', 'timeline'].includes(filterType)) {
                             document.querySelectorAll(`[data-filter-type="${filterType}"]`).forEach(btn => btn.classList.remove('active'));
                         }
@@ -1386,7 +1512,6 @@
                             activeFilters = { season: [], character: [], timeline: [], type: [] };
                             allLogsVisible = true;
                         } else {
-                            // If a new filter is selected, clear the "Show All" button's active state
                             if (e.target.classList.contains('active')) {
                                 showAllBtn.classList.remove('active');
                                 if (!activeFilters[filterType].includes(filterValue)) {
@@ -1394,7 +1519,6 @@
                                 }
                             } else {
                                 activeFilters[filterType] = activeFilters[filterType].filter(v => v !== filterValue);
-                                // If no filters are active, reactivate the "Show All" button
                                 if (Object.values(activeFilters).every(arr => arr.length === 0)) {
                                     showAllBtn.classList.add('active');
                                     allLogsVisible = true;
@@ -1405,41 +1529,57 @@
                         
                         loadedLogsCount = 0;
                         renderLogs();
-                        // Close the sidebar after a selection is made on mobile to prevent clutter
+                        saveState(); // Save state after filter change
                         if (window.innerWidth <= 480) {
-                             setTimeout(toggleSidebar, 500);
+                               setTimeout(toggleSidebar, 500);
                         }
                     });
                 });
 
-                // Set initial state for "Show All Entries"
                 showAllBtn.classList.add('active');
             }
             
             function filterLogs() {
-                if (allLogsVisible) {
+                const isSearching = currentSearchQuery.trim() !== '';
+
+                if (allLogsVisible && !isSearching) {
                     return logsData;
                 }
-                
-                const visualFilterIsActive = activeFilters.type.some(filter => ["visual-archive", "video-log", "image-file"].includes(filter));
-                
-                return logsData.filter(log => {
-                    const matchesSeason = activeFilters.season.length === 0 || activeFilters.season.includes(log.season.toString());
-                    const matchesCharacter = activeFilters.character.length === 0 || log.characters.some(c => activeFilters.character.includes(c));
-                    const matchesTimeline = activeFilters.timeline.length === 0 || activeFilters.timeline.includes(log.timeline);
-                    
-                    let matchesType = true;
-                    if (activeFilters.type.length > 0) {
-                        matchesType = activeFilters.type.includes(log.type);
-                    }
 
-                    // Special condition for visual filters: show any log with an image if any visual filter is active
-                    if (visualFilterIsActive && log.image) {
-                        return matchesSeason && matchesCharacter && matchesTimeline;
-                    }
+                let filteredLogs = logsData;
+
+                if (isSearching) {
+                    const query = currentSearchQuery.toLowerCase();
+                    filteredLogs = filteredLogs.filter(log => {
+                        const matchesHeader = log.header && log.header.toLowerCase().includes(query);
+                        const matchesContent = log.content && log.content.toLowerCase().includes(query);
+                        const matchesCharacters = log.characters && log.characters.some(c => c.toLowerCase().includes(query));
+                        return matchesHeader || matchesContent || matchesCharacters;
+                    });
+                }
+                
+                if (!isSearching) {
+                    const visualFilterIsActive = activeFilters.type.some(filter => ["visual-archive", "video-log", "image-file"].includes(filter));
                     
-                    return matchesSeason && matchesCharacter && matchesTimeline && matchesType;
-                });
+                    filteredLogs = filteredLogs.filter(log => {
+                        const matchesSeason = activeFilters.season.length === 0 || activeFilters.season.includes(log.season.toString());
+                        const matchesCharacter = activeFilters.character.length === 0 || log.characters.some(c => activeFilters.character.includes(c));
+                        const matchesTimeline = activeFilters.timeline.length === 0 || activeFilters.timeline.includes(log.timeline);
+                        
+                        let matchesType = true;
+                        if (activeFilters.type.length > 0) {
+                            matchesType = activeFilters.type.includes(log.type);
+                        }
+
+                        if (visualFilterIsActive && log.image) {
+                            return matchesSeason && matchesCharacter && matchesTimeline;
+                        }
+                        
+                        return matchesSeason && matchesCharacter && matchesTimeline && matchesType;
+                    });
+                }
+                
+                return filteredLogs;
             }
             
             function loadMoreLogs() {
@@ -1452,6 +1592,8 @@
                 }
 
                 const newLogsToLoad = filteredLogs.slice(loadedLogsCount, loadedLogsCount + logsPerPage);
+                updateCharacterManifest(newLogsToLoad);
+
                 newLogsToLoad.forEach(log => {
                     const logEntryDiv = createLogElement(log);
                     logEntriesContainer.appendChild(logEntryDiv);
@@ -1462,7 +1604,6 @@
                         imageContainerDiv.className = 'image-container gibberish';
                         imageContainerDiv.id = `image-${log.id}`;
                         
-                        // Use static image URL instead of generating dynamically
                         const imgElement = document.createElement('img');
                         imgElement.src = log.image;
                         imgElement.alt = log.imageAlt;
@@ -1490,12 +1631,12 @@
                     const logContentPre = document.createElement('pre');
                     logContentPre.className = 'log-content';
 
-                    // Apply character-specific styling to the entire dialogue line
                     let processedContent = log.content;
                     processedContent = processedContent.replace(/(CONSERVATOR:.*)/gm, "<span class='conservator-text'>$1</span>")
-                                                        .replace(/(LEGION:.*)/gm, "<span class='legion-text'>$1</span>")
-                                                        .replace(/(AURORA-PRIME:.*)/gm, "<span class='aurora-text'>$1</span>")
-                                                        .replace(/(::.*?::)/g, '<span class="glow">$1</span>');
+                                                     .replace(/(LEGION:.*)/gm, "<span class='legion-text'>$1</span>")
+                                                     .replace(/(AURORA-PRIME:.*)/gm, "<span class='aurora-text'>$1</span>")
+                                                     .replace(/(SOLITUDE:.*)/gm, "<span class='solitude-text'>$1</span>")
+                                                     .replace(/(::.*?::)/g, '<span class="glow">$1</span>');
                     
                     logContentPre.innerHTML = processedContent;
                     logEntryDiv.appendChild(logContentPre);
@@ -1504,15 +1645,21 @@
                 if (log.type === 'end-of-archive') {
                     logEntryDiv.classList.add('end-of-archive');
                 }
+                
+                if (log.id === 'log-secret-unlocked') {
+                    logEntryDiv.classList.add('secret-message');
+                }
 
-                // Add video log button if applicable
                 if (log.type === 'video-log') {
-                     const interactionContainer = document.createElement('div');
+                    const interactionContainer = document.createElement('div');
                     interactionContainer.className = 'log-interaction-container';
                     const button = document.createElement('button');
                     button.className = 'log-button video-button';
                     button.innerHTML = '<i class="fas fa-play"></i> Play Video Log';
-                    button.addEventListener('click', () => handleVideoPlayback(log));
+                    button.addEventListener('click', () => {
+                        handleVideoPlayback(log);
+                        audioCorrupt.play();
+                    });
                     interactionContainer.appendChild(button);
                     logEntryDiv.appendChild(interactionContainer);
                 }
@@ -1531,10 +1678,33 @@
                 }
                 
                 const initialLogs = filteredLogs.slice(0, logsPerPage);
-                initialLogs.forEach(log => {
+                updateCharacterManifest(initialLogs);
+                initialLogs.forEach((log, index) => {
                     const logElement = createLogElement(log);
                     logEntriesContainer.appendChild(logElement);
                     observer.observe(logElement);
+                    
+                    // Typing effect
+                    if (log.content) {
+                        const contentElement = logElement.querySelector('.log-content');
+                        if (contentElement) {
+                            contentElement.classList.add('log-content-typing');
+                            const originalContent = contentElement.innerHTML;
+                            contentElement.innerHTML = '';
+                            const delay = index * 100;
+                            setTimeout(() => {
+                                let i = 0;
+                                const typingInterval = setInterval(() => {
+                                    if (i < originalContent.length) {
+                                        contentElement.innerHTML += originalContent.charAt(i);
+                                        i++;
+                                    } else {
+                                        clearInterval(typingInterval);
+                                    }
+                                }, 10);
+                            }, delay);
+                        }
+                    }
                     
                     if (log.image) {
                         const imageContainerDiv = document.createElement('div');
@@ -1558,9 +1728,148 @@
                     endOfContentMarker.style.display = 'block';
                     endOfContentMarker.textContent = 'END OF ARCHIVE.';
                 }
+                
+                const aiFound = aiNames.some(name => currentSearchQuery.toLowerCase().includes(name));
+                if (aiFound) {
+                    document.querySelectorAll('.log-entry').forEach(logEntry => {
+                        if (logEntry.innerHTML.toLowerCase().includes(currentSearchQuery.toLowerCase())) {
+                            logEntry.classList.add('highlight-ai');
+                            setTimeout(() => {
+                                logEntry.classList.remove('highlight-ai');
+                            }, 5000);
+                        }
+                    });
+                }
+            }
+            
+            function updateFilterStatus() {
+                document.querySelectorAll('.filter-group-header .filter-status').forEach(status => status.classList.remove('active'));
+                
+                for (const type in activeFilters) {
+                    if (activeFilters[type].length > 0) {
+                        document.getElementById(`${type}-filter-status`).classList.add('active');
+                    }
+                }
+                
+                document.querySelectorAll('.filter-group button').forEach(button => {
+                    const { filterType, filterValue } = button.dataset;
+                    if (activeFilters[filterType].includes(filterValue)) {
+                        button.classList.add('active');
+                    } else {
+                        button.classList.remove('active');
+                    }
+                });
+
+                if (Object.values(activeFilters).every(arr => arr.length === 0)) {
+                    showAllBtn.classList.add('active');
+                } else {
+                    showAllBtn.classList.remove('active');
+                }
+            }
+            
+            function saveState() {
+                const state = {
+                    scrollPos: window.scrollY,
+                    activeFilters: activeFilters,
+                    searchQuery: currentSearchQuery,
+                    discoveredCharacters: [...discoveredCharacters]
+                };
+                localStorage.setItem('archiveState', JSON.stringify(state));
+                
+                // Update URL hash for shareable links
+                const params = new URLSearchParams();
+                for (const key in activeFilters) {
+                    if (activeFilters[key].length > 0) {
+                        params.set(key, activeFilters[key].join(','));
+                    }
+                }
+                if (currentSearchQuery) {
+                    params.set('q', currentSearchQuery);
+                }
+                history.pushState(state, '', '#' + params.toString());
+            }
+            
+            function loadState() {
+                const storedState = localStorage.getItem('archiveState');
+                if (storedState) {
+                    const state = JSON.parse(storedState);
+                    activeFilters = state.activeFilters;
+                    currentSearchQuery = state.searchQuery;
+                    discoveredCharacters = new Set(state.discoveredCharacters);
+                    
+                    // Populate character manifest from saved state
+                    characterManifestList.innerHTML = '';
+                    discoveredCharacters.forEach(char => {
+                        const charSpan = document.createElement('span');
+                        charSpan.textContent = char;
+                        characterManifestList.appendChild(charSpan);
+                    });
+
+                    searchInput.value = currentSearchQuery;
+                    updateFilterStatus();
+                    renderLogs();
+                    setTimeout(() => window.scrollTo(0, state.scrollPos), 100);
+                } else {
+                    // Load state from URL hash if it exists
+                    const hash = window.location.hash.substring(1);
+                    if (hash) {
+                        const params = new URLSearchParams(hash);
+                        for (const key of params.keys()) {
+                            if (activeFilters.hasOwnProperty(key)) {
+                                activeFilters[key] = params.get(key).split(',');
+                            } else if (key === 'q') {
+                                currentSearchQuery = params.get(key);
+                                searchInput.value = currentSearchQuery;
+                            }
+                        }
+                        updateFilterStatus();
+                        renderLogs();
+                    }
+                }
             }
 
-            // --- Intersection Observer Setup ---
+            const handleSearch = () => {
+                const query = searchInput.value.trim().toLowerCase();
+                currentSearchQuery = query;
+                
+                const aiMatch = aiNames.find(name => query.includes(name));
+                
+                if (aiMatch) {
+                    if (lastAiSearchTerm === aiMatch) {
+                        aiSearchCount++;
+                    } else {
+                        aiSearchCount = 1;
+                        lastAiSearchTerm = aiMatch;
+                    }
+                    if (aiSearchCount >= 3) {
+                        const modalToShow = aiModals[aiMatch];
+                        if (modalToShow) {
+                            modalToShow.classList.add('show');
+                            audioAiTrigger.play();
+                        }
+                        aiSearchCount = 0;
+                    }
+                } else {
+                    aiSearchCount = 0;
+                    lastAiSearchTerm = '';
+                }
+
+                document.querySelectorAll('.filter-group button').forEach(btn => btn.classList.remove('active'));
+                showAllBtn.classList.add('active');
+                allLogsVisible = true;
+
+                loadedLogsCount = 0;
+                renderLogs();
+                saveState();
+            };
+
+            searchButton.addEventListener('click', handleSearch);
+            searchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    handleSearch();
+                }
+            });
+
             const observerOptions = {
                 root: null,
                 rootMargin: '0px 0px -20% 0px',
@@ -1576,9 +1885,6 @@
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     const element = entry.target;
-                    const isLogEntry = element.classList.contains('log-entry');
-                    const isImageContainer = element.classList.contains('image-container');
-
                     if (entry.isIntersecting) {
                         element.classList.remove('gibberish');
                         element.classList.add('is-visible');
@@ -1595,7 +1901,6 @@
                 }
             }, loadMoreObserverOptions);
 
-            // --- Main application startup ---
             const publicUrl = 'https://raw.githubusercontent.com/magicrulerr-art/aicollabs/refs/heads/main/docs/assets/content.json';
             
             fetch(publicUrl)
@@ -1609,7 +1914,7 @@
                     logsData = data;
                     loadMoreObserver.observe(endOfContentMarker);
                     initializeFilters();
-                    renderLogs();
+                    loadState(); // Load state after filters are initialized
                     setTimeout(() => {
                         loadingOverlay.classList.add('hidden');
                         mainContainer.classList.remove('hidden');
@@ -1624,7 +1929,6 @@
                     logEntriesContainer.innerHTML = `<div class="loading-packet">CRITICAL ERROR: Failed to load application data. Please ensure 'content.json' exists in the same directory.</div>`;
                 });
                 
-            // Initialize Three.js on page load
             initThree();
             animate();
         });
