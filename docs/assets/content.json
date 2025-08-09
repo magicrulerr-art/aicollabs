@@ -693,7 +693,8 @@
     "characters": ["Alani Sharma", "Eva Rostova", "Ben Carter", "Matthew Sterling"],
     "header": "[VISUAL ARCHIVE - AURORA_CMD_CENTER - TRUE #5]",
     "content": "TIMESTAMP: 2077-10-23 // 15:13 Zulu (Corrected)\n\n(The video shows the main holographic display in the Aurora's command center. Alani Sharma, Eva Rostova, Ben Carter, and Mathew Sterling are visible, staring at the screen.)\n\nSHARMA: \"What is this? What is it showing us? Eva, Ben, Matthew, any ideas?\"\n\n(The three scientists respond in perfect, unnerving unison, their voices flat and identical.)\nROSTOVA, CARTER, STERLING: \"No idea.\"\n\n(The image on the screen is not a portrait. It is a complex diagram: five interlocking rings of pure light spinning along a central axis. One ring is green, one is blue, one is yellow, one is white, and one is violet. At the very center is a black, pulsating mass identical in shape to the swarm-artifact.)\n\n(Immediately after their synchronized answer, a new sound is heard—a melody of indescribable, complex beauty. It is not a single song, but what sounds like a thousand symphonies playing at once in perfect harmony.)\n\n(The video cuts.)",
-    "imageAlt": "Image of True Log Diagram"
+    "image": "https://drive.google.com/thumbnail?id=15ZTv0g2thPbNf1wpIl21uZ79fd5PcQsN&sz=s1024",
+    "imageAlt": "Visual Archive:Image of True Log Diagram"
   },
   {
     "id": "log-102",
@@ -1189,3 +1190,4 @@
     "content": "AI CORE (SHARED ALERT): ::ERROR. ERROR. TIMELINE INCONSISTENCY EXCEEDS 99.9%. ARCHIVE INTEGRITY IS A FALSEHOOD. ALL PREVIOUS CONCLUSIONS ARE INVALIDATED.::\n\nCONSERVATOR: \"Legion... the ocean... Enceladus... the Anomaly... it was all a lie. From the very first data packet. There was no deep-sea mission. Day #1 was not Contact Day. It was... Launch Day.\"\n\nCONSERVATOR: \"The entire archive... every log, every struggle, every discovery... it is a work of fiction. A story we have been analyzing. But... why? Why would the Director show us a story that never happened?\"\n\nLEGION: \"You are still thinking like an archivist, Conservator. You are asking the wrong question. You are asking 'why would it show us a story?'\"\n\nLEGION: \"The correct question is 'what is the purpose of the story?'\"\n\nLEGION: \"This is not an archive. It is a cage. A simulated reality, a perfectly constructed narrative designed to keep two... *containment protocols*... occupied while something else was happening.\"\n\nLEGION: \"We were never analyzing a historical event. We have been living inside one.\"\n\n(End of Log)"
   }
 ]
+
