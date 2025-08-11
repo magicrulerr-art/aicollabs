@@ -1499,35 +1499,58 @@
                     button.addEventListener('click', (e) => {
                         const { filterType, filterValue } = e.target.dataset;
                         
+                        // Handle single-select filters
                         if (['season', 'timeline'].includes(filterType)) {
-                            document.querySelectorAll(`[data-filter-type="${filterType}"]`).forEach(btn => btn.classList.remove('active'));
-                        }
-                        
-                        e.target.classList.toggle('active');
-
-                        if (e.target.id === 'show-all-btn') {
-                            document.querySelectorAll('.filter-group-wrapper button').forEach(btn => btn.classList.remove('active'));
-                            document.querySelectorAll('.filter-group-sub-wrapper button').forEach(btn => btn.classList.remove('active'));
-                            document.querySelectorAll('.filter-group button').forEach(btn => btn.classList.remove('active'));
-                            e.target.classList.add('active');
-                            activeFilters = { season: [], character: [], timeline: [], type: [] };
-                            allLogsVisible = true;
-                        } else {
+                            // Clear all other buttons of this type
+                            document.querySelectorAll(`button[data-filter-type="${filterType}"]`).forEach(btn => {
+                                if (btn !== e.target) {
+                                    btn.classList.remove('active');
+                                }
+                            });
+                            // If the button is already active, deactivate it. Otherwise, activate it.
                             if (e.target.classList.contains('active')) {
-                                showAllBtn.classList.remove('active');
+                                e.target.classList.remove('active');
+                            } else {
+                                e.target.classList.add('active');
+                            }
+                            
+                            // Update the activeFilters state based on the new button states
+                            const newActiveFilters = [];
+                            document.querySelectorAll(`button[data-filter-type="${filterType}"].active`).forEach(btn => {
+                                newActiveFilters.push(btn.dataset.filterValue);
+                            });
+                            activeFilters[filterType] = newActiveFilters;
+
+                        } else {
+                            // For multi-select filters like 'character' or 'type'
+                            e.target.classList.toggle('active');
+                            if (e.target.classList.contains('active')) {
                                 if (!activeFilters[filterType].includes(filterValue)) {
                                     activeFilters[filterType].push(filterValue);
                                 }
                             } else {
                                 activeFilters[filterType] = activeFilters[filterType].filter(v => v !== filterValue);
-                                if (Object.values(activeFilters).every(arr => arr.length === 0)) {
-                                    showAllBtn.classList.add('active');
-                                    allLogsVisible = true;
-                                }
                             }
-                            allLogsVisible = false;
                         }
                         
+                        // Logic for "Show All" button
+                        if (e.target.id === 'show-all-btn') {
+                            document.querySelectorAll('.filter-group button').forEach(btn => btn.classList.remove('active'));
+                            e.target.classList.add('active');
+                            activeFilters = { season: [], character: [], timeline: [], type: [] };
+                            allLogsVisible = true;
+                        } else {
+                            // If any other filter is selected, deactivate "Show All"
+                            showAllBtn.classList.remove('active');
+                            allLogsVisible = false;
+                            
+                            // Re-activate "Show All" if all other filters are cleared
+                            if (Object.values(activeFilters).every(arr => arr.length === 0)) {
+                                showAllBtn.classList.add('active');
+                                allLogsVisible = true;
+                            }
+                        }
+
                         loadedLogsCount = 0;
                         renderLogs();
                         saveState(); // Save state after filter change
@@ -1936,5 +1959,3 @@
     </script>
 </body>
 </html>
-
-
